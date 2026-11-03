@@ -1,0 +1,57 @@
+# M6 profile: metric scene depth + depth-aware compositing (system-design 9.5/9.6,
+# implementation-plan section 9, ADR-0008 and ADR-0020).
+#
+# This profile runs only the two M6 stages.  It consumes the accepted M3 geometry
+# (render + masks + robot depth) and the M5 background (inpainted frames + refined
+# hand mask) and does not re-derive any of them.
+#
+# The model runtime is an *external asset*: the DA3 repository, checkpoint and
+# interpreter live outside this repository, exactly like the SAM 3 and ProPainter
+# paths in configs/pipeline/m5.yaml.  Point them at your own copy.
+profile: m6
+
+stages:
+  - scene_depth
+  - composite
+
+scene_depth:
+  runtime:
+    execution: wsl
+    wsl_distribution: Ubuntu-22.04
+    python_executable: /path/to/your/model-environment/bin/python
+    repo_path: assets/third_party/Depth-Anything-3
+    checkpoint_path: models/DA3METRIC-LARGE
+    device: cuda
+    seed: 0
+  model: depth_anything_v3
+  # [ENGINEERING] ADR-0008: only metric or aligned depth may be composited.
+  mode: metric
+  # [ENGINEERING] ADR-0020: estimate depth on the surface the robot is composited
+  # onto.  For an M5-processed episode that is the inpainted background, because
+  # the hand is gone there and the gripper is what has to be occluded correctly.
+  input: auto
+  # [ENGINEERING] working grid.  DA3 is run here and bilinearly resampled to native;
+  # the worker asserts the model grid equals this grid exactly, so no crop may occur.
+  work_width: 756
+  work_height: 420
+  # [PAPER] DA3 Metric-Large emits focal-normalised depth; metres need this divisor.
+  focal_scale_divisor: 300.0
+  validation:
+    enabled: true
+    # Thresholds are calibration of a monocular metric model against the pipeline's
+    # own anchors, not a claim about DA3 accuracy in general.  A failing test is a
+    # warning in this profile and must be read before trusting an occlusion.
+    max_median_abs_error_m: 0.10
+    max_p90_abs_error_m: 0.20
+    min_anchor_coverage: 0.80
+
+composite:
+  # depth_aware = the formal product (paper appendix A.4).
+  mode: depth_aware
+  # [PAPER] appendix A.4: 5x5 dilation of the hand mask exempts the grasp site.
+  hand_mask_dilation_kernel: 5
+  # [PAPER] appendix A.4: the arm body is between the camera and the workspace and is
+  # never depth tested.  Set false only to reproduce this profile's negative test.
+  arm_body_always_visible: true
+  background: auto
+  hand_mask: auto

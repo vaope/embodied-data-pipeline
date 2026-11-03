@@ -1,0 +1,32 @@
+# Quality threshold profile (system-design.md 6.6 / 10).
+#
+# `mvp_v1` adds the stricter MVP geometry gate from implementation-plan.md M3 on
+# top of the paper's L1 numbers, so "the paper's filter passed" cannot hide a
+# systematic coordinate error.
+
+profile: mvp_v1
+
+l1:
+  ik_tracking_error_m: 0.05          # [PAPER] appendix A.5
+  robot_visible_pixels: 1            # [PAPER] appendix A.5
+  robot_mask_area_ratio_max: 0.70    # [PAPER] appendix A.5
+  cross_arm_contacts_max: 1          # [PAPER] appendix A.5
+  stability_erosion_fps_fraction: 0.3  # [PAPER] appendix A.5
+
+mvp_geometry_gate:                   # [ENGINEERING] implementation-plan.md M3
+  p95_position_error_m: 0.01
+  p95_rotation_error_rad: 0.10
+  min_ik_success_ratio: 0.95
+
+l2:                                  # [PAPER] appendix A.5, deferred to M7
+  enabled: false
+  quantile_low: 0.01
+  quantile_high: 0.99
+  iqr_multiplier: 3.0
+  max_invalid_ratio: 0.60
+
+non_finite_policy:
+  # system-design.md 6.5 / 6.6: NaN depth is invalid, never 0 m; NaN in a valid
+  # canonical frame is an error, not a warning.
+  depth_invalid_value: nan
+  fail_on_nan_in_valid_frame: true

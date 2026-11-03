@@ -1,0 +1,68 @@
+# Bimanual (two-hand) data profile -- B1 scope of ADR-0021.
+#
+# This profile stops after `retarget`: it produces a two-hand
+# `hand/sequence.npz` and a two-hand `canonical/actions*.npz`, and deliberately
+# does NOT include `robot`/`render`/`projection`/`quality`.  Those consumers are
+# still single-arm (one base pose, one rendered robot, `[:, 0]` indexing) and
+# refuse H=2 through `core/capabilities.py` instead of silently keeping one hand.
+#
+# Everything below the `hand` block is copied verbatim from `mvp.yaml` so that a
+# two-hand run and a one-hand run differ only in the hand selection; do not tune
+# these values here (see ADR-0021 "comparability" note).
+#
+# Launch:
+#   e2r run data/episodes/<id> --profile bimanual --until retarget
+
+profile: bimanual
+
+stages:
+  - ingest
+  - hand
+  - retarget
+
+hand:
+  path: A
+  hand_count: 2
+  selection: both                 # ADR-0021: keep both annotated hands
+  sides: [right, left]            # Path A order; becomes hand_ids on the npz
+  keypoint_convention: mano21
+  provider: auto
+  min_detection_confidence: 0.3
+  source_length_unit: m
+
+retarget:
+  virtual_fingertip_index_weight: 0.7        # [PAPER] eq. 1
+  virtual_fingertip_middle_weight: 0.3       # [PAPER] eq. 1
+  handedness_right_sign: 1                   # [PAPER] appendix A.3
+  handedness_left_sign: -1                   # [PAPER] appendix A.3
+  repair_so3: true                           # [ENGINEERING] system-design.md 7
+  max_so3_correction_rad: 0.001
+  degeneracy:
+    min_gripper_width_m: 0.01                # [PAPER] appendix A.3
+    parallel_dot_threshold: 0.999            # [ENGINEERING] ADR-0004
+
+outliers:
+  enabled: true
+  position_median_multiplier: 5.0            # [PAPER] eq. 7
+  position_floor_per_fps_m: 0.9              # [PAPER] eq. 7
+  rotation_floor_per_fps_rad: 10.0           # [PAPER] appendix A.3
+  rounds: 2                                  # [PAPER] appendix A.3
+
+gaps:
+  small_gap_max_frames: 10                   # [PAPER] appendix A.1
+  blend_min_frames: 5                        # [PAPER] appendix A.1
+  blend_max_frames: 90                       # [PAPER] appendix A.1
+  blend_position_speed_m_per_frame: 0.00325  # [PAPER] appendix A.1 (3.25 mm)
+  blend_rotation_speed_rad_per_frame: 0.01885  # [PAPER] appendix A.1 (1.08 deg)
+  blend_position_weight: 0.6                 # [PAPER] appendix A.1
+  blend_rotation_weight: 0.4                 # [PAPER] appendix A.1
+  home_gripper_width_m: 0.06                 # [ENGINEERING] ADR-0006, same as mvp.yaml
+  home_source: config
+
+smoothing:
+  position_window: 21                        # [PAPER] appendix A.3 min(21, n)
+  position_polyorder: 3                      # [PAPER] appendix A.3
+  width_window: 21                           # [PAPER] appendix A.3
+  width_polyorder: 3                         # [PAPER] appendix A.3
+  orientation_sigma_frames: 10.0             # [PAPER] appendix A.3
+  orientation_kernel_size: 21                # [PAPER] appendix A.3

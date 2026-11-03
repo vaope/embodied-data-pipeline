@@ -1,0 +1,11 @@
+# [ENGINEERING] ADR-0019: a wider subset of the paper A.4 placement grid for
+# xArm7 after the 162-candidate coarse trial reached only 42% frame IK success.
+robot_binding:
+  base_placement:
+    mode: grid_search
+    lateral_levels: [0.3, 0.5, 0.8]
+    forward_levels: [-0.1, 0.1, 0.5, 0.9]
+    vertical_levels: [0.4, 0.0, -0.4]
+    pitch_deg: [30.0, 45.0, 60.0]
+    yaw_deg: [-45.0, -20.0, 0.0, 20.0, 45.0]
+    roll_deg: [-15.0, 0.0, 15.0]

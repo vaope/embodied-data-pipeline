@@ -1,0 +1,58 @@
+{
+  "schema_version": "showcase.sample.v1",
+  "selection_origin": "curated_frozen_retrieval",
+  "query": {
+    "id": "robot-pen",
+    "type": "robot",
+    "source_id": "droid_006",
+    "caption": "Place the pen on the table",
+    "start_s": 8.0,
+    "end_s": 12.066666666666666,
+    "granularity": "单步 / 原自动标注"
+  },
+  "sample": {
+    "id": "egodex_part5_tie_untie_rubberband_002078_event2887_f000615_000649",
+    "source_id": "egodex_part5_tie_untie_rubberband_002078",
+    "rank": 2,
+    "caption": "Place the pens on the table",
+    "caption_scope": "自动步骤标注",
+    "start_s": 20.5,
+    "end_s": 21.6,
+    "steps": [
+      {
+        "start_s": 20.5,
+        "end_s": 21.6,
+        "caption": "Place the pens on the table"
+      }
+    ]
+  },
+  "motion": null,
+  "motion_status": "original_behavior_distances_available",
+  "behavior_parts": {
+    "speed": 0.9423656200828715,
+    "rotation": 1.336398112090405,
+    "stop_fraction": 0.125,
+    "log_path_ratio": 1.7265812801968377
+  },
+  "scoring_query_span_s": [
+    8.0,
+    12.0
+  ],
+  "annotation_span_s": [
+    20.5,
+    21.63
+  ],
+  "retrieval": {
+    "method": "event_v1_fusion",
+    "recipe": "event_v1_20261026",
+    "source_result_sha256": "f43f54985ea9e34583e65897b7e1f6dded3c06c3f96fce9550e84b179990cbbb"
+  },
+  "review_status": "selected_for_review; not_user_accepted",
+  "media": {
+    "video": "assets/showcase/robot-pen-result-2.mp4",
+    "display_start_s": 20.5,
+    "display_end_s": 21.6,
+    "sha256": "da465a2ed669445107cb1f728368d4cced27b3028f25019c4d9e8a4739614cd3"
+  },
+  "rights_status": "local_review_only; public_redistribution_not_cleared"
+}

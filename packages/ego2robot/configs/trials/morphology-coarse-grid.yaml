@@ -1,0 +1,12 @@
+# [ENGINEERING] ADR-0019: a small, recorded subset of the paper's base grid.
+# This trial compares robot morphologies on the same 52-frame source before
+# committing to a full 11,025-candidate search per model.
+robot_binding:
+  base_placement:
+    mode: grid_search
+    lateral_levels: [0.4, 0.8, 1.2]
+    forward_levels: [0.0, 0.5, 0.9]
+    vertical_levels: [0.2, 0.0, -0.2]
+    pitch_deg: [30.0, 60.0]
+    yaw_deg: [-20.0, 0.0, 20.0]
+    roll_deg: [0.0]

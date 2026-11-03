@@ -1,0 +1,4 @@
+These timestamped contact sheets show one egocentric manipulation episode.
+Write a short English task instruction describing the overall visible activity.
+Describe only visible actions. Do not claim success or infer hidden intent.
+Return only JSON: {"instruction":"..."}.

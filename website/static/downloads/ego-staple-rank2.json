@@ -1,0 +1,55 @@
+{
+  "schema_version": "showcase.sample.v1",
+  "selection_origin": "curated_frozen_retrieval",
+  "query": {
+    "id": "ego-staple",
+    "type": "ego",
+    "source_id": "egodex_staple_paper_002",
+    "caption": "Handle and reposition sheets of paper near a small black rectangular object",
+    "start_s": 42.0,
+    "end_s": 43.0,
+    "granularity": "固定窗口 / 任务级文本"
+  },
+  "sample": {
+    "id": "egodex_part4_staple_paper_000081_f002490_002520",
+    "source_id": "egodex_part4_staple_paper_000081",
+    "rank": 2,
+    "caption": "Pick up one piece of paper from a stack, staple it with a stapler, and place the stapled paper into a new stack on a pink tablecloth.",
+    "caption_scope": "官方整集任务描述",
+    "start_s": 83.0,
+    "end_s": 84.0,
+    "steps": [
+      {
+        "start_s": 83.0,
+        "end_s": 84.0,
+        "caption": "固定检索窗口（无独立步骤标签）"
+      }
+    ]
+  },
+  "motion": {
+    "translation": 0.056693148948004715,
+    "rotation": 0.6403678412822255,
+    "fingertip": 0.01611750473242515,
+    "wrist": 0.019377449743209783
+  },
+  "motion_status": "feature_distances_available",
+  "behavior_parts": null,
+  "scoring_query_span_s": [
+    42.0,
+    43.0
+  ],
+  "annotation_span_s": null,
+  "retrieval": {
+    "method": "pose_language_active",
+    "recipe": "pose-language-active-v1",
+    "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae"
+  },
+  "review_status": "selected_for_review; not_user_accepted",
+  "media": {
+    "video": "assets/showcase/ego-staple-result-2.mp4",
+    "display_start_s": 81.0,
+    "display_end_s": 86.0,
+    "sha256": "c50b8109e70e12f682e69d0e3d68599f77840195ec0e499d683a28d64b56f912"
+  },
+  "rights_status": "local_review_only; public_redistribution_not_cleared"
+}

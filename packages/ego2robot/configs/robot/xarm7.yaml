@@ -1,0 +1,43 @@
+# UFACTORY xArm7 profile backed by the pinned MuJoCo Menagerie model.
+# Engineering choices and early trial scope: ADR-0019.
+#
+# Source: google-deepmind/mujoco_menagerie/ufactory_xarm7/xarm7.xml
+# Commit: c96a32d28fb5da84da38c1da4d749e7a13212855
+# License: BSD-3-Clause (see assets/mjcf/ufactory_xarm7/LICENSE).
+#
+# The six gripper qpos values are the source model's equality-coupled hinge
+# coordinates. They are distinct from the single `gripper` tendon actuator.
+# Jaw-width endpoints are derived from the inner faces of the four modeled pad
+  # boxes. The base frame is the model's world origin (mounting plane); the
+# `link_base` body is offset +0.12 m in z in the official MJCF.
+
+robot_binding:
+  robot_id: xarm7
+  mjcf_uri: assets/mjcf/ufactory_xarm7/xarm7.xml
+  mjcf_source: mujoco_menagerie/ufactory_xarm7/xarm7.xml@c96a32d28fb5da84da38c1da4d749e7a13212855
+  mjcf_license: BSD-3-Clause
+
+  dof: 7
+  gripper_dof: 6
+  eef_body_name: link7
+  base_body_name: world
+  joint_names: [joint1, joint2, joint3, joint4, joint5, joint6, joint7]
+  gripper_joint_names:
+    - left_driver_joint
+    - left_finger_joint
+    - left_inner_knuckle_joint
+    - right_driver_joint
+    - right_finger_joint
+    - right_inner_knuckle_joint
+  max_reach_m: 1.3153551
+
+  # These are measured from the official MJCF collision pad boxes at the
+  # shared gripper hinge limits [0, 0.85] rad. ADR required before treating the
+  # mapping as a training-action convention.
+  gripper_width_min_m: 0.0016
+  gripper_width_max_m: 0.0890
+  gripper_command_mode: width_m
+  require_base_from_episode: true
+
+  ik:
+    max_joint_jump_rad: 1.5

@@ -1,0 +1,25 @@
+# Local directed effector-motion retrieval (feature_version local-directed-v1)
+# exploratory scales/weights: NOT calibrated, NOT user-accepted.
+feature_version: local-directed-v1
+progress_points: 32
+min_valid_ratio: 0.8
+max_gap_s: 0.15
+confidence_threshold: 0.2
+rotation_tolerance: 0.001
+nominal_droid_fps: 15.0
+
+# distance scales (metres / radians)
+position_scale_m: 0.05
+delta_scale_m: 0.02
+min_displacement_m: 0.005
+path_floor_m: 0.001
+rotation_scale_rad: 1.0
+
+# component weights; renormalised over available (non-missing) components
+weight_traj_axis: 0.4
+weight_direction: 0.3
+weight_delta_axis: 0.3
+
+# fusion penalty in caption-cosine units (same order as the old prototype);
+# exploratory, not calibrated, and not claimed as a trained weight.
+fusion_lambda: 0.03

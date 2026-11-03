@@ -1,0 +1,113 @@
+# Two-arm rig profile -- PLAN-02 batch B2 (ADR-0022).
+#
+# Scope: two Panda arms, one explicit base per arm, per-arm IK/FK plus a joint
+# MuJoCo scene for cross-arm contacts and FK self-verification.  There is still
+# **no** vision: rendering, human-arm removal and compositing stay in B3.
+#
+# The first run searches one base per arm (right arm biased to +lateral, left arm
+# to -lateral) and freezes both placements in `robot/rig/rig.json`.  Later runs
+# reuse them; switching `rig.base_mode` to `fixed` and pasting the two `T_C_B`
+# matrices into this file makes the placement part of the profile instead.
+
+profile: bimanual-rig
+
+stages:
+  - ingest
+  - hand
+  - retarget
+  - rig
+
+hand:
+  path: A
+  hand_count: 2
+  selection: both                 # ADR-0021
+  sides: [right, left]
+  keypoint_convention: mano21
+  provider: auto
+  min_detection_confidence: 0.3
+  source_length_unit: m
+
+rig:
+  enabled: true
+  base_mode: per_arm_search
+  arms:
+    - arm_id: right_arm
+      side: right
+      robot_id: franka_panda
+      lateral_sign: 1
+    - arm_id: left_arm
+      side: left
+      robot_id: franka_panda
+      lateral_sign: -1
+  max_cross_arm_contacts: 1       # [PAPER] appendix A.5
+  write_previews: true
+  sample_stills: 8
+  search:
+    # Reduced grid (81 candidates per arm): the joint acceptance is what this
+    # batch tests.  The full A.4 grid stays available for the two-base search.
+    lateral_levels: [0.4, 0.6, 0.8]
+    forward_levels: [0.0, 0.2, 0.4]
+    vertical_levels: [0.2, 0.0, -0.2]
+    pitch_deg: [45.0]
+    yaw_deg: [-20.0, 0.0, 20.0]
+    roll_deg: [0.0]
+    max_keyframes: 20
+    ik_iterations: 100
+    ik_tolerance: 1.0e-5
+    top_k: 5
+    min_base_separation_m: 0.40
+    min_forward_depth_m: 0.30   # [ENGINEERING] keep each base in front of the camera (ADR-0023)
+
+# retarget/outliers/gaps/smoothing: identical to `bimanual` (and `mvp`) so the
+# two-hand canonical action is the same input the B1 evidence reviewed.
+retarget:
+  virtual_fingertip_index_weight: 0.7
+  virtual_fingertip_middle_weight: 0.3
+  handedness_right_sign: 1
+  handedness_left_sign: -1
+  repair_so3: true
+  max_so3_correction_rad: 0.001
+  degeneracy:
+    min_gripper_width_m: 0.01
+    parallel_dot_threshold: 0.999
+
+outliers:
+  enabled: true
+  position_median_multiplier: 5.0
+  position_floor_per_fps_m: 0.9
+  rotation_floor_per_fps_rad: 10.0
+  rounds: 2
+
+gaps:
+  small_gap_max_frames: 10
+  blend_min_frames: 5
+  blend_max_frames: 90
+  blend_position_speed_m_per_frame: 0.00325
+  blend_rotation_speed_rad_per_frame: 0.01885
+  blend_position_weight: 0.6
+  blend_rotation_weight: 0.4
+  home_gripper_width_m: 0.06
+  home_source: config
+
+smoothing:
+  position_window: 21
+  position_polyorder: 3
+  width_window: 21
+  width_polyorder: 3
+  orientation_sigma_frames: 10.0
+  orientation_kernel_size: 21
+
+robot_binding:
+  robot_id: franka_panda
+  ik:
+    solver: mink
+    qp_backend: quadprog
+    iterations: 100
+    tolerance: 1.0e-5
+    position_cost: 1.0
+    orientation_cost: 1.0
+    warm_start: true
+    seed_attempts: 16
+    max_joint_jump_rad: 1.5
+  gripper_width_min_m: 0.0
+  gripper_width_max_m: 0.08

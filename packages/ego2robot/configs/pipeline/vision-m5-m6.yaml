@@ -1,0 +1,43 @@
+# M5/M6 vision settings, kept for provenance (paper appendix A.4).
+#
+# This file is NOT loaded into PipelineConfig: the M5-M6 modules are not
+# implemented in the first development round (implementation-plan.md section 16
+# stops at M3, and section 14 forbids a visual stage from bypassing the M3
+# geometry gate).  When M5 starts, these keys move into the validated schema and
+# the module-level Protocol definitions in ego2robot/vision/protocols.py get
+# concrete implementations.
+
+segmentation:
+  model: sam3                       # [PAPER] A.4
+  text_prompt: person               # [PAPER] A.4
+  anchor_frame: middle              # [PAPER] A.4
+  chunk_frames: 400                 # [PAPER] A.4
+  chunk_overlap: 50                 # [PAPER] A.4
+  merge_overlap: bitwise_or         # [PAPER] A.4
+  gap_fill_max_frames: 3            # [PAPER] A.4
+  area_median_window: 11            # [PAPER] A.4
+  area_median_fraction: 0.5         # [PAPER] A.4
+  close_kernel: 5                   # [PAPER] A.4
+
+inpainting:
+  model: propainter                 # [PAPER] A.4
+  fp16: true                        # [PAPER] A.4
+  neighbor_length: 10               # [PAPER] A.4
+  ref_stride: 10                    # [PAPER] A.4
+  subvideo_length: 80               # [PAPER] A.4
+  mask_dilation: 4                  # [PAPER] A.4
+  raft_iterations: 20               # [PAPER] A.4
+
+scene_depth:
+  model: depth_anything_v3          # [PAPER] A.4
+  mode: aligned                     # [ENGINEERING] ADR-0008; relative depth may
+                                    # never be compared with metric robot depth
+
+compositing:
+  hand_mask_dilation_kernel: 5      # [PAPER] A.4
+  arm_body_always_visible: true     # [PAPER] A.4
+
+color_randomization:                # [PAPER] A.6
+  hue: [0.0, 1.0]
+  saturation: [0.3, 1.0]
+  value: [0.4, 1.0]

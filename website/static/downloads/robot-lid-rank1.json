@@ -1,0 +1,50 @@
+{
+  "schema_version": "showcase.sample.v1",
+  "selection_origin": "curated_frozen_retrieval",
+  "query": {
+    "id": "robot-lid",
+    "type": "robot",
+    "source_id": "droid_012",
+    "caption": "Place the lid on the pot",
+    "start_s": 7.8,
+    "end_s": 14.266666666666667,
+    "granularity": "单步 / 代理视觉复核边界"
+  },
+  "sample": {
+    "id": "egodex_part1_boil_serve_egg_000255_new3k_event0003_f000255_000300",
+    "source_id": "egodex_part1_boil_serve_egg_000255",
+    "rank": 1,
+    "caption": "Place the lid on the pot",
+    "caption_scope": "自动步骤标注",
+    "start_s": 8.5,
+    "end_s": 10.0,
+    "steps": [
+      {
+        "start_s": 8.5,
+        "end_s": 10.0,
+        "caption": "Place the lid on the pot"
+      }
+    ]
+  },
+  "motion": null,
+  "motion_status": "included_in_frozen_single_key_motion_reranking",
+  "behavior_parts": null,
+  "scoring_query_span_s": [
+    7.8,
+    14.266666666666667
+  ],
+  "annotation_span_s": null,
+  "retrieval": {
+    "method": "single_key_motion",
+    "recipe": "motion_3k_20261030 / ego3000",
+    "source_result_sha256": "34be82fbc4f86c88d56dde3bbef5882dbf82ef61080e4f26f287b6150ea48516"
+  },
+  "review_status": "selected_for_review; not_user_accepted",
+  "media": {
+    "video": "assets/showcase/robot-lid-result-1.mp4",
+    "display_start_s": 8.5,
+    "display_end_s": 10.0,
+    "sha256": "b67a2520ffb4032bfe085d8cb65210e12851df46fe6cdcce1015e8142fbeb881"
+  },
+  "rights_status": "local_review_only; public_redistribution_not_cleared"
+}

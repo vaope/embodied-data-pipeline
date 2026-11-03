@@ -1,0 +1,58 @@
+# Reproduction profile (system-design.md 14): the paper's published parameters.
+#
+# Differences from `mvp`:
+#   * automatic grid-search base placement (paper appendix A.4) instead of a
+#     pinned T_C_B
+#   * L2 statistical curation enabled
+#
+# This profile is NOT the first-round deliverable: implementation-plan.md
+# section 16 stops at M3 and section 7 (M4) requires a design review first.
+#
+# Settings for the not-yet-implemented M5/M6 vision modules are recorded in
+# `configs/pipeline/vision-m5-m6.yaml`, which is intentionally NOT fed into
+# PipelineConfig (that model forbids unknown keys so a typo cannot pass
+# silently).  The module-level protocols live in
+# `ego2robot/vision/protocols.py`.
+
+profile: repro
+
+stages:
+  - ingest
+  - hand
+  - retarget
+  - robot
+  - render
+  - projection
+  - quality
+
+retarget:
+  repair_so3: true
+  degeneracy:
+    min_gripper_width_m: 0.01
+    parallel_dot_threshold: 0.999
+
+robot_binding:
+  base_placement:
+    mode: grid_search
+    lateral_levels: [0.3, 0.4, 0.5, 0.6, 0.8, 1.0, 1.2]      # [PAPER] A.4
+    forward_levels: [-0.1, 0.0, 0.1, 0.3, 0.5, 0.7, 0.9]      # [PAPER] A.4
+    vertical_levels: [0.4, 0.2, 0.0, -0.2, -0.4]              # [PAPER] A.4
+    pitch_deg: [30.0, 45.0, 60.0]                             # [PAPER] A.4
+    yaw_deg: [-45.0, -20.0, 0.0, 20.0, 45.0]                  # [PAPER] A.4
+    roll_deg: [-15.0, 0.0, 15.0]                              # [PAPER] A.4
+    min_camera_distance_m: 0.20                               # [PAPER] A.4
+    min_base_distance_m: 0.08                                 # [PAPER] A.4
+    max_reach_fraction: 0.9                                   # [PAPER] A.4
+    max_keyframes: 20                                         # [PAPER] A.4
+    reach_ratio_target: 0.65                                  # [PAPER] A.4
+    reach_penalty_weight: 5.0                                 # [PAPER] A.4
+    ik_iterations: 100                                        # [PAPER] A.4
+    ik_tolerance: 0.00001                                     # [PAPER] A.4
+
+quality:
+  profile: repro_v1
+  l2_enabled: true
+  l2_quantile_low: 0.01                                       # [PAPER] A.5
+  l2_quantile_high: 0.99                                      # [PAPER] A.5
+  l2_iqr_multiplier: 3.0                                      # [PAPER] A.5
+  l2_max_invalid_ratio: 0.60                                  # [PAPER] A.5

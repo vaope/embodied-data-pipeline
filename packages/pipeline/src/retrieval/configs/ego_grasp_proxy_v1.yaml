@@ -1,0 +1,15 @@
+# EgoDex 人手抓握 -> 夹爪式开合代理（ego-grasp-proxy-v1）
+#
+# 这不是已校准的跨具身映射，只产出与 DROID 同口径（0=开、1=闭）的连续信号。
+# 度量：|thumbTip - indexTip| / |indexMetacarpal - littleMetacarpal|
+# 参考值来自 40 个 EgoDex 视频、103,662 帧的 P95（开）/ P5（闭），
+# 见 experiments/droid_ego_adapter/local_v1_20261026/README.md 的复核命令。
+version: ego-grasp-proxy-v1
+metric: thumb_index_pinch_over_palm_width
+open_ref: 2.23          # P95 of pinch/palm_width in the 40-clip sample
+closed_ref: 0.29        # P5  of pinch/palm_width in the 40-clip sample
+max_pinch_ratio: 4.0    # above this the tracking is treated as invalid, not clamped
+min_palm_width_m: 0.02
+max_palm_width_m: 0.08
+median_kernel: 3        # frames; removes single-frame tracking spikes, keeps transitions
+confidence_threshold: 0.2

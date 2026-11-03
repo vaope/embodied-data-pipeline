@@ -1,0 +1,28 @@
+{
+  "schema_version": "annotation_av.config.v1",
+  "profile": "local_rental_qwen36",
+  "note": "Historical rental-host profile: local vLLM serving Qwen3.6-27B, all three variants, strict official JSON parsing. Not used by the 2026-10-26 Chutes batch; keep for reproducing pre-switch runs and for `assets --kind qwen` weight pinning.",
+  "variants": ["AV-A", "AV-B", "AV-C"],
+  "pilot_limit": 10,
+  "qwen": {
+    "repo": "Qwen/Qwen3.6-27B",
+    "revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "served_model": "Qwen/Qwen3.6-27B",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "timeout_s": 900,
+    "attempts": 3
+  },
+  "egoant": {
+    "sample_sec": 0.5,
+    "tiles_per_sheet": 20,
+    "tile_px": 224,
+    "cols": 5,
+    "max_tokens": 8192,
+    "min_seg_sec": 0.25,
+    "min_refine_sec": 3,
+    "pad_sec": 0,
+    "coarse_prompt": "gepa_duration_prior_v1",
+    "refine_prompt": "refine_full_cover_v1"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "egodex_screw_unscrew_allen_fixture_010",
+  "title": "旋出螺钉",
+  "task": "Unscrew the screw from the fixture using an allen key while sitting at a table with a pink tablecloth and lavender background.",
+  "duration_s": 65.333333,
+  "variants": {
+    "AV-A": [
+      {
+        "start_s": 0.0,
+        "end_s": 2.0,
+        "caption": "Pick up the allen key from the table"
+      },
+      {
+        "start_s": 2.0,
+        "end_s": 14.0,
+        "caption": "Unscrew the screw from the fixture using the allen key"
+      },
+      {
+        "start_s": 14.0,
+        "end_s": 16.0,
+        "caption": "Unscrew the screw from the fixture with the allen key"
+      },
+      {
+        "start_s": 16.0,
+        "end_s": 17.0,
+        "caption": "Place the screw on the table"
+      },
+      {
+        "start_s": 17.0,
+        "end_s": 61.0,
+        "caption": "Insert the allen key into the screw on the fixture"
+      },
+      {
+        "start_s": 61.0,
+        "end_s": 62.5,
+        "caption": "Place the removed screw on the table"
+      },
+      {
+        "start_s": 62.5,
+        "end_s": 65.33,
+        "caption": "Remove the black bracket from the base plate"
+      }
+    ],
+    "AV-B": [
+      {
+        "start_s": 0.0,
+        "end_s": 2.0,
+        "caption": "pick up allen key with right hand"
+      },
+      {
+        "start_s": 2.0,
+        "end_s": 14.0,
+        "caption": "unscrew screw from fixture with allen key in right hand"
+      },
+      {
+        "start_s": 14.0,
+        "end_s": 16.0,
+        "caption": "hold allen key with right hand, pick up screw with right hand"
+      },
+      {
+        "start_s": 16.0,
+        "end_s": 17.0,
+        "caption": "hold allen key with right hand, place screw on table with right hand"
+      },
+      {
+        "start_s": 17.0,
+        "end_s": 61.0,
+        "caption": "loosen screw on fixture with allen key in right hand"
+      },
+      {
+        "start_s": 61.0,
+        "end_s": 62.5,
+        "caption": "hold allen key with right hand, pick up screw and place screw on table with right hand"
+      },
+      {
+        "start_s": 62.5,
+        "end_s": 65.33,
+        "caption": "place allen key on table with right hand, reposition fixture on table with right hand"
+      }
+    ],
+    "AV-C": [
+      {
+        "start_s": 0.0,
+        "end_s": 1.95,
+        "caption": "pick up allen key with right hand"
+      },
+      {
+        "start_s": 1.95,
+        "end_s": 14.05,
+        "caption": "unscrew screw from fixture with allen key in right hand"
+      },
+      {
+        "start_s": 14.05,
+        "end_s": 16.85,
+        "caption": "hold allen key with right hand, pick up screw and place screw on table with right hand"
+      },
+      {
+        "start_s": 16.85,
+        "end_s": 59.45,
+        "caption": "loosen screw on fixture with allen key in right hand"
+      },
+      {
+        "start_s": 46.65,
+        "end_s": 59.45,
+        "caption": "unscrew screw from fixture with allen key in right hand"
+      },
+      {
+        "start_s": 46.65,
+        "end_s": 61.4,
+        "caption": "unscrew screw from fixture with allen key in right hand"
+      },
+      {
+        "start_s": 59.45,
+        "end_s": 61.55,
+        "caption": "hold allen key with right hand, pick up screw with right hand"
+      },
+      {
+        "start_s": 61.4,
+        "end_s": 63.6,
+        "caption": "place screw on table with right hand, place allen key on table with right hand"
+      },
+      {
+        "start_s": 63.6,
+        "end_s": 65.333333,
+        "caption": "pick up fixture and place fixture on table with right hand"
+      }
+    ]
+  },
+  "annotation_source": "automatic",
+  "review_status": "selected_for_visual_review",
+  "video": "assets/showcase/egodex_screw_unscrew_allen_fixture_010.mp4",
+  "poster": "assets/showcase/egodex_screw_unscrew_allen_fixture_010.jpg",
+  "provenance": {
+    "run": "pilot_abc / 2026-10-30",
+    "source_video_sha256": "f39c923438aee0d410c4d461a34e56cb80136466269dcdf0d173e95f595f2b84",
+    "native_annotation_sha256": {
+      "AV-A": "974f42b052ca7b19f250260b8016d03e616f3ba355e6e6895d950e0ee38d5ab4",
+      "AV-B": "59497a18e1304257a3bcb3fd6dd70967d5440c93b68791f67e64817d7293db45",
+      "AV-C": "5bbeaf29150cf8586cacd9f7bc19d6fe94f914cfaf8b592971f7718f26312dc1"
+    }
+  }
+}

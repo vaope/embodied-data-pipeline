@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ego2robot"
+version = "0.1.0"
+description = "Ego2Robot data pipeline: egocentric human video -> robot-ready canonical samples"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pydantic>=2.6",
+    "PyYAML>=6.0",
+    "typer>=0.12",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+video = [
+    "av>=12.0",
+    "opencv-python-headless>=4.9",
+    "imageio>=2.34",
+    "imageio-ffmpeg>=0.4.9",
+]
+data = ["h5py>=3.10", "matplotlib>=3.8"]
+robot = ["mujoco>=3.1", "mink>=0.3", "quadprog>=0.1.11"]
+mcp = ["mcp>=2,<3"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+e2r = "ego2robot.cli:main"
+e2r-progress-mcp = "ego2robot.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ego2robot = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+packages = ["ego2robot"]
+strict_optional = true
+warn_unused_ignores = true
+ignore_missing_imports = true

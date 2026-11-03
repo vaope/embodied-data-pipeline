@@ -1,0 +1,48 @@
+# Erase-only profile: re-run ProPainter at a chosen inference resolution.
+#
+# Why this profile exists
+# -----------------------
+# `m5.yaml` lists `segmentation -> inpainting`, and the segmentation stage refuses
+# to start unless the M3 video review record still matches the current
+# `previews/projection-overlay.mp4`.  Re-rendering the robot (an M3/M6 activity)
+# changes that hash, so the accepted record no longer matches and segmentation
+# cannot be re-entered — correctly, because re-running segmentation would reopen a
+# gate the user already closed.
+#
+# Re-running *only* the erase step does not reopen any gate: it consumes the
+# accepted masks unchanged and produces a different background resolution.  That is
+# what this profile is for.  It is not a replacement for `m5.yaml`.
+profile: m5-inpaint
+
+stages:
+  - inpainting
+
+inpainting:
+  runtime:
+    execution: wsl
+    wsl_distribution: Ubuntu-22.04
+    python_executable: /path/to/your/model-environment/bin/python
+    repo_path: assets/third_party/ProPainter
+    checkpoint_path: assets/third_party/ProPainter/weights
+    device: cuda
+    seed: 0
+    revision: e870e79321c31b733e2031af5aa2fb1fe3ac7eec
+  model: propainter
+  fp16: true
+  neighbor_length: 10
+  ref_stride: 10
+  # [ENGINEERING] ADR-0011 Amendment 2026-11-02: temporal knobs were shown to be
+  # ineffective on the whole 52-frame episode, so subvideo is kept short enough for
+  # the local 11.9 GiB card without changing the result.
+  subvideo_length: 20
+  mask_dilation: 4 # [PAPER] ProPainter default.
+  raft_iterations: 20
+  # [ENGINEERING] ADR-0011 Amendment 2026-11-02: local formal tier. Evidence:
+  # historical 52-frame parameter review (resolution is the only
+  # knob with a measurable positive effect: core 15.00 @960x540 vs 15.42 @640x360).
+  # height must be a multiple of 8, hence 544 rather than the scanned 540.
+  # Native 1920x1080 and 1280x720 both exceed the local VRAM budget (OOM), so this
+  # profile cannot produce a full-resolution erase; preview_only stays true.
+  inference_width: 960
+  inference_height: 544
+  adr: docs/decisions/0011-m5-runtime-and-mask-contract.md

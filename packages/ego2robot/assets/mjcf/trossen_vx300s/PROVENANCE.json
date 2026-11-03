@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "path": "assets/interbotix_black.png",
+      "sha256": "4cd224156bbaab1ddf1b92b90d46c54835a8b41f61bc258b2f216c2618e062cf",
+      "size_bytes": 1994
+    },
+    {
+      "path": "assets/vx300s_10_gripper_finger.stl",
+      "sha256": "a4baacd9a64df1be60ea5e98f50f3c660e1b7a1fe9684aace6004c5058c09483",
+      "size_bytes": 42884
+    },
+    {
+      "path": "assets/vx300s_1_base.stl",
+      "sha256": "d100cafe656671ca8fde98fb6a4cf2d1b746995c51c61c25ad9ea2715635d146",
+      "size_bytes": 99984
+    },
+    {
+      "path": "assets/vx300s_2_shoulder.stl",
+      "sha256": "139745a74055cb0b23430bb5bc032bf68cf7bea5e4975c8f4c04107ae005f7f0",
+      "size_bytes": 63884
+    },
+    {
+      "path": "assets/vx300s_3_upper_arm.stl",
+      "sha256": "900f236320dd3d500870c5fde763b2d47502d51e043a5c377875e70237108729",
+      "size_bytes": 102984
+    },
+    {
+      "path": "assets/vx300s_4_upper_forearm.stl",
+      "sha256": "4104fc54bbfb8a9b533029f1e7e3ade3d54d638372b3195daa0c98f57e0295b5",
+      "size_bytes": 49584
+    },
+    {
+      "path": "assets/vx300s_5_lower_forearm.stl",
+      "sha256": "66814e27fa728056416e25e02e89eb7d34c51d51c51e7c3df873829037ddc6b8",
+      "size_bytes": 99884
+    },
+    {
+      "path": "assets/vx300s_6_wrist.stl",
+      "sha256": "90eb145c85627968c3776ae6de23ccff7e112c9dd713c46bc9acdfdaa859a048",
+      "size_bytes": 70784
+    },
+    {
+      "path": "assets/vx300s_7_gripper.stl",
+      "sha256": "786c1077bfd226f14219581b11d5f19464ca95b17132e0bb7532503568f5af90",
+      "size_bytes": 450084
+    },
+    {
+      "path": "assets/vx300s_8_gripper_prop.stl",
+      "sha256": "d1275a93fe2157c83dbc095617fb7e672888bdd48ec070a35ef4ab9ebd9755b0",
+      "size_bytes": 31684
+    },
+    {
+      "path": "assets/vx300s_9_gripper_bar.stl",
+      "sha256": "a4de62c9a2ed2c78433010e4c05530a1254b1774a7651967f406120c9bf8973e",
+      "size_bytes": 379484
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "4810ebd35fa97f48bdc2b45572660f4dcb87e9ac1ca7a7c52b9e9897ae44bcc0",
+      "size_bytes": 154
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a6f1bde1043b461fa45e6a89c293c53108e592c7b019685ec4d4ac05842fcfbe",
+      "size_bytes": 1529
+    },
+    {
+      "path": "README.md",
+      "sha256": "4ca5ae5a6d2f94deb332b7e9488de5a1068146d538924cdca8207886dc192c85",
+      "size_bytes": 1862
+    },
+    {
+      "path": "scene.xml",
+      "sha256": "baa34e7a9213d6092ad9ca4335fac092317d024a10c03b938bc7a88f8a1cebbf",
+      "size_bytes": 842
+    },
+    {
+      "path": "vx300s.png",
+      "sha256": "ca4633e91f70257b3f5926edbb6fc2304b5e051d2d50872b8d430dcdcd949b70",
+      "size_bytes": 1346444
+    },
+    {
+      "path": "vx300s.xml",
+      "sha256": "da7b50487de4d00331b20b298abd48103a05dbc33da90f07d3b0bc8ed17b8521",
+      "size_bytes": 12361
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "manufacturer_specifications": {
+    "measurement_note": "Manufacturer gripper range is retained as source evidence; the adapter uses the MJCF collision-pad gap range for simulation mapping.",
+    "published_gripper_range_m": [
+      0.042,
+      0.116
+    ],
+    "published_reach_m": 0.75,
+    "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/vx300s.html"
+  },
+  "model_name": "Trossen ViperX-300 6DOF",
+  "model_xml": "vx300s.xml",
+  "robot_id": "viperx300",
+  "schema_version": "ego2robot.robot_model_provenance.v1",
+  "upstream_commit": "c96a32d28fb5da84da38c1da4d749e7a13212855",
+  "upstream_commit_url": "https://github.com/google-deepmind/mujoco_menagerie/commit/c96a32d28fb5da84da38c1da4d749e7a13212855",
+  "upstream_path": "trossen_vx300s",
+  "upstream_repository": "https://github.com/google-deepmind/mujoco_menagerie.git"
+}

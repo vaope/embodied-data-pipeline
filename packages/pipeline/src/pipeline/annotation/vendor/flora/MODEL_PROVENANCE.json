@@ -1,0 +1,11 @@
+{
+  "schema_version": 2,
+  "model": "Flora-captioner-27B",
+  "selected_step": 88,
+  "base_model": "Qwen/Qwen3.5-27B",
+  "base_revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+  "format": "full model in sharded safetensors",
+  "checkpoint_storage_dtype": "FP32",
+  "source_model_identity_sha256": "2ab6cafd286df7f446bfb84fbc4af7c54773d5e890dd277ac5a0453d0d4fb778",
+  "source_weights_modified": false
+}

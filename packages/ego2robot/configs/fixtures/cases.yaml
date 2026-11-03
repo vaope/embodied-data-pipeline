@@ -1,0 +1,48 @@
+# Validation cases for the first development round (M0-M3).
+#
+# These are *synthetic geometry* fixtures: implementation-plan.md section 15
+# asks for a `synthetic_geometry` set with fully known pose/camera so that
+# formulas and coordinate conventions can be checked exactly, before a real
+# 5-10 s EgoDex clip is used.  Every case has a closed-form ground truth in
+# `source/truth.npz`, produced by ego2robot.tools.hand_synth.
+#
+# The motion generators themselves live in ego2robot/tools/cases.py so they are
+# importable and reviewable; this file carries the metadata and any override.
+
+defaults:
+  width: 640
+  height: 480
+  fps: 30.0
+
+cases:
+  - id: case1_right_translate
+    instruction: pick up the cup and place it down
+    checks: "right hand, translation-only motion; TCP scale, +x/+z axis order, 7D delta signs, gripper width range, closed-jaw freeze at 4 mm"
+    num_frames: 90
+    notes:
+      - "jaw closes to 4 mm in the middle segment, below the 10 mm degeneracy threshold, so the orientation must freeze and be reported via fallback_code"
+
+  - id: case2_left_mirror
+    instruction: pick up the block and move it left
+    checks: "left hand with the mirrored motion; the handedness sign must map both hands to the same canonical grasp-axis direction"
+    num_frames: 90
+    notes:
+      - "diffing case2 against case1 checks that the sign s in z = s(p_thumb - p_vf) is applied to the correct side"
+
+  - id: case3_static
+    instruction: hold the object still
+    checks: "stationary hand; the derived 7D action must be ~0 and the orientation must not drift"
+    num_frames: 45
+
+  - id: case4_rotation
+    instruction: rotate the object a quarter turn
+    checks: "stationary wrist rotating 90 deg about +y; rotation-vector direction and magnitude, non-commutative multiplication order"
+    num_frames: 60
+
+  - id: case5_degenerate
+    instruction: close the gripper and lift
+    checks: "velocity spikes at frames 10/40/70, a 14-frame detection dropout at 50-63, and jaw closing to 5 mm; two-round outlier filter, large-gap home blending, degeneracy freezing"
+    num_frames: 80
+    notes:
+      - "rejected spike frames must be reported in the retarget stage metrics"
+      - "the 14-frame dropout exceeds the 10-frame small-gap limit and must take the home-blend path"

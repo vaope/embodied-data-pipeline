@@ -1,0 +1,3013 @@
+{
+  "snapshot_date": "2026-11-03",
+  "kind": "private_preparation_snapshot",
+  "records": [
+    {
+      "path": "packages/pipeline/src/pipeline/actions.py",
+      "origin": "pipeline/actions.py",
+      "source_sha256": "624631f160b188609204aff32e880f71e2a4f8eccfaab0bd20cb7e8bb26d2aca",
+      "bytes": 4979,
+      "snapshot_sha256": "0a8efb1b13f7c90d1b30b0446e0bd2e510da9a1ce869ba2a30798d366cf29772",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/common.py",
+      "origin": "pipeline/common.py",
+      "source_sha256": "399e8b9e56156bdb51ded6c455eb25c7dfb245955b8f395ee6fd696a5bc96ce1",
+      "bytes": 3235,
+      "snapshot_sha256": "294eb33ce3d04b5be1aa7f1c380dd54acd0db17b5a503de63e4343923c31d65a",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/depth_review.py",
+      "origin": "pipeline/depth_review.py",
+      "source_sha256": "083cbc634f559fe84dc142185c8a675465a566567fa64fa2a1010264f1d3826d",
+      "bytes": 5992,
+      "snapshot_sha256": "1a69bed68ecf563e8a26ae76b5abb4cc102e3621880a26da1f59f91ba4fb9265",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/depth_worker.py",
+      "origin": "pipeline/depth_worker.py",
+      "source_sha256": "75ab76fdc7d6410a41d8fbcf82caaf0c5c8b39d92ded3b89106ffd2386733ff8",
+      "bytes": 20595,
+      "snapshot_sha256": "8552e209e948b949a694b0e7983313148c470d6a7d2645b4133f3f85d0450878",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/export.py",
+      "origin": "pipeline/export.py",
+      "source_sha256": "fcfc5ef46ef4959cb8bc862699b67bf487074b977f68303340faa76c9f800190",
+      "bytes": 13202,
+      "snapshot_sha256": "7870c62e04bc8c081d1f021e29fb9189cb7c39cb88bfc63a834e75bda7d1c22e",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/m5_worker.py",
+      "origin": "pipeline/m5_worker.py",
+      "source_sha256": "a94e0f1484629b07ae609133cd6793ae0397d57b9c59e202febde03e03d6c0b5",
+      "bytes": 33040,
+      "snapshot_sha256": "77d58fd5512cbb806124d9cb3af0b84c1e280ac29cc2988f804a366b9b6e8918",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/model_process.py",
+      "origin": "pipeline/model_process.py",
+      "source_sha256": "84ea830d08ff0c8d88acfb160a827fdc0ed736fa4baca6830281511c736d1d95",
+      "bytes": 2299,
+      "snapshot_sha256": "c15c196a908335245ffc2c64e87a346ca1e39c13e385612b0e077fc25f7e4a97",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/quality.py",
+      "origin": "pipeline/quality.py",
+      "source_sha256": "47069462fe527d1d5d4176c4eb0e6d0409e23934e1855e0df014464d3f02e904",
+      "bytes": 28686,
+      "snapshot_sha256": "39b53b4425c7a6290f616bf804d9f85ce683f2e12ef444d898dc6ac0c6db9fdc",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/reader.py",
+      "origin": "pipeline/reader.py",
+      "source_sha256": "aa00151f5de3d7ec5d2210e95024748846580134627481a91fa99d4573fe8a2f",
+      "bytes": 41635,
+      "snapshot_sha256": "cdae65df33026a837345170347ac5e9614a00179395e88630e441d0ed7c0e5e6",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/report.py",
+      "origin": "pipeline/report.py",
+      "source_sha256": "bfed5dbe5a3ae29709e340e470234a94d51dbf4d40207cb006869801db429b67",
+      "bytes": 11859,
+      "snapshot_sha256": "f0aba875dc51aec8886a1adf5048f64402221651796cd23ef03e37639f489a04",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/review.py",
+      "origin": "pipeline/review.py",
+      "source_sha256": "3511874bc028ab1fa463fa93c39159dd087ce7edd3b9d3f97e6cd739e9d3d12c",
+      "bytes": 7532,
+      "snapshot_sha256": "b7fb8aebdf344e162144a7f2a67cfcebf3fff1a788efad92be5af5cb823c74a8",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/stage5.py",
+      "origin": "pipeline/stage5.py",
+      "source_sha256": "822f74a7bf271f3de4c0423e55ffe432d80836cda29549a4529485e8424a3a11",
+      "bytes": 58573,
+      "snapshot_sha256": "60b4a517b25c5c2546cebe4c2739152b4e62798d5d249e8f0c33754cc1d47692",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/statistics.py",
+      "origin": "pipeline/statistics.py",
+      "source_sha256": "3d803bcc3066e2af92cd8976854482ff0b567c3fdc20ef48e0ee5eb9285054d5",
+      "bytes": 24951,
+      "snapshot_sha256": "9ec83327f1277dc2789cea07550e4ba4699eff6b0fddd52013261af83cc2245a",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/supervision.py",
+      "origin": "pipeline/supervision.py",
+      "source_sha256": "a84343b9bb2e249124c1b3b1ae62977844689d816f09c3f68ab056d46d456bef",
+      "bytes": 6405,
+      "snapshot_sha256": "c9e5d55527378386922b2e5ddc73ce72bd74df8f91e418ae80b072c982408895",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/visual.py",
+      "origin": "pipeline/visual.py",
+      "source_sha256": "573cc1d0b44689bc05678174a49d26f810b2fc7e350f4a0671febbfeec4ec0b6",
+      "bytes": 48750,
+      "snapshot_sha256": "55ce5ad6f0616425e529a2947f1800a2701f36ce2f2dba0fc47ee0bd49070132",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/visual_numeric_example.py",
+      "origin": "pipeline/visual_numeric_example.py",
+      "source_sha256": "4e5b07daf6b118df6b9de94c86d32ee60f33d5175d9c0c59179063bee80aa4d3",
+      "bytes": 5559,
+      "snapshot_sha256": "aabc185db21f6c340dacb4c3e482fda4da100c17821b380624cb33f96c7d0852",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/__init__.py",
+      "origin": "pipeline/__init__.py",
+      "source_sha256": "d23b58bb20fb9015697fa89032d452d56f3e7ae685721c88d7c7fd9bcb567f6d",
+      "bytes": 111,
+      "snapshot_sha256": "d94667fc76980747e7db3d154a8301da31f97374f39663e63369d241342e6688",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/__init__.py",
+      "origin": "pipeline/annotation/__init__.py",
+      "source_sha256": "29c318a5b73ecb73f46a7d365c26697c9a83d200ffddac23ca99d9c47924c3d3",
+      "bytes": 60,
+      "snapshot_sha256": "93942504b4e080b7ebea5ecd5223eab9cfdbd6995977d8c81bb2e6df933f5804",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/__main__.py",
+      "origin": "pipeline/annotation/__main__.py",
+      "source_sha256": "bd045ddd5242d002f692dac452be9afba38deef5cde541a5fc074bfef5987b91",
+      "bytes": 79,
+      "snapshot_sha256": "3945e8e0794ea1adcb9a82f9e97040a71a4342af1f8478ae5a8cc1427c82fc35",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/backends.py",
+      "origin": "pipeline/annotation/backends.py",
+      "source_sha256": "c1a9d13572471d4a66e00bdda572ab7fd9f5efddf66039d03a30c9615b931877",
+      "bytes": 29905,
+      "snapshot_sha256": "8c03b122f2ab6fcd3ab2b621a0905a5e49ba315589b93a29ea4c22cfa4072737",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/cli.py",
+      "origin": "pipeline/annotation/cli.py",
+      "source_sha256": "bf3452abe260a7dad70292b3729ad0990d5c8db210405ec2a086e85cd780c8b0",
+      "bytes": 12668,
+      "snapshot_sha256": "5211ae808d628c28c8ecf3a31b2622d5d89eb9a1952ea08764a5cef617456e2c",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/config.json",
+      "origin": "pipeline/annotation/config.json",
+      "source_sha256": "92c8d14676a53c72061f7bed0b953e3358e9139959eb37dd8156bbae1bbe4574",
+      "bytes": 1399,
+      "snapshot_sha256": "92c8d14676a53c72061f7bed0b953e3358e9139959eb37dd8156bbae1bbe4574",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/configs/local_rental_qwen36.json",
+      "origin": "pipeline/annotation/configs/local_rental_qwen36.json",
+      "source_sha256": "8896d38208cbf89e8089cb035e11252ab2d3fc81275dd6d324c7297983cb710c",
+      "bytes": 959,
+      "snapshot_sha256": "8896d38208cbf89e8089cb035e11252ab2d3fc81275dd6d324c7297983cb710c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/consumer.py",
+      "origin": "pipeline/annotation/consumer.py",
+      "source_sha256": "b814fffe6567d26f4cbb28a9b623e56d0c589c9e74ad7190b02e5ccde4f554ec",
+      "bytes": 2984,
+      "snapshot_sha256": "42095841c97da72f9ab81f303437e438770b80edf67b3784e324b78b73f75b29",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/core.py",
+      "origin": "pipeline/annotation/core.py",
+      "source_sha256": "b2b735373b097e300e41257d90fd784ba61a328495c82b0bf0e09fccf2e487bc",
+      "bytes": 10233,
+      "snapshot_sha256": "2a029805fa3a5d9c830d52f63fc9aa11150f001cfa1da47f28c51bc221a9c7fc",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/evaluate.py",
+      "origin": "pipeline/annotation/evaluate.py",
+      "source_sha256": "0c5219f9d4f99db4528886f435ca2700f8262d9ef27cfacc8802ebfd4109d066",
+      "bytes": 1633,
+      "snapshot_sha256": "5556cbb3dc13d58831c0c50e33874489b02bd8cc670d2c0431065537d5fa7031",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/prompts/task.txt",
+      "origin": "pipeline/annotation/prompts/task.txt",
+      "source_sha256": "3d4eda2e3427240ed4c4c609cda6738157ffa67625cb0775ed99519e5d9a9054",
+      "bytes": 272,
+      "snapshot_sha256": "3d4eda2e3427240ed4c4c609cda6738157ffa67625cb0775ed99519e5d9a9054",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/README.md",
+      "origin": "pipeline/annotation/README.md",
+      "source_sha256": "7edaab4e6a24a4862db65275e5be7f74cac6dd4e13aa02bd706762c9f74a2e15",
+      "bytes": 14123,
+      "snapshot_sha256": "f7ee14b6d0c670b60d08b867f2803e9a8aa36e4da9e6804e0c6b55ddaed0802a",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/requirements-cpu.txt",
+      "origin": "pipeline/annotation/requirements-cpu.txt",
+      "source_sha256": "914bc8e6f37d72e03fe795b0924fbe7c007438b5e5c8b71d2cb7ce857a5518ae",
+      "bytes": 33,
+      "snapshot_sha256": "914bc8e6f37d72e03fe795b0924fbe7c007438b5e5c8b71d2cb7ce857a5518ae",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/runner.py",
+      "origin": "pipeline/annotation/runner.py",
+      "source_sha256": "dcd2289ff71d80900ea02dd42898ad98d0003659dbf40b14583015fbb41332ca",
+      "bytes": 25126,
+      "snapshot_sha256": "82f9a7fed8c63b3755a91df4cdd1e42d969e35985ea127eb2d3921c38d82c1ed",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/scheduling.py",
+      "origin": "pipeline/annotation/scheduling.py",
+      "source_sha256": "22b807826f94469720e2a08ab3317f0489f8f93a4c6140d2f33d8bc065111a02",
+      "bytes": 8337,
+      "snapshot_sha256": "18bf82ebcef41b5a362f2474a1721694d1b76290db2d5e626934fb26fd4c0106",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/schemas/step.schema.json",
+      "origin": "pipeline/annotation/schemas/step.schema.json",
+      "source_sha256": "0c6c5f01d46b7e5176756bab85b306bfeb9be363f0deb8712c0e66a431dc77eb",
+      "bytes": 4344,
+      "snapshot_sha256": "0c6c5f01d46b7e5176756bab85b306bfeb9be363f0deb8712c0e66a431dc77eb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/scripts/run_rental.sh",
+      "origin": "pipeline/annotation/scripts/run_rental.sh",
+      "source_sha256": "847ac6b4c4a1553928f4bd020d66685d81a5ec3c78691f3db3f213cd0916f323",
+      "bytes": 2371,
+      "snapshot_sha256": "847ac6b4c4a1553928f4bd020d66685d81a5ec3c78691f3db3f213cd0916f323",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/scripts/setup_rental.sh",
+      "origin": "pipeline/annotation/scripts/setup_rental.sh",
+      "source_sha256": "3864c9c5331a1300a67abb17e97505fe2e2c5973607ca474ff6bc639184ddd3d",
+      "bytes": 1301,
+      "snapshot_sha256": "3864c9c5331a1300a67abb17e97505fe2e2c5973607ca474ff6bc639184ddd3d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/LICENSE",
+      "origin": "pipeline/annotation/vendor/egoant/LICENSE",
+      "source_sha256": "409c7e9f90394fa144f40e10ffb1ad355ae81f62343ac5468ff22f402b21ff90",
+      "bytes": 1097,
+      "snapshot_sha256": "409c7e9f90394fa144f40e10ffb1ad355ae81f62343ac5468ff22f402b21ff90",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/scripts/annotate_video.py",
+      "origin": "pipeline/annotation/vendor/egoant/scripts/annotate_video.py",
+      "source_sha256": "89a1144045260fc2a41ef4f3aa28431d652d5454a65c25b5ec6f6be12383f978",
+      "bytes": 46590,
+      "snapshot_sha256": "89a1144045260fc2a41ef4f3aa28431d652d5454a65c25b5ec6f6be12383f978",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/scripts/api_usage.py",
+      "origin": "pipeline/annotation/vendor/egoant/scripts/api_usage.py",
+      "source_sha256": "1e7e23b57aa411a87323ad82c2671364ec96d68841b1500d78275f3e66d0b6e7",
+      "bytes": 4895,
+      "snapshot_sha256": "1e7e23b57aa411a87323ad82c2671364ec96d68841b1500d78275f3e66d0b6e7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/scripts/wgo_bench/contact_sheet_segment.py",
+      "origin": "pipeline/annotation/vendor/egoant/scripts/wgo_bench/contact_sheet_segment.py",
+      "source_sha256": "1829c2f00c1d78b00cbd65ee0c9a4d01a3866634f4100c553eccf0f1112d5d76",
+      "bytes": 24590,
+      "snapshot_sha256": "1829c2f00c1d78b00cbd65ee0c9a4d01a3866634f4100c553eccf0f1112d5d76",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/scripts/wgo_bench/label_gold_segments.py",
+      "origin": "pipeline/annotation/vendor/egoant/scripts/wgo_bench/label_gold_segments.py",
+      "source_sha256": "ca18ae5153d331a66384d3b3a19c14a125705daaedad5e99df6e8dbcad448f31",
+      "bytes": 17649,
+      "snapshot_sha256": "ca18ae5153d331a66384d3b3a19c14a125705daaedad5e99df6e8dbcad448f31",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/scripts/wgo_bench/seg_opt_ideas.py",
+      "origin": "pipeline/annotation/vendor/egoant/scripts/wgo_bench/seg_opt_ideas.py",
+      "source_sha256": "b09cfc37a117da616837b755ff19df67b66465fcaa5315740863b5aa235971ac",
+      "bytes": 19876,
+      "snapshot_sha256": "b09cfc37a117da616837b755ff19df67b66465fcaa5315740863b5aa235971ac",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/egoant/THIRD_PARTY.md",
+      "origin": "pipeline/annotation/vendor/egoant/THIRD_PARTY.md",
+      "source_sha256": "c22dba04bfb4efa01221e1a7ce38f24cbe17f94a22d74b991fef54c86edbd3af",
+      "bytes": 1230,
+      "snapshot_sha256": "c22dba04bfb4efa01221e1a7ce38f24cbe17f94a22d74b991fef54c86edbd3af",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/__init__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/__init__.py",
+      "source_sha256": "50a358089004c69e4c83c41a55eb44c52179d3fa20be4d4c5b92fabbc8271ac4",
+      "bytes": 91,
+      "snapshot_sha256": "50a358089004c69e4c83c41a55eb44c52179d3fa20be4d4c5b92fabbc8271ac4",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/__main__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/__main__.py",
+      "source_sha256": "28de248c91c00642578a541827361af9b0e5e049e4c61dd6ec1f9dc78580c24e",
+      "bytes": 78,
+      "snapshot_sha256": "28de248c91c00642578a541827361af9b0e5e049e4c61dd6ec1f9dc78580c24e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/api.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/api.py",
+      "source_sha256": "ec5e17b5b02c20a40e52beab7d5ebfd49e32129ef03eb918790df720b0d97177",
+      "bytes": 3600,
+      "snapshot_sha256": "ec5e17b5b02c20a40e52beab7d5ebfd49e32129ef03eb918790df720b0d97177",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/bootstrap.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/bootstrap.py",
+      "source_sha256": "83e49883136af2088038c6070303d0e89071a318e98252b40ff988230e491817",
+      "bytes": 679,
+      "snapshot_sha256": "83e49883136af2088038c6070303d0e89071a318e98252b40ff988230e491817",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/cli.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/cli.py",
+      "source_sha256": "9dc0256b45252d7512b1c69eb7eba3b681725d7c6109287dc3892ec9a9d668e1",
+      "bytes": 4761,
+      "snapshot_sha256": "9dc0256b45252d7512b1c69eb7eba3b681725d7c6109287dc3892ec9a9d668e1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/CODE_MANIFEST.json",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/CODE_MANIFEST.json",
+      "source_sha256": "802568893397ea470156ce67b64a9beecb3d9e06f53ca8914f8c92278221681d",
+      "bytes": 7362,
+      "snapshot_sha256": "802568893397ea470156ce67b64a9beecb3d9e06f53ca8914f8c92278221681d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/config.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/config.py",
+      "source_sha256": "0967244955e8f128e03cc6a85973a41d1571f78acf4a9bc6f91e6682781f9891",
+      "bytes": 503,
+      "snapshot_sha256": "0967244955e8f128e03cc6a85973a41d1571f78acf4a9bc6f91e6682781f9891",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/media.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/media.py",
+      "source_sha256": "e0ee696b63f3171d5163aadb960322f422183981c3768efd76c409976f3fda5b",
+      "bytes": 5135,
+      "snapshot_sha256": "e0ee696b63f3171d5163aadb960322f422183981c3768efd76c409976f3fda5b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/models.json",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/models.json",
+      "source_sha256": "210e56e9ed46f61c6e18a974b78fccfb6a6aee3a6b0cb6cda5b5f774f934f536",
+      "bytes": 612,
+      "snapshot_sha256": "210e56e9ed46f61c6e18a974b78fccfb6a6aee3a6b0cb6cda5b5f774f934f536",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/models.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/models.py",
+      "source_sha256": "92b3ab4b376f9a4dd3c7f75568746467f17a969430c63330667f2c6d2760f1fe",
+      "bytes": 11436,
+      "snapshot_sha256": "92b3ab4b376f9a4dd3c7f75568746467f17a969430c63330667f2c6d2760f1fe",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/pipeline.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/pipeline.py",
+      "source_sha256": "588d4105197706da8acf3b591ba9671239505b53030f1d30cba0088ddad5432e",
+      "bytes": 11853,
+      "snapshot_sha256": "588d4105197706da8acf3b591ba9671239505b53030f1d30cba0088ddad5432e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/preprocessing.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/preprocessing.py",
+      "source_sha256": "6bc9a2c7f08f92b4933f68c0fc674f938339eceeebdec186eef1514294b167ee",
+      "bytes": 3311,
+      "snapshot_sha256": "6bc9a2c7f08f92b4933f68c0fc674f938339eceeebdec186eef1514294b167ee",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/README.md",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/README.md",
+      "source_sha256": "f03e4f204b906db2b11a447585e09b6e01af5129a88b9123a5066087309f3007",
+      "bytes": 4337,
+      "snapshot_sha256": "f03e4f204b906db2b11a447585e09b6e01af5129a88b9123a5066087309f3007",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/requirements.txt",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/requirements.txt",
+      "source_sha256": "66d607ebfbd6525e005db045812453c4356d7df4e42e7b40b4994bd0e5e0cd51",
+      "bytes": 163,
+      "snapshot_sha256": "66d607ebfbd6525e005db045812453c4356d7df4e42e7b40b4994bd0e5e0cd51",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/THIRD_PARTY_NOTICES.md",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/THIRD_PARTY_NOTICES.md",
+      "source_sha256": "b73d47aa224b69e8c97850912c23d8b29219126568a11fa41ee3d085a8a430a3",
+      "bytes": 1497,
+      "snapshot_sha256": "b73d47aa224b69e8c97850912c23d8b29219126568a11fa41ee3d085a8a430a3",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/flora_unified/__init__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/flora_unified/__init__.py",
+      "source_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "bytes": 5,
+      "snapshot_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/flora_unified/unified_input.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/flora_unified/unified_input.py",
+      "source_sha256": "2aa2b521191b68913b03d7582b7a3bcfad49d90c014a1a1bb7571b5e4f08d7ef",
+      "bytes": 5978,
+      "snapshot_sha256": "2aa2b521191b68913b03d7582b7a3bcfad49d90c014a1a1bb7571b5e4f08d7ef",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/MANIFEST.json",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/MANIFEST.json",
+      "source_sha256": "91ce5d8a5f13a583d48384c5de7f46696f5cd896ad2c1f3ce0eead9a1acae6d8",
+      "bytes": 3225,
+      "snapshot_sha256": "91ce5d8a5f13a583d48384c5de7f46696f5cd896ad2c1f3ce0eead9a1acae6d8",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/adapter.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/adapter.py",
+      "source_sha256": "083c6788b561d726a85d9f3f8f516593a9f6f76a43f315581c821871e3f82312",
+      "bytes": 7526,
+      "snapshot_sha256": "083c6788b561d726a85d9f3f8f516593a9f6f76a43f315581c821871e3f82312",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/__init__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/__init__.py",
+      "source_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "bytes": 5,
+      "snapshot_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/exact_frame_serving.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/exact_frame_serving.py",
+      "source_sha256": "f921e279b5d52f723b3e77e25441763683d05c6e9cd2f8ff204466a50255b346",
+      "bytes": 2120,
+      "snapshot_sha256": "f921e279b5d52f723b3e77e25441763683d05c6e9cd2f8ff204466a50255b346",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/schema.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/schema.py",
+      "source_sha256": "42c523e4db1a4da3fe0d0d578f3cf6e94aed7666c06e3f18081c209159de04b9",
+      "bytes": 3489,
+      "snapshot_sha256": "42c523e4db1a4da3fe0d0d578f3cf6e94aed7666c06e3f18081c209159de04b9",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/__init__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/__init__.py",
+      "source_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "bytes": 5,
+      "snapshot_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_contract.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_contract.py",
+      "source_sha256": "873476e78a9e3e222ae9e47fcb7a04c8c18ef518b2847c401a2e1cfb2292fe90",
+      "bytes": 3511,
+      "snapshot_sha256": "873476e78a9e3e222ae9e47fcb7a04c8c18ef518b2847c401a2e1cfb2292fe90",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_worker.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_worker.py",
+      "source_sha256": "870641228b0be442613d520232d451047742ca2ea41fd0cd51dbf0a58ba567d2",
+      "bytes": 2526,
+      "snapshot_sha256": "870641228b0be442613d520232d451047742ca2ea41fd0cd51dbf0a58ba567d2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/__init__.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/__init__.py",
+      "source_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "bytes": 5,
+      "snapshot_sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/contracts.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/contracts.py",
+      "source_sha256": "8591d849b0b65fda6b21511557d4ee5eabd47f8332e2b6831f40d5bb472d978c",
+      "bytes": 3361,
+      "snapshot_sha256": "8591d849b0b65fda6b21511557d4ee5eabd47f8332e2b6831f40d5bb472d978c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_subtask.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_subtask.py",
+      "source_sha256": "6fbf8337bab8491148a78a822187d74397b7f0552700252451a18cd7c78c8e04",
+      "bytes": 77158,
+      "snapshot_sha256": "6fbf8337bab8491148a78a822187d74397b7f0552700252451a18cd7c78c8e04",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_temporal.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_temporal.py",
+      "source_sha256": "32f2b99c97176f5e10934450da638577268c2e5d9977c2ea138ebf1b7eda58fa",
+      "bytes": 66254,
+      "snapshot_sha256": "32f2b99c97176f5e10934450da638577268c2e5d9977c2ea138ebf1b7eda58fa",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_worker.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_worker.py",
+      "source_sha256": "8a31a77180c8d406113d4b494644153564a6f46c8a9b68ad7babb3cc1695edec",
+      "bytes": 1090,
+      "snapshot_sha256": "8a31a77180c8d406113d4b494644153564a6f46c8a9b68ad7babb3cc1695edec",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/interface.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/interface.py",
+      "source_sha256": "a5424b2cc3a4c879552dd49bae207a58fb9e751359f441c03af167a2e1879359",
+      "bytes": 996,
+      "snapshot_sha256": "a5424b2cc3a4c879552dd49bae207a58fb9e751359f441c03af167a2e1879359",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/scope_scheduler.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/scope_scheduler.py",
+      "source_sha256": "be95411b39124d83811fe74dcac2d911169ecf475a81b7460c64b19fbbc7e5db",
+      "bytes": 12654,
+      "snapshot_sha256": "be95411b39124d83811fe74dcac2d911169ecf475a81b7460c64b19fbbc7e5db",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/worker_transport.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/core/flora_runtime/worker_transport.py",
+      "source_sha256": "30fb64869eb6a27ab96bf394c105f19fcb42590be4424c66b76b89e17631693a",
+      "bytes": 953,
+      "snapshot_sha256": "30fb64869eb6a27ab96bf394c105f19fcb42590be4424c66b76b89e17631693a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/TEMPSEG_PROMPTS.json",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_adapter/TEMPSEG_PROMPTS.json",
+      "source_sha256": "66edd6fb43b7fa55cc6257beee5c42a1a4555ab9790320c31114d77bd07a05f1",
+      "bytes": 6654,
+      "snapshot_sha256": "66edd6fb43b7fa55cc6257beee5c42a1a4555ab9790320c31114d77bd07a05f1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/production_gdn_fix.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/production_gdn_fix.py",
+      "source_sha256": "a3f52604bfa2ec58901df63215df5e47d37e1d7974aa56d36a1e4efe8cad3fc6",
+      "bytes": 202,
+      "snapshot_sha256": "a3f52604bfa2ec58901df63215df5e47d37e1d7974aa56d36a1e4efe8cad3fc6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/pts_input_adapter.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/pts_input_adapter.py",
+      "source_sha256": "d784d6b77005eb6945dee334e4c9136fbededfa2049d5945244f198517984767",
+      "bytes": 2340,
+      "snapshot_sha256": "d784d6b77005eb6945dee334e4c9136fbededfa2049d5945244f198517984767",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/robot_caption_geometry.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/robot_caption_geometry.py",
+      "source_sha256": "1c874d3c63359663276d31a3e9c3112a5982ad4000f44c808541b2471f5f7d2d",
+      "bytes": 2739,
+      "snapshot_sha256": "1c874d3c63359663276d31a3e9c3112a5982ad4000f44c808541b2471f5f7d2d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/support/canonical_rgb.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/support/canonical_rgb.py",
+      "source_sha256": "1e3230c60b45d8e017060d8a5dd2b5f48e2199192f09dcff4d04c05b4349e35a",
+      "bytes": 1010,
+      "snapshot_sha256": "1e3230c60b45d8e017060d8a5dd2b5f48e2199192f09dcff4d04c05b4349e35a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/support/composers.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/support/composers.py",
+      "source_sha256": "180b97a6a634979c1b0dbe720ed7a1abd818dc7ee31fdc4eeca7a8277e43d1b6",
+      "bytes": 1263,
+      "snapshot_sha256": "180b97a6a634979c1b0dbe720ed7a1abd818dc7ee31fdc4eeca7a8277e43d1b6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/support/plans.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/support/plans.py",
+      "source_sha256": "d75b918804c9ec10f8642d362a54a74c3eb875abf22e8a60228a0d6b2cbb570e",
+      "bytes": 3762,
+      "snapshot_sha256": "d75b918804c9ec10f8642d362a54a74c3eb875abf22e8a60228a0d6b2cbb570e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/support/u2_contract.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/support/u2_contract.py",
+      "source_sha256": "50190914b719bbc9b8f2b53e52a6bd2b142a452e2fb1c5c897ea4c31123ad4dd",
+      "bytes": 3321,
+      "snapshot_sha256": "50190914b719bbc9b8f2b53e52a6bd2b142a452e2fb1c5c897ea4c31123ad4dd",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/tempseg_fp32_loader.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/tempseg_fp32_loader.py",
+      "source_sha256": "7ee9889f5aa5909abf3ecd1c34e3ac2f81a32a2098d94ae3ba9f33831e7a07c0",
+      "bytes": 3419,
+      "snapshot_sha256": "7ee9889f5aa5909abf3ecd1c34e3ac2f81a32a2098d94ae3ba9f33831e7a07c0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/batch_utils/vendor/verify_gdn.py",
+      "origin": "pipeline/annotation/vendor/flora/batch_utils/vendor/verify_gdn.py",
+      "source_sha256": "96596ff2db4425f4dea71798aeabb581aa83e1ad8a878cfcb9efb8dbac80cda6",
+      "bytes": 2149,
+      "snapshot_sha256": "96596ff2db4425f4dea71798aeabb581aa83e1ad8a878cfcb9efb8dbac80cda6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/LICENSE.pdf",
+      "origin": "pipeline/annotation/vendor/flora/LICENSE.pdf",
+      "source_sha256": "4ff203c3f7997c7fed287a463d733f794934a79cfabb2936008fca0bcc8ad3d6",
+      "bytes": 82469,
+      "snapshot_sha256": "4ff203c3f7997c7fed287a463d733f794934a79cfabb2936008fca0bcc8ad3d6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/flora/MODEL_PROVENANCE.json",
+      "origin": "pipeline/annotation/vendor/flora/MODEL_PROVENANCE.json",
+      "source_sha256": "b1979e729def7828c8d7600692ba17a3913bdac6ddd152c22bfcabd3f0ad924e",
+      "bytes": 407,
+      "snapshot_sha256": "b1979e729def7828c8d7600692ba17a3913bdac6ddd152c22bfcabd3f0ad924e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/annotation/vendor/SOURCES.json",
+      "origin": "pipeline/annotation/vendor/SOURCES.json",
+      "source_sha256": "6fd3a63e7ff535821b492025857b485a146bea6ed021c9c6940cd6e19111ac3a",
+      "bytes": 9077,
+      "snapshot_sha256": "6fd3a63e7ff535821b492025857b485a146bea6ed021c9c6940cd6e19111ac3a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/__init__.py",
+      "origin": "pipeline/v2/__init__.py",
+      "source_sha256": "b5eef90642c1cbaf82628194ab7e75e064141354d621b9b7080ce4926ecc0140",
+      "bytes": 90,
+      "snapshot_sha256": "efdcf39bb4b9b3071a4c9e8004a8e6da3850c53ae5df7be83aeb9284fbcc68d0",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/__main__.py",
+      "origin": "pipeline/v2/__main__.py",
+      "source_sha256": "7a7beaaa82a6df0b77f113ee66bd9538f96a5a3e21edbe23afc42e43b494cc0c",
+      "bytes": 53,
+      "snapshot_sha256": "0c2be54ba303be7475347bc401d43b4bff074316738b84fbcd5e3df1911b7176",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/eval.py",
+      "origin": "pipeline/v2/eval.py",
+      "source_sha256": "356281c582fa744e3562be12d48b53cbea1b2521cd5cfb25bcfa5799c0999286",
+      "bytes": 7413,
+      "snapshot_sha256": "1f55a5eebec1c883a14cc10f6d3ab626994758f644db9cd02a0010ff86c16dc7",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/pipeline.py",
+      "origin": "pipeline/v2/pipeline.py",
+      "source_sha256": "f90406e91c436ad811fec97a9af872d367a61bae9a2a766eac73f69e75bfa7f6",
+      "bytes": 24122,
+      "snapshot_sha256": "f9202786053b69d988bc30ca2a7fdcb3d9c6b7ecdbe4e2131bb4084ad776a671",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/review.py",
+      "origin": "pipeline/v2/review.py",
+      "source_sha256": "1e3565e21eead617fce618f4dab7f76ef942986f217f750ffc283348ee0f3821",
+      "bytes": 19912,
+      "snapshot_sha256": "224dc4ecb70119a25ff9c47e412f8499020130d5b8d5ee358e0e47702da06ae0",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/v2/review_page.py",
+      "origin": "pipeline/v2/review_page.py",
+      "source_sha256": "d33db6310345ebdbdde9844dda3413bbd84b441c98e5cff758d16dac29489544",
+      "bytes": 8314,
+      "snapshot_sha256": "0018733df52d7b66dd1b511ec85cb697deac84f6f60bc92d7917dece5c76c7a2",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/pipeline/src/pipeline/schemas/bundle.schema.json",
+      "origin": "pipeline/schemas/bundle.schema.json",
+      "source_sha256": "81bb553b6a98be8f7e2a5ff1d01df31c3d647bc33c185e1177f62a952b66554c",
+      "bytes": 1707,
+      "snapshot_sha256": "81bb553b6a98be8f7e2a5ff1d01df31c3d647bc33c185e1177f62a952b66554c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/__init__.py",
+      "origin": "ego2robot/src/ego2robot/__init__.py",
+      "source_sha256": "ced8f7226410a075d9b40253853dc03069798247f26cde43937246148b5e7201",
+      "bytes": 757,
+      "snapshot_sha256": "ced8f7226410a075d9b40253853dc03069798247f26cde43937246148b5e7201",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/cli.py",
+      "origin": "ego2robot/src/ego2robot/cli.py",
+      "source_sha256": "ba53351c24a0e04845af0d5b6b673ca09fee3e37b1c7a50aa733ad8ec7714a39",
+      "bytes": 24575,
+      "snapshot_sha256": "ba53351c24a0e04845af0d5b6b673ca09fee3e37b1c7a50aa733ad8ec7714a39",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/__init__.py",
+      "origin": "ego2robot/src/ego2robot/core/__init__.py",
+      "source_sha256": "4b2d611e89568bd9cd6fdec57b24d2afeef47bae71675a2630984b42d01c8016",
+      "bytes": 196,
+      "snapshot_sha256": "4b2d611e89568bd9cd6fdec57b24d2afeef47bae71675a2630984b42d01c8016",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/artifacts.py",
+      "origin": "ego2robot/src/ego2robot/core/artifacts.py",
+      "source_sha256": "4160e4f53ef8619aea909c822757ccbeb658f8daa66ba8e066740e5da2cfc6c7",
+      "bytes": 16621,
+      "snapshot_sha256": "4160e4f53ef8619aea909c822757ccbeb658f8daa66ba8e066740e5da2cfc6c7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/capabilities.py",
+      "origin": "ego2robot/src/ego2robot/core/capabilities.py",
+      "source_sha256": "7fc920a72acba8b7159df80ee661f8bc736414e744b5de503bafb043d4607cba",
+      "bytes": 4325,
+      "snapshot_sha256": "7fc920a72acba8b7159df80ee661f8bc736414e744b5de503bafb043d4607cba",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/config.py",
+      "origin": "ego2robot/src/ego2robot/core/config.py",
+      "source_sha256": "0bbdcbb8ee31be054eef9a3f7bf21206d6f16d3c1526d0055e0180c49bc5b2a1",
+      "bytes": 26180,
+      "snapshot_sha256": "0bbdcbb8ee31be054eef9a3f7bf21206d6f16d3c1526d0055e0180c49bc5b2a1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/frames.py",
+      "origin": "ego2robot/src/ego2robot/core/frames.py",
+      "source_sha256": "b11d6545b49b264d4335e85002816f1ec2b2443ce234cef91952d0d5e4550e08",
+      "bytes": 5367,
+      "snapshot_sha256": "b11d6545b49b264d4335e85002816f1ec2b2443ce234cef91952d0d5e4550e08",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/schema.py",
+      "origin": "ego2robot/src/ego2robot/core/schema.py",
+      "source_sha256": "499083a63277a56800c1f621e1875889b44dc8b8dd9e17a8c97351c101ec3e3b",
+      "bytes": 42231,
+      "snapshot_sha256": "499083a63277a56800c1f621e1875889b44dc8b8dd9e17a8c97351c101ec3e3b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/core/transforms.py",
+      "origin": "ego2robot/src/ego2robot/core/transforms.py",
+      "source_sha256": "7bc5f40a5611b36be59ebcf45389f16212718d4fbb550e94903cc51e6febe59e",
+      "bytes": 15508,
+      "snapshot_sha256": "7bc5f40a5611b36be59ebcf45389f16212718d4fbb550e94903cc51e6febe59e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/export/__init__.py",
+      "origin": "ego2robot/src/ego2robot/export/__init__.py",
+      "source_sha256": "bd25ccb98c7f5f8720bb015ac49b777e0165208706c8b37b6f70640153a7de88",
+      "bytes": 61,
+      "snapshot_sha256": "bd25ccb98c7f5f8720bb015ac49b777e0165208706c8b37b6f70640153a7de88",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/export/robot_formats.py",
+      "origin": "ego2robot/src/ego2robot/export/robot_formats.py",
+      "source_sha256": "519250fdffd115fabca558a72e089509741c731e810170af3c6439c4a64ba9db",
+      "bytes": 41335,
+      "snapshot_sha256": "519250fdffd115fabca558a72e089509741c731e810170af3c6439c4a64ba9db",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/__init__.py",
+      "origin": "ego2robot/src/ego2robot/ingest/__init__.py",
+      "source_sha256": "20c48bc0c6ad2acb7444558b9b8ff17e09825fc773cda0ca4ab082d073c52850",
+      "bytes": 800,
+      "snapshot_sha256": "20c48bc0c6ad2acb7444558b9b8ff17e09825fc773cda0ca4ab082d073c52850",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/egodex.py",
+      "origin": "ego2robot/src/ego2robot/ingest/egodex.py",
+      "source_sha256": "d36a07b1a0c45f01b793cda484e9889ca44a6ca5369834e8dd887c2ce930c4a0",
+      "bytes": 29440,
+      "snapshot_sha256": "d36a07b1a0c45f01b793cda484e9889ca44a6ca5369834e8dd887c2ce930c4a0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/egodex_download.py",
+      "origin": "ego2robot/src/ego2robot/ingest/egodex_download.py",
+      "source_sha256": "05f14de64397858b17c21eaf39f270b326c2b0013289b156ad0067dfeccadd6c",
+      "bytes": 15663,
+      "snapshot_sha256": "05f14de64397858b17c21eaf39f270b326c2b0013289b156ad0067dfeccadd6c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/fixture.py",
+      "origin": "ego2robot/src/ego2robot/ingest/fixture.py",
+      "source_sha256": "a586826d2b1f39e29d0ca7fc214ff5b3f98c95d57051e8916a911f13fb4e89ed",
+      "bytes": 6258,
+      "snapshot_sha256": "a586826d2b1f39e29d0ca7fc214ff5b3f98c95d57051e8916a911f13fb4e89ed",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/stage.py",
+      "origin": "ego2robot/src/ego2robot/ingest/stage.py",
+      "source_sha256": "a64f7a67c2f560a980030c0fc8652319eda02b3683d131403e4d98505a7e250d",
+      "bytes": 15238,
+      "snapshot_sha256": "a64f7a67c2f560a980030c0fc8652319eda02b3683d131403e4d98505a7e250d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/ingest/video.py",
+      "origin": "ego2robot/src/ego2robot/ingest/video.py",
+      "source_sha256": "c8870ff7bb65104d5ac0637d7a504d44fea27c874d9f432aeb9d1219bcf66234",
+      "bytes": 11807,
+      "snapshot_sha256": "c8870ff7bb65104d5ac0637d7a504d44fea27c874d9f432aeb9d1219bcf66234",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/mcp_server.py",
+      "origin": "ego2robot/src/ego2robot/mcp_server.py",
+      "source_sha256": "aa698d2e40526d0b649443b3d58ac763693b91421dc5ccc1386b82b52049a41d",
+      "bytes": 2008,
+      "snapshot_sha256": "aa698d2e40526d0b649443b3d58ac763693b91421dc5ccc1386b82b52049a41d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/perception/__init__.py",
+      "origin": "ego2robot/src/ego2robot/perception/__init__.py",
+      "source_sha256": "8a0d4966d761506439f62b940741bc3ffe589b70d7533391f81c3502cbf69e80",
+      "bytes": 186,
+      "snapshot_sha256": "8a0d4966d761506439f62b940741bc3ffe589b70d7533391f81c3502cbf69e80",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/perception/hand/__init__.py",
+      "origin": "ego2robot/src/ego2robot/perception/hand/__init__.py",
+      "source_sha256": "37caac7cc111fadb4eaca3e9bff485e6cc034229af8742496c9c88ff53b2859e",
+      "bytes": 175,
+      "snapshot_sha256": "37caac7cc111fadb4eaca3e9bff485e6cc034229af8742496c9c88ff53b2859e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/perception/hand/base.py",
+      "origin": "ego2robot/src/ego2robot/perception/hand/base.py",
+      "source_sha256": "64edf7d30ce1fb06bf66334c536af006d83b271ffc13b1c2f27783622a6e60ba",
+      "bytes": 1620,
+      "snapshot_sha256": "64edf7d30ce1fb06bf66334c536af006d83b271ffc13b1c2f27783622a6e60ba",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/perception/hand/preview.py",
+      "origin": "ego2robot/src/ego2robot/perception/hand/preview.py",
+      "source_sha256": "96c5df4aae39819f1c500230e5c672d2dd1a84865478c36ffc340b97c4fadd3a",
+      "bytes": 16470,
+      "snapshot_sha256": "96c5df4aae39819f1c500230e5c672d2dd1a84865478c36ffc340b97c4fadd3a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/perception/hand/stage.py",
+      "origin": "ego2robot/src/ego2robot/perception/hand/stage.py",
+      "source_sha256": "24df97373d04a93c68e9f5b3447ef9d75e1f017856efec383c9cb9ddc0c58ff9",
+      "bytes": 19326,
+      "snapshot_sha256": "24df97373d04a93c68e9f5b3447ef9d75e1f017856efec383c9cb9ddc0c58ff9",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/pipeline/__init__.py",
+      "origin": "ego2robot/src/ego2robot/pipeline/__init__.py",
+      "source_sha256": "d7d78378ff96470cddbb0295152f009d545a987682eccaa2688efb40729e509d",
+      "bytes": 548,
+      "snapshot_sha256": "d7d78378ff96470cddbb0295152f009d545a987682eccaa2688efb40729e509d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/pipeline/registry.py",
+      "origin": "ego2robot/src/ego2robot/pipeline/registry.py",
+      "source_sha256": "88c3cc5592832c38c519cdcacd3b3c54867cc5a4af9cb8e2ce084f8237f06b5e",
+      "bytes": 5425,
+      "snapshot_sha256": "88c3cc5592832c38c519cdcacd3b3c54867cc5a4af9cb8e2ce084f8237f06b5e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/pipeline/runner.py",
+      "origin": "ego2robot/src/ego2robot/pipeline/runner.py",
+      "source_sha256": "326d8403f0b19d09a113730f033e60bf6551dbf63c8c38d6c8cc8994004a51a4",
+      "bytes": 13924,
+      "snapshot_sha256": "326d8403f0b19d09a113730f033e60bf6551dbf63c8c38d6c8cc8994004a51a4",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/pipeline/stage.py",
+      "origin": "ego2robot/src/ego2robot/pipeline/stage.py",
+      "source_sha256": "6444d801abd8fe00ea255b67b813bd5866dfae45b7b0ff87f7fe3b5c5cb0713c",
+      "bytes": 7484,
+      "snapshot_sha256": "6444d801abd8fe00ea255b67b813bd5866dfae45b7b0ff87f7fe3b5c5cb0713c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/progress_reader.py",
+      "origin": "ego2robot/src/ego2robot/progress_reader.py",
+      "source_sha256": "eb08e4d9217737a28463d6e33e1ad27b4877bdce3c4b0629098de29d92aa56c5",
+      "bytes": 12806,
+      "snapshot_sha256": "eb08e4d9217737a28463d6e33e1ad27b4877bdce3c4b0629098de29d92aa56c5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/quality/__init__.py",
+      "origin": "ego2robot/src/ego2robot/quality/__init__.py",
+      "source_sha256": "1a700a8bed23d52a7e038d845e7b23a36118a25acfbc18a989d2e60760da9135",
+      "bytes": 460,
+      "snapshot_sha256": "1a700a8bed23d52a7e038d845e7b23a36118a25acfbc18a989d2e60760da9135",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/quality/l1.py",
+      "origin": "ego2robot/src/ego2robot/quality/l1.py",
+      "source_sha256": "933fcca99cb8cf695d551bebd9c30562386369e3685bac9f3b70de6c121958d5",
+      "bytes": 10437,
+      "snapshot_sha256": "933fcca99cb8cf695d551bebd9c30562386369e3685bac9f3b70de6c121958d5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/quality/preflight.py",
+      "origin": "ego2robot/src/ego2robot/quality/preflight.py",
+      "source_sha256": "0a7dffdb41bda85944848ae703cadc33bf437c32119000a13c34b2575d33dc1b",
+      "bytes": 8144,
+      "snapshot_sha256": "0a7dffdb41bda85944848ae703cadc33bf437c32119000a13c34b2575d33dc1b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/quality/stage.py",
+      "origin": "ego2robot/src/ego2robot/quality/stage.py",
+      "source_sha256": "be635c96e1c9a0388715bbc789cc48e347c0dd68fbab885fa628f05384b3104e",
+      "bytes": 11614,
+      "snapshot_sha256": "be635c96e1c9a0388715bbc789cc48e347c0dd68fbab885fa628f05384b3104e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/__init__.py",
+      "origin": "ego2robot/src/ego2robot/retarget/__init__.py",
+      "source_sha256": "10a60e0e324ebda90b53b1d5f1f2ba0ee5f74331bc1d58a58388acf66f0b858e",
+      "bytes": 1279,
+      "snapshot_sha256": "10a60e0e324ebda90b53b1d5f1f2ba0ee5f74331bc1d58a58388acf66f0b858e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/gaps.py",
+      "origin": "ego2robot/src/ego2robot/retarget/gaps.py",
+      "source_sha256": "1c787405f94838496884cbdda52ea4e21b7c161880526718724215406d69b473",
+      "bytes": 8175,
+      "snapshot_sha256": "1c787405f94838496884cbdda52ea4e21b7c161880526718724215406d69b473",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/hand_to_gripper.py",
+      "origin": "ego2robot/src/ego2robot/retarget/hand_to_gripper.py",
+      "source_sha256": "58d67b67808fd627d5793c709085139f925080d72dfb90b64cbc9d81ab018c8f",
+      "bytes": 13786,
+      "snapshot_sha256": "58d67b67808fd627d5793c709085139f925080d72dfb90b64cbc9d81ab018c8f",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/outliers.py",
+      "origin": "ego2robot/src/ego2robot/retarget/outliers.py",
+      "source_sha256": "4dbb676b9586c52b8c862a8ccfe6cf16e4119d2fff4547621c17546953fb9dd2",
+      "bytes": 6612,
+      "snapshot_sha256": "4dbb676b9586c52b8c862a8ccfe6cf16e4119d2fff4547621c17546953fb9dd2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/preview.py",
+      "origin": "ego2robot/src/ego2robot/retarget/preview.py",
+      "source_sha256": "21b0905d9e52cd3df860c219e2756e081b3c24fde69fcacfe7685f88966f3a4d",
+      "bytes": 11558,
+      "snapshot_sha256": "21b0905d9e52cd3df860c219e2756e081b3c24fde69fcacfe7685f88966f3a4d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/smoothing.py",
+      "origin": "ego2robot/src/ego2robot/retarget/smoothing.py",
+      "source_sha256": "7e2f058f4b9472e3de7ed1bc8d7a0f77816206d16d19f6768061484d7e9e2512",
+      "bytes": 8718,
+      "snapshot_sha256": "7e2f058f4b9472e3de7ed1bc8d7a0f77816206d16d19f6768061484d7e9e2512",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/retarget/stage.py",
+      "origin": "ego2robot/src/ego2robot/retarget/stage.py",
+      "source_sha256": "b20672c4f03a2f14853efebb562cc3c0395bbc5bb18ced431dab0d2f252f9b15",
+      "bytes": 26220,
+      "snapshot_sha256": "b20672c4f03a2f14853efebb562cc3c0395bbc5bb18ced431dab0d2f252f9b15",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/__init__.py",
+      "origin": "ego2robot/src/ego2robot/robots/__init__.py",
+      "source_sha256": "9af667d2b342767efecd203428cfe8a7a1380e1c2b2bdb6673a6678a46837996",
+      "bytes": 1071,
+      "snapshot_sha256": "9af667d2b342767efecd203428cfe8a7a1380e1c2b2bdb6673a6678a46837996",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/base.py",
+      "origin": "ego2robot/src/ego2robot/robots/base.py",
+      "source_sha256": "86cf5e78b3c97e7e275fb4ec6f00316d3ee7c898dbacbd6ebb31c1029124d70d",
+      "bytes": 3132,
+      "snapshot_sha256": "86cf5e78b3c97e7e275fb4ec6f00316d3ee7c898dbacbd6ebb31c1029124d70d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/base_search.py",
+      "origin": "ego2robot/src/ego2robot/robots/base_search.py",
+      "source_sha256": "816e11fe4594181fcbf166abdb225bb0df03edd31e5dfc85fec9aa2cab3f8ebb",
+      "bytes": 18485,
+      "snapshot_sha256": "816e11fe4594181fcbf166abdb225bb0df03edd31e5dfc85fec9aa2cab3f8ebb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/factory.py",
+      "origin": "ego2robot/src/ego2robot/robots/factory.py",
+      "source_sha256": "7027853d501bb4cba784c911f8edfec5e5848b042cae615f0471dbb265f28179",
+      "bytes": 4186,
+      "snapshot_sha256": "7027853d501bb4cba784c911f8edfec5e5848b042cae615f0471dbb265f28179",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/franka/__init__.py",
+      "origin": "ego2robot/src/ego2robot/robots/franka/__init__.py",
+      "source_sha256": "3666cd0c8dc5aa29964dae60a6eb6ae312d8412315c1938bf632a301405306c2",
+      "bytes": 529,
+      "snapshot_sha256": "3666cd0c8dc5aa29964dae60a6eb6ae312d8412315c1938bf632a301405306c2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/franka/adapter.py",
+      "origin": "ego2robot/src/ego2robot/robots/franka/adapter.py",
+      "source_sha256": "df744ece961ea7ea6356e3de19528fe5a6155ef34ce108313bfdd8911f3eebee",
+      "bytes": 24030,
+      "snapshot_sha256": "df744ece961ea7ea6356e3de19528fe5a6155ef34ce108313bfdd8911f3eebee",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/ik.py",
+      "origin": "ego2robot/src/ego2robot/robots/ik.py",
+      "source_sha256": "674d1c304920a4996acffc31c0793b7de42909c7bc1b9cb1d27c59b63fad64a2",
+      "bytes": 12811,
+      "snapshot_sha256": "674d1c304920a4996acffc31c0793b7de42909c7bc1b9cb1d27c59b63fad64a2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/joint_search.py",
+      "origin": "ego2robot/src/ego2robot/robots/joint_search.py",
+      "source_sha256": "e0eeb77f66587d450b3404bdbca8a5a974e8113ae100bb67a803945f50e877b3",
+      "bytes": 16382,
+      "snapshot_sha256": "e0eeb77f66587d450b3404bdbca8a5a974e8113ae100bb67a803945f50e877b3",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/rig.py",
+      "origin": "ego2robot/src/ego2robot/robots/rig.py",
+      "source_sha256": "9d4551d62e4071981c6a218dc1a858fc5215cacdb1494e9cc5753d262704a148",
+      "bytes": 14939,
+      "snapshot_sha256": "9d4551d62e4071981c6a218dc1a858fc5215cacdb1494e9cc5753d262704a148",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/rig_stage.py",
+      "origin": "ego2robot/src/ego2robot/robots/rig_stage.py",
+      "source_sha256": "654102c537e5b5bf1b7c99d06835f2d0272650c03bbf7ab1d02c1e73f1790f30",
+      "bytes": 50497,
+      "snapshot_sha256": "654102c537e5b5bf1b7c99d06835f2d0272650c03bbf7ab1d02c1e73f1790f30",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/stage.py",
+      "origin": "ego2robot/src/ego2robot/robots/stage.py",
+      "source_sha256": "6ae751298977b24773351c7e3189a7e264713af21ccc83249071ed34e3b5a6ea",
+      "bytes": 22725,
+      "snapshot_sha256": "6ae751298977b24773351c7e3189a7e264713af21ccc83249071ed34e3b5a6ea",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/ur5e/__init__.py",
+      "origin": "ego2robot/src/ego2robot/robots/ur5e/__init__.py",
+      "source_sha256": "1f4d9beefeb8a2fa23666a290786e64da15ce1789dd5f53d26e790e30ab1a93b",
+      "bytes": 395,
+      "snapshot_sha256": "1f4d9beefeb8a2fa23666a290786e64da15ce1789dd5f53d26e790e30ab1a93b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/ur5e/adapter.py",
+      "origin": "ego2robot/src/ego2robot/robots/ur5e/adapter.py",
+      "source_sha256": "2de48b70c9e7210a4f19f0d0aaa00714871caa13d650514094f0142e3e9c7763",
+      "bytes": 25510,
+      "snapshot_sha256": "2de48b70c9e7210a4f19f0d0aaa00714871caa13d650514094f0142e3e9c7763",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/viperx300/__init__.py",
+      "origin": "ego2robot/src/ego2robot/robots/viperx300/__init__.py",
+      "source_sha256": "a0031cb04467f44db3e9df681ec8510fa6e09d2ef8a92e8d824cbfb9c7aa54f9",
+      "bytes": 599,
+      "snapshot_sha256": "a0031cb04467f44db3e9df681ec8510fa6e09d2ef8a92e8d824cbfb9c7aa54f9",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/viperx300/adapter.py",
+      "origin": "ego2robot/src/ego2robot/robots/viperx300/adapter.py",
+      "source_sha256": "4ea3f9a0cb041376d8b88ae03379bb6157e32d32fc7579f95709906eb6057bc2",
+      "bytes": 34536,
+      "snapshot_sha256": "4ea3f9a0cb041376d8b88ae03379bb6157e32d32fc7579f95709906eb6057bc2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/xarm7/__init__.py",
+      "origin": "ego2robot/src/ego2robot/robots/xarm7/__init__.py",
+      "source_sha256": "3a12df13c294af1016185b23b2b6751e526f2f3674e3bd17f1b66a18fd60effa",
+      "bytes": 424,
+      "snapshot_sha256": "3a12df13c294af1016185b23b2b6751e526f2f3674e3bd17f1b66a18fd60effa",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/robots/xarm7/adapter.py",
+      "origin": "ego2robot/src/ego2robot/robots/xarm7/adapter.py",
+      "source_sha256": "fed712bedbc4a4fde49b470f052128c33ecc406fe724823c44dde316344655e7",
+      "bytes": 33408,
+      "snapshot_sha256": "fed712bedbc4a4fde49b470f052128c33ecc406fe724823c44dde316344655e7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/tools/__init__.py",
+      "origin": "ego2robot/src/ego2robot/tools/__init__.py",
+      "source_sha256": "14e97b08d23126431621aaea571006b3b0ba174651871a2972d68914a9eac5d6",
+      "bytes": 690,
+      "snapshot_sha256": "14e97b08d23126431621aaea571006b3b0ba174651871a2972d68914a9eac5d6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/tools/cases.py",
+      "origin": "ego2robot/src/ego2robot/tools/cases.py",
+      "source_sha256": "d2658d2e23a8067fcb07e8c9d3ce1c085383ae4fb38c0cca4fb6e34ad3b243fa",
+      "bytes": 15300,
+      "snapshot_sha256": "d2658d2e23a8067fcb07e8c9d3ce1c085383ae4fb38c0cca4fb6e34ad3b243fa",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/tools/hand_synth.py",
+      "origin": "ego2robot/src/ego2robot/tools/hand_synth.py",
+      "source_sha256": "4909554155e94b89d137833d3efe646039aa08e80e9bc09db1d60a9cc447da9b",
+      "bytes": 9852,
+      "snapshot_sha256": "4909554155e94b89d137833d3efe646039aa08e80e9bc09db1d60a9cc447da9b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/tools/run_cases.py",
+      "origin": "ego2robot/src/ego2robot/tools/run_cases.py",
+      "source_sha256": "e53ca9d73d2fe5013127dc1a2d1500ac59d1793b2246d17d0370a117d9335b6b",
+      "bytes": 30900,
+      "snapshot_sha256": "e53ca9d73d2fe5013127dc1a2d1500ac59d1793b2246d17d0370a117d9335b6b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/tools/synthetic.py",
+      "origin": "ego2robot/src/ego2robot/tools/synthetic.py",
+      "source_sha256": "feb2582f19e52e86bd9b91e907d761e13d8536c834a26a86c41421e11aa8db32",
+      "bytes": 15225,
+      "snapshot_sha256": "feb2582f19e52e86bd9b91e907d761e13d8536c834a26a86c41421e11aa8db32",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/__init__.py",
+      "origin": "ego2robot/src/ego2robot/vision/__init__.py",
+      "source_sha256": "d477c33aac139daeeee4fe852a8e79fc0cc67a4dcf824dc20d7ea0309da44927",
+      "bytes": 1307,
+      "snapshot_sha256": "d477c33aac139daeeee4fe852a8e79fc0cc67a4dcf824dc20d7ea0309da44927",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/composite.py",
+      "origin": "ego2robot/src/ego2robot/vision/composite.py",
+      "source_sha256": "9a612fe5bad36ef0bf573a325017e0cbd58fd701f9023e64467cb53e7e4fcdf7",
+      "bytes": 9178,
+      "snapshot_sha256": "9a612fe5bad36ef0bf573a325017e0cbd58fd701f9023e64467cb53e7e4fcdf7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/da3_bridge.py",
+      "origin": "ego2robot/src/ego2robot/vision/da3_bridge.py",
+      "source_sha256": "03ed868421e6c291d44be61c615242bfbe559800448e75bab8ec2067387fb229",
+      "bytes": 7973,
+      "snapshot_sha256": "03ed868421e6c291d44be61c615242bfbe559800448e75bab8ec2067387fb229",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m5_bridge.py",
+      "origin": "ego2robot/src/ego2robot/vision/m5_bridge.py",
+      "source_sha256": "ae6d9325e05fd1f02695fd5b3c19b27a87eead3e4d053b3ffc9005a65a78447d",
+      "bytes": 11591,
+      "snapshot_sha256": "ae6d9325e05fd1f02695fd5b3c19b27a87eead3e4d053b3ffc9005a65a78447d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m5_contracts.py",
+      "origin": "ego2robot/src/ego2robot/vision/m5_contracts.py",
+      "source_sha256": "ae42586c66ed41b9649307012d5c54cc076d72a288e7e484c1cbc20f2f04c85e",
+      "bytes": 10477,
+      "snapshot_sha256": "ae42586c66ed41b9649307012d5c54cc076d72a288e7e484c1cbc20f2f04c85e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m5_preview.py",
+      "origin": "ego2robot/src/ego2robot/vision/m5_preview.py",
+      "source_sha256": "45482ae6d77f51e8ee5d95d9df652260d4749ed8d256d119457666239c3395ee",
+      "bytes": 11564,
+      "snapshot_sha256": "45482ae6d77f51e8ee5d95d9df652260d4749ed8d256d119457666239c3395ee",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m5_stages.py",
+      "origin": "ego2robot/src/ego2robot/vision/m5_stages.py",
+      "source_sha256": "21b997926d342d5162d29fc7a79d2d3e173d87eefffba265fe373b1cce2a7b35",
+      "bytes": 60515,
+      "snapshot_sha256": "21b997926d342d5162d29fc7a79d2d3e173d87eefffba265fe373b1cce2a7b35",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m6_contracts.py",
+      "origin": "ego2robot/src/ego2robot/vision/m6_contracts.py",
+      "source_sha256": "a704bf82c83edc49e8d2e639865b5221f387510227d66704947dcd1b0a0c8dfc",
+      "bytes": 7861,
+      "snapshot_sha256": "a704bf82c83edc49e8d2e639865b5221f387510227d66704947dcd1b0a0c8dfc",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/m6_stages.py",
+      "origin": "ego2robot/src/ego2robot/vision/m6_stages.py",
+      "source_sha256": "06fd94a9181a20373604315ca9a8d658aa9c01fd48540eec7944f0212af82a38",
+      "bytes": 37530,
+      "snapshot_sha256": "06fd94a9181a20373604315ca9a8d658aa9c01fd48540eec7944f0212af82a38",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/mask_refine.py",
+      "origin": "ego2robot/src/ego2robot/vision/mask_refine.py",
+      "source_sha256": "bc3e2fc98531a3111ac60b0c84790f1647fed75fb8420ab05b4ae00a89fed849",
+      "bytes": 12119,
+      "snapshot_sha256": "bc3e2fc98531a3111ac60b0c84790f1647fed75fb8420ab05b4ae00a89fed849",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/render.py",
+      "origin": "ego2robot/src/ego2robot/vision/render.py",
+      "source_sha256": "d893a0e55b0a16dc7ee18ffe87f213817daf410722ed606b4ebb95d8cf77ab59",
+      "bytes": 26136,
+      "snapshot_sha256": "d893a0e55b0a16dc7ee18ffe87f213817daf410722ed606b4ebb95d8cf77ab59",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/render_rig.py",
+      "origin": "ego2robot/src/ego2robot/vision/render_rig.py",
+      "source_sha256": "165eaa36d9cada2be86a80f61ff1675cbed9ef62d85c2ba449c31f78ec451d62",
+      "bytes": 6815,
+      "snapshot_sha256": "165eaa36d9cada2be86a80f61ff1675cbed9ef62d85c2ba449c31f78ec451d62",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/render_stage.py",
+      "origin": "ego2robot/src/ego2robot/vision/render_stage.py",
+      "source_sha256": "73537aee04667f2f930a5569cef70438a3879792ceb4b0f1ce3c73074796eca1",
+      "bytes": 12577,
+      "snapshot_sha256": "73537aee04667f2f930a5569cef70438a3879792ceb4b0f1ce3c73074796eca1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/vision/scene_depth.py",
+      "origin": "ego2robot/src/ego2robot/vision/scene_depth.py",
+      "source_sha256": "19a18ab3033a901e0e3031c0020f3c8cef1720c16f3a0ef11b2da363478709be",
+      "bytes": 24748,
+      "snapshot_sha256": "19a18ab3033a901e0e3031c0020f3c8cef1720c16f3a0ef11b2da363478709be",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/viz/__init__.py",
+      "origin": "ego2robot/src/ego2robot/viz/__init__.py",
+      "source_sha256": "0e81e60cb6aab435adfb723d2e9de5b8bc73a5ff1c0d94b03380586e003c0c6e",
+      "bytes": 562,
+      "snapshot_sha256": "0e81e60cb6aab435adfb723d2e9de5b8bc73a5ff1c0d94b03380586e003c0c6e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/viz/frames_3d.py",
+      "origin": "ego2robot/src/ego2robot/viz/frames_3d.py",
+      "source_sha256": "da39d99a811c3ec966defbcc67516ca90be08b757959918e57c312a3b532b484",
+      "bytes": 5065,
+      "snapshot_sha256": "da39d99a811c3ec966defbcc67516ca90be08b757959918e57c312a3b532b484",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/viz/hand_overlay.py",
+      "origin": "ego2robot/src/ego2robot/viz/hand_overlay.py",
+      "source_sha256": "4dfea17a09ac7ae033a43f13d65aa0a31a1a00aeb1ca132f02d0aa0072d8224f",
+      "bytes": 8553,
+      "snapshot_sha256": "4dfea17a09ac7ae033a43f13d65aa0a31a1a00aeb1ca132f02d0aa0072d8224f",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/src/ego2robot/viz/projection_debug.py",
+      "origin": "ego2robot/src/ego2robot/viz/projection_debug.py",
+      "source_sha256": "c7d7e91abd1628fbcc8eb11caf3981bb60367604fe63f25b29b493dcf5895a13",
+      "bytes": 22909,
+      "snapshot_sha256": "c7d7e91abd1628fbcc8eb11caf3981bb60367604fe63f25b29b493dcf5895a13",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/configs/fixtures/cases.yaml",
+      "origin": "ego2robot/configs/fixtures/cases.yaml",
+      "source_sha256": "09056616812d54c932f52cf754cbffc8406c01d9af3ad96ac9aa2cd71a83a487",
+      "bytes": 2287,
+      "snapshot_sha256": "a92368ea794cdb3ad767971586596263a199a50714133e980279bf5187618736",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/bimanual-rig.yaml",
+      "origin": "ego2robot/configs/pipeline/bimanual-rig.yaml",
+      "source_sha256": "44c0ae6f36fe0a64e392c2686489980faad2ada3b903de4f5810b968d920c54f",
+      "bytes": 3096,
+      "snapshot_sha256": "e05abece695c58c2c6036b34ca76866adaf8dca423626e51cb71c2e1cf0d803f",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/bimanual.yaml",
+      "origin": "ego2robot/configs/pipeline/bimanual.yaml",
+      "source_sha256": "60472548039b7941e9beb3ad79f87262840a15979a9040a43336b68ece9cfb0a",
+      "bytes": 2957,
+      "snapshot_sha256": "206cec4b3c096f7db5f071148d342f6044a300f075922614ddef433c9de1785c",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/m5-inpaint.yaml",
+      "origin": "ego2robot/configs/pipeline/m5-inpaint.yaml",
+      "source_sha256": "314a295a3395abf5ac0e5c6a394f5a4fe44bd5a3812ea8494f80b37ff127b4cc",
+      "bytes": 2196,
+      "snapshot_sha256": "3c3bc1b1b8f3be24b3777d1946e53ee90cfdbffe323256d1335f5307c7fc0145",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/m5.yaml",
+      "origin": "ego2robot/configs/pipeline/m5.yaml",
+      "source_sha256": "cea8fbe214d1603c1752b83bff18502c0713840f7d38c23f310148f7900bfb5e",
+      "bytes": 2649,
+      "snapshot_sha256": "7a02dda64559e0342fd6b3939ac531b70db96428f4e160fe16200165e345ebfe",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/m6.yaml",
+      "origin": "ego2robot/configs/pipeline/m6.yaml",
+      "source_sha256": "766c55bbad84cbb093cc9647b299c95b9be30b7de5ead548d5aa9c9748d9839d",
+      "bytes": 2635,
+      "snapshot_sha256": "81dcb0d6b661ccb21da6f572d8b635864a94a202ae47a2b72160bdcc657e9836",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/mvp.yaml",
+      "origin": "ego2robot/configs/pipeline/mvp.yaml",
+      "source_sha256": "17cdf3de501f0c93e94f5e30fa5790b81aab8722c41b2958ccdbe547b58b5369",
+      "bytes": 4893,
+      "snapshot_sha256": "17cdf3de501f0c93e94f5e30fa5790b81aab8722c41b2958ccdbe547b58b5369",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/repro.yaml",
+      "origin": "ego2robot/configs/pipeline/repro.yaml",
+      "source_sha256": "89d0812c0ee9b64766ae6d3e70e4f41c9e478c16b96dd838c8caf87f6b2d74a1",
+      "bytes": 2390,
+      "snapshot_sha256": "99d7886871e26ff8b266e2cf33c6f85eb3101b069ec698a0b103fbd7fec32555",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/pipeline/vision-m5-m6.yaml",
+      "origin": "ego2robot/configs/pipeline/vision-m5-m6.yaml",
+      "source_sha256": "e2416f69b4a0734ba9fd5a4afdbc34fd63ee8d56b985640305ddf5e827b986c5",
+      "bytes": 1814,
+      "snapshot_sha256": "661b85652d30dd68ae5f8d759f918fac60254a8030c23e476f06002a242e7a57",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/quality/repro_v1.yaml",
+      "origin": "ego2robot/configs/quality/repro_v1.yaml",
+      "source_sha256": "50fa5238d0f0c7e386a38309512cc53d3a909f06e700e755bbd417ee945ba9bc",
+      "bytes": 1137,
+      "snapshot_sha256": "4699ef4555ff493a5de2fc2d612f3ed51174f555cf00299bd44b44b446e4abab",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/robot/franka_panda.yaml",
+      "origin": "ego2robot/configs/robot/franka_panda.yaml",
+      "source_sha256": "c5d57b5aebb413ba180c7ad734dbbf33283201f2a1f06902abb2a64975234b2a",
+      "bytes": 2126,
+      "snapshot_sha256": "b6951bf13a77c604e383fe14b2d3e7030a22f724cbdd283d4ae975532f964da0",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/robot/ur5e.yaml",
+      "origin": "ego2robot/configs/robot/ur5e.yaml",
+      "source_sha256": "ec76882fb6bfa006f5d31610f293e2dbfb93ac5e57c47868420023c06d3c4dbe",
+      "bytes": 1127,
+      "snapshot_sha256": "51bb6e93682badc071c954cba94d49b08d353b8444711805fdd260c82da9d714",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/robot/viperx300.yaml",
+      "origin": "ego2robot/configs/robot/viperx300.yaml",
+      "source_sha256": "e1cc3e4014bfcefec3aea25021a15d9ed59fcb290a37092082e36adb6eb6fb78",
+      "bytes": 1543,
+      "snapshot_sha256": "c843beac10207ca03202497a34bee396d6f445a3908b3b86799de556e64c5dce",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/robot/xarm7.yaml",
+      "origin": "ego2robot/configs/robot/xarm7.yaml",
+      "source_sha256": "d1e7ef5474213cf28c9bfbb7612635e61ac1cf690e4a28a1b74a8f9da6f84adb",
+      "bytes": 1610,
+      "snapshot_sha256": "360b41c9cec41361a2285347f6c97dbef92dfc69f40a86779355541e59cd0e62",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/trials/morphology-coarse-grid.yaml",
+      "origin": "ego2robot/configs/trials/morphology-coarse-grid.yaml",
+      "source_sha256": "01f7450c2722ec6c870cfeb75685aa28e1ed34251189b8367b270be870124daa",
+      "bytes": 456,
+      "snapshot_sha256": "138acbf0b9a9e58d522bd1ab912411f430e0c68a3125c7f8dc3aa5d6ff1f6339",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/configs/trials/xarm7-expanded-grid.yaml",
+      "origin": "ego2robot/configs/trials/xarm7-expanded-grid.yaml",
+      "source_sha256": "94f743a4750db07d6de63abf548cfd2df348c6e606b564f8703be6f37039f2d6",
+      "bytes": 440,
+      "snapshot_sha256": "fcb81bf3235420fbbe15cdaae2afda7d90d9d75aa0a9945825cb6240ee6eaaf3",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/finger_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/finger_0.obj",
+      "source_sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "bytes": 87872,
+      "snapshot_sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/finger_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/finger_1.obj",
+      "source_sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "bytes": 64651,
+      "snapshot_sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand.stl",
+      "source_sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "bytes": 10084,
+      "snapshot_sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand_0.obj",
+      "source_sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "bytes": 9091,
+      "snapshot_sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand_1.obj",
+      "source_sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "bytes": 121863,
+      "snapshot_sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand_2.obj",
+      "source_sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "bytes": 596001,
+      "snapshot_sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand_3.obj",
+      "source_sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "bytes": 902145,
+      "snapshot_sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/hand_4.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/hand_4.obj",
+      "source_sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "bytes": 151988,
+      "snapshot_sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0.stl",
+      "source_sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "bytes": 10084,
+      "snapshot_sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_0.obj",
+      "source_sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+      "bytes": 296497,
+      "snapshot_sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_1.obj",
+      "source_sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+      "bytes": 103978,
+      "snapshot_sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_10.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_10.obj",
+      "source_sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+      "bytes": 343308,
+      "snapshot_sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_11.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_11.obj",
+      "source_sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+      "bytes": 22295,
+      "snapshot_sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_2.obj",
+      "source_sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+      "bytes": 590892,
+      "snapshot_sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_3.obj",
+      "source_sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+      "bytes": 47588,
+      "snapshot_sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_4.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_4.obj",
+      "source_sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+      "bytes": 211200,
+      "snapshot_sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_5.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_5.obj",
+      "source_sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+      "bytes": 17023,
+      "snapshot_sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_7.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_7.obj",
+      "source_sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+      "bytes": 30699,
+      "snapshot_sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_8.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_8.obj",
+      "source_sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+      "bytes": 3263194,
+      "snapshot_sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link0_9.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link0_9.obj",
+      "source_sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+      "bytes": 105629,
+      "snapshot_sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link1.obj",
+      "source_sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+      "bytes": 3274995,
+      "snapshot_sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link1.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link1.stl",
+      "source_sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "bytes": 15084,
+      "snapshot_sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link2.obj",
+      "source_sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+      "bytes": 3295608,
+      "snapshot_sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link2.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link2.stl",
+      "source_sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "bytes": 15084,
+      "snapshot_sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link3.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link3.stl",
+      "source_sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "bytes": 15084,
+      "snapshot_sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link3_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link3_0.obj",
+      "source_sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+      "bytes": 3046804,
+      "snapshot_sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link3_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link3_1.obj",
+      "source_sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+      "bytes": 65260,
+      "snapshot_sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link3_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link3_2.obj",
+      "source_sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+      "bytes": 83591,
+      "snapshot_sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link3_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link3_3.obj",
+      "source_sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+      "bytes": 457684,
+      "snapshot_sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link4.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link4.stl",
+      "source_sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "bytes": 15084,
+      "snapshot_sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link4_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link4_0.obj",
+      "source_sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+      "bytes": 83486,
+      "snapshot_sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link4_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link4_1.obj",
+      "source_sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+      "bytes": 3148001,
+      "snapshot_sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link4_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link4_2.obj",
+      "source_sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+      "bytes": 455522,
+      "snapshot_sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link4_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link4_3.obj",
+      "source_sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+      "bytes": 67497,
+      "snapshot_sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_0.obj",
+      "source_sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+      "bytes": 824158,
+      "snapshot_sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_1.obj",
+      "source_sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+      "bytes": 63174,
+      "snapshot_sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_2.obj",
+      "source_sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+      "bytes": 3856621,
+      "snapshot_sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_0.obj",
+      "source_sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+      "bytes": 3861,
+      "snapshot_sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_1.obj",
+      "source_sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+      "bytes": 2412,
+      "snapshot_sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link5_collision_2.obj",
+      "source_sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+      "bytes": 3786,
+      "snapshot_sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6.stl",
+      "source_sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "bytes": 10084,
+      "snapshot_sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_0.obj",
+      "source_sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+      "bytes": 157563,
+      "snapshot_sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_1.obj",
+      "source_sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+      "bytes": 27106,
+      "snapshot_sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_10.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_10.obj",
+      "source_sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+      "bytes": 368502,
+      "snapshot_sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_11.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_11.obj",
+      "source_sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+      "bytes": 32653,
+      "snapshot_sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_12.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_12.obj",
+      "source_sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+      "bytes": 3894,
+      "snapshot_sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_13.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_13.obj",
+      "source_sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+      "bytes": 3798,
+      "snapshot_sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_14.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_14.obj",
+      "source_sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+      "bytes": 444469,
+      "snapshot_sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_15.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_15.obj",
+      "source_sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+      "bytes": 668552,
+      "snapshot_sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_16.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_16.obj",
+      "source_sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+      "bytes": 3675358,
+      "snapshot_sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_2.obj",
+      "source_sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+      "bytes": 9916,
+      "snapshot_sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_3.obj",
+      "source_sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+      "bytes": 11943,
+      "snapshot_sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_4.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_4.obj",
+      "source_sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+      "bytes": 13846,
+      "snapshot_sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_5.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_5.obj",
+      "source_sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+      "bytes": 11841,
+      "snapshot_sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_6.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_6.obj",
+      "source_sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+      "bytes": 12597,
+      "snapshot_sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_7.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_7.obj",
+      "source_sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+      "bytes": 4382,
+      "snapshot_sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_8.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_8.obj",
+      "source_sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+      "bytes": 9131,
+      "snapshot_sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link6_9.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link6_9.obj",
+      "source_sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+      "bytes": 17616,
+      "snapshot_sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7.stl",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7.stl",
+      "source_sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "bytes": 10084,
+      "snapshot_sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_0.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_0.obj",
+      "source_sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+      "bytes": 1362355,
+      "snapshot_sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_1.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_1.obj",
+      "source_sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+      "bytes": 121358,
+      "snapshot_sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_2.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_2.obj",
+      "source_sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+      "bytes": 208907,
+      "snapshot_sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_3.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_3.obj",
+      "source_sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+      "bytes": 123684,
+      "snapshot_sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_4.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_4.obj",
+      "source_sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+      "bytes": 85732,
+      "snapshot_sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_5.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_5.obj",
+      "source_sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+      "bytes": 226402,
+      "snapshot_sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_6.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_6.obj",
+      "source_sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+      "bytes": 99900,
+      "snapshot_sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/assets/link7_7.obj",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/assets/link7_7.obj",
+      "source_sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+      "bytes": 792162,
+      "snapshot_sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/CHANGELOG.md",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/CHANGELOG.md",
+      "source_sha256": "164a6ec704aa1714b1311f8b1538e20b4223b6ef08b7d3cb03edc26192892f67",
+      "bytes": 235,
+      "snapshot_sha256": "164a6ec704aa1714b1311f8b1538e20b4223b6ef08b7d3cb03edc26192892f67",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/hand.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/hand.xml",
+      "source_sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "bytes": 4547,
+      "snapshot_sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/LICENSE",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/LICENSE",
+      "source_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173,
+      "snapshot_sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/mjx_hand.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/mjx_hand.xml",
+      "source_sha256": "cf1d16467d4bd5c69f77cdcc5af2e7e1ad957416661f20d3c4029b73622b4068",
+      "bytes": 4222,
+      "snapshot_sha256": "cf1d16467d4bd5c69f77cdcc5af2e7e1ad957416661f20d3c4029b73622b4068",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/mjx_panda.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/mjx_panda.xml",
+      "source_sha256": "8c0f15b755f686a09f04a2cae4afa3b8444d61d3318ea36cee87cc8bb98f9098",
+      "bytes": 14387,
+      "snapshot_sha256": "8c0f15b755f686a09f04a2cae4afa3b8444d61d3318ea36cee87cc8bb98f9098",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/mjx_panda_nohand.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/mjx_panda_nohand.xml",
+      "source_sha256": "92a6ff0be23a90f3a5888e57067f0ecad1b2bda95c58aa30c4284750da97d075",
+      "bytes": 10468,
+      "snapshot_sha256": "92a6ff0be23a90f3a5888e57067f0ecad1b2bda95c58aa30c4284750da97d075",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/mjx_scene.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/mjx_scene.xml",
+      "source_sha256": "7877363e91409da51973cc042209b34257354c17c8e7b4eccde8353e88398af7",
+      "bytes": 1163,
+      "snapshot_sha256": "7877363e91409da51973cc042209b34257354c17c8e7b4eccde8353e88398af7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/mjx_single_cube.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/mjx_single_cube.xml",
+      "source_sha256": "333997ddcb065ff94871247fb2b96e1847119549bfba7a6db645fdb6cdc5199b",
+      "bytes": 1180,
+      "snapshot_sha256": "333997ddcb065ff94871247fb2b96e1847119549bfba7a6db645fdb6cdc5199b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/panda.png",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/panda.png",
+      "source_sha256": "d6ad5fcfc60237f0f006cf22d6e0b70febb559f609d915cd4316e9f1ad383c2d",
+      "bytes": 2192427,
+      "snapshot_sha256": "d6ad5fcfc60237f0f006cf22d6e0b70febb559f609d915cd4316e9f1ad383c2d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/panda.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/panda.xml",
+      "source_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+      "bytes": 14438,
+      "snapshot_sha256": "96ad67da03710f17f798c9478fd9e9efdf24a3bf8359f05e456dd9fb158ea273",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/panda_nohand.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/panda_nohand.xml",
+      "source_sha256": "e7090a5e2384b18a223ef532d98bf914f7f9a6b74dc8bc9f74c8291201074071",
+      "bytes": 11246,
+      "snapshot_sha256": "e7090a5e2384b18a223ef532d98bf914f7f9a6b74dc8bc9f74c8291201074071",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/README.md",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/README.md",
+      "source_sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c",
+      "bytes": 2908,
+      "snapshot_sha256": "e12684556d0154bdf2a9e77e7009ed680cd06ca89904f9e6303050f9fe59300c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/franka_emika_panda/scene.xml",
+      "origin": "ego2robot/assets/mjcf/franka_emika_panda/scene.xml",
+      "source_sha256": "4b08c2e5108f0ed67fa689e096e58850210130c3e6ef889b1e22822d369fd8c3",
+      "bytes": 819,
+      "snapshot_sha256": "4b08c2e5108f0ed67fa689e096e58850210130c3e6ef889b1e22822d369fd8c3",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/interbotix_black.png",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/interbotix_black.png",
+      "source_sha256": "4cd224156bbaab1ddf1b92b90d46c54835a8b41f61bc258b2f216c2618e062cf",
+      "bytes": 1994,
+      "snapshot_sha256": "4cd224156bbaab1ddf1b92b90d46c54835a8b41f61bc258b2f216c2618e062cf",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_10_gripper_finger.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_10_gripper_finger.stl",
+      "source_sha256": "a4baacd9a64df1be60ea5e98f50f3c660e1b7a1fe9684aace6004c5058c09483",
+      "bytes": 42884,
+      "snapshot_sha256": "a4baacd9a64df1be60ea5e98f50f3c660e1b7a1fe9684aace6004c5058c09483",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_1_base.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_1_base.stl",
+      "source_sha256": "d100cafe656671ca8fde98fb6a4cf2d1b746995c51c61c25ad9ea2715635d146",
+      "bytes": 99984,
+      "snapshot_sha256": "d100cafe656671ca8fde98fb6a4cf2d1b746995c51c61c25ad9ea2715635d146",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_2_shoulder.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_2_shoulder.stl",
+      "source_sha256": "139745a74055cb0b23430bb5bc032bf68cf7bea5e4975c8f4c04107ae005f7f0",
+      "bytes": 63884,
+      "snapshot_sha256": "139745a74055cb0b23430bb5bc032bf68cf7bea5e4975c8f4c04107ae005f7f0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_3_upper_arm.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_3_upper_arm.stl",
+      "source_sha256": "900f236320dd3d500870c5fde763b2d47502d51e043a5c377875e70237108729",
+      "bytes": 102984,
+      "snapshot_sha256": "900f236320dd3d500870c5fde763b2d47502d51e043a5c377875e70237108729",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_4_upper_forearm.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_4_upper_forearm.stl",
+      "source_sha256": "4104fc54bbfb8a9b533029f1e7e3ade3d54d638372b3195daa0c98f57e0295b5",
+      "bytes": 49584,
+      "snapshot_sha256": "4104fc54bbfb8a9b533029f1e7e3ade3d54d638372b3195daa0c98f57e0295b5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_5_lower_forearm.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_5_lower_forearm.stl",
+      "source_sha256": "66814e27fa728056416e25e02e89eb7d34c51d51c51e7c3df873829037ddc6b8",
+      "bytes": 99884,
+      "snapshot_sha256": "66814e27fa728056416e25e02e89eb7d34c51d51c51e7c3df873829037ddc6b8",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_6_wrist.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_6_wrist.stl",
+      "source_sha256": "90eb145c85627968c3776ae6de23ccff7e112c9dd713c46bc9acdfdaa859a048",
+      "bytes": 70784,
+      "snapshot_sha256": "90eb145c85627968c3776ae6de23ccff7e112c9dd713c46bc9acdfdaa859a048",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_7_gripper.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_7_gripper.stl",
+      "source_sha256": "786c1077bfd226f14219581b11d5f19464ca95b17132e0bb7532503568f5af90",
+      "bytes": 450084,
+      "snapshot_sha256": "786c1077bfd226f14219581b11d5f19464ca95b17132e0bb7532503568f5af90",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_8_gripper_prop.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_8_gripper_prop.stl",
+      "source_sha256": "d1275a93fe2157c83dbc095617fb7e672888bdd48ec070a35ef4ab9ebd9755b0",
+      "bytes": 31684,
+      "snapshot_sha256": "d1275a93fe2157c83dbc095617fb7e672888bdd48ec070a35ef4ab9ebd9755b0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_9_gripper_bar.stl",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/assets/vx300s_9_gripper_bar.stl",
+      "source_sha256": "a4de62c9a2ed2c78433010e4c05530a1254b1774a7651967f406120c9bf8973e",
+      "bytes": 379484,
+      "snapshot_sha256": "a4de62c9a2ed2c78433010e4c05530a1254b1774a7651967f406120c9bf8973e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/CHANGELOG.md",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/CHANGELOG.md",
+      "source_sha256": "4810ebd35fa97f48bdc2b45572660f4dcb87e9ac1ca7a7c52b9e9897ae44bcc0",
+      "bytes": 154,
+      "snapshot_sha256": "4810ebd35fa97f48bdc2b45572660f4dcb87e9ac1ca7a7c52b9e9897ae44bcc0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/LICENSE",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/LICENSE",
+      "source_sha256": "a6f1bde1043b461fa45e6a89c293c53108e592c7b019685ec4d4ac05842fcfbe",
+      "bytes": 1529,
+      "snapshot_sha256": "a6f1bde1043b461fa45e6a89c293c53108e592c7b019685ec4d4ac05842fcfbe",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/PROVENANCE.json",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/PROVENANCE.json",
+      "source_sha256": "5b9ce7bc4b1867dc9f9bcc369f69bc7b826aefeca4106417a00c255c036f2916",
+      "bytes": 3798,
+      "snapshot_sha256": "5b9ce7bc4b1867dc9f9bcc369f69bc7b826aefeca4106417a00c255c036f2916",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/README.md",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/README.md",
+      "source_sha256": "4ca5ae5a6d2f94deb332b7e9488de5a1068146d538924cdca8207886dc192c85",
+      "bytes": 1862,
+      "snapshot_sha256": "4ca5ae5a6d2f94deb332b7e9488de5a1068146d538924cdca8207886dc192c85",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/scene.xml",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/scene.xml",
+      "source_sha256": "baa34e7a9213d6092ad9ca4335fac092317d024a10c03b938bc7a88f8a1cebbf",
+      "bytes": 842,
+      "snapshot_sha256": "baa34e7a9213d6092ad9ca4335fac092317d024a10c03b938bc7a88f8a1cebbf",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/vx300s.png",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/vx300s.png",
+      "source_sha256": "ca4633e91f70257b3f5926edbb6fc2304b5e051d2d50872b8d430dcdcd949b70",
+      "bytes": 1346444,
+      "snapshot_sha256": "ca4633e91f70257b3f5926edbb6fc2304b5e051d2d50872b8d430dcdcd949b70",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/trossen_vx300s/vx300s.xml",
+      "origin": "ego2robot/assets/mjcf/trossen_vx300s/vx300s.xml",
+      "source_sha256": "da7b50487de4d00331b20b298abd48103a05dbc33da90f07d3b0bc8ed17b8521",
+      "bytes": 12361,
+      "snapshot_sha256": "da7b50487de4d00331b20b298abd48103a05dbc33da90f07d3b0bc8ed17b8521",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/base_link.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/base_link.stl",
+      "source_sha256": "cdaa4cff22f7c9cff05c6a8ed32f94fd2b11a69d37dd97a159ccee2d8dd32f13",
+      "bytes": 1211434,
+      "snapshot_sha256": "cdaa4cff22f7c9cff05c6a8ed32f94fd2b11a69d37dd97a159ccee2d8dd32f13",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/end_tool.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/end_tool.stl",
+      "source_sha256": "e06112781cdd615b7df536569f50addb445a6f4b4acced6d53b0742018b6c768",
+      "bytes": 13084,
+      "snapshot_sha256": "e06112781cdd615b7df536569f50addb445a6f4b4acced6d53b0742018b6c768",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/left_finger.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/left_finger.stl",
+      "source_sha256": "a44756eb72f9c214cb37e61dc209cd7073fdff3e4271a7423476ef6fd090d2d4",
+      "bytes": 242684,
+      "snapshot_sha256": "a44756eb72f9c214cb37e61dc209cd7073fdff3e4271a7423476ef6fd090d2d4",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/left_inner_knuckle.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/left_inner_knuckle.stl",
+      "source_sha256": "e8e48692ad26837bb3d6a97582c89784d09948fc09bfe4e5a59017859ff04dac",
+      "bytes": 366284,
+      "snapshot_sha256": "e8e48692ad26837bb3d6a97582c89784d09948fc09bfe4e5a59017859ff04dac",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/left_outer_knuckle.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/left_outer_knuckle.stl",
+      "source_sha256": "501665812b08d67e764390db781e839adc6896a9540301d60adf606f57648921",
+      "bytes": 22284,
+      "snapshot_sha256": "501665812b08d67e764390db781e839adc6896a9540301d60adf606f57648921",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link1.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link1.stl",
+      "source_sha256": "34b541122df84d2ef5fcb91b715eb19659dc15ad8d44a191dde481f780265636",
+      "bytes": 184184,
+      "snapshot_sha256": "34b541122df84d2ef5fcb91b715eb19659dc15ad8d44a191dde481f780265636",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link2.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link2.stl",
+      "source_sha256": "61e641cd47c169ecef779683332e00e4914db729bf02dfb61bfbe69351827455",
+      "bytes": 225584,
+      "snapshot_sha256": "61e641cd47c169ecef779683332e00e4914db729bf02dfb61bfbe69351827455",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link3.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link3.stl",
+      "source_sha256": "9e2798e7946dd70046c95455d5ba96392d0b54a6069caba91dc4ca66e1379b42",
+      "bytes": 237084,
+      "snapshot_sha256": "9e2798e7946dd70046c95455d5ba96392d0b54a6069caba91dc4ca66e1379b42",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link4.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link4.stl",
+      "source_sha256": "c757fee95f873191a0633c355c07a360032960771cabbd7593a6cdb0f1ffb089",
+      "bytes": 243684,
+      "snapshot_sha256": "c757fee95f873191a0633c355c07a360032960771cabbd7593a6cdb0f1ffb089",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link5.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link5.stl",
+      "source_sha256": "715ad5787c5dab57589937fd47289882707b5e1eb997e340d567785b02f4ec90",
+      "bytes": 229084,
+      "snapshot_sha256": "715ad5787c5dab57589937fd47289882707b5e1eb997e340d567785b02f4ec90",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link6.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link6.stl",
+      "source_sha256": "85b320aa420497827223d16d492bba8de091173374e361396fc7a5dad7bdb0cb",
+      "bytes": 399384,
+      "snapshot_sha256": "85b320aa420497827223d16d492bba8de091173374e361396fc7a5dad7bdb0cb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link7.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link7.stl",
+      "source_sha256": "97115d848fbf802cb770cd9be639ae2af993103b9d9bbb0c50c943c738a36f18",
+      "bytes": 231684,
+      "snapshot_sha256": "97115d848fbf802cb770cd9be639ae2af993103b9d9bbb0c50c943c738a36f18",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/link_base.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/link_base.stl",
+      "source_sha256": "cf52275a913a0977595f5d12373f06583513e26fe18b8cf2827c74da94a4f0be",
+      "bytes": 304784,
+      "snapshot_sha256": "cf52275a913a0977595f5d12373f06583513e26fe18b8cf2827c74da94a4f0be",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/right_finger.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/right_finger.stl",
+      "source_sha256": "c5dee87c7f37baf554b8456ebfe0b3e8ed0b22b8938bd1add6505c2ad6d32c7d",
+      "bytes": 242684,
+      "snapshot_sha256": "c5dee87c7f37baf554b8456ebfe0b3e8ed0b22b8938bd1add6505c2ad6d32c7d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/right_inner_knuckle.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/right_inner_knuckle.stl",
+      "source_sha256": "b41dd2c2c550281bf78d7cc6fa117b14786700e5c453560a0cb5fd6dfa0ffb3e",
+      "bytes": 366284,
+      "snapshot_sha256": "b41dd2c2c550281bf78d7cc6fa117b14786700e5c453560a0cb5fd6dfa0ffb3e",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/assets/right_outer_knuckle.stl",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/assets/right_outer_knuckle.stl",
+      "source_sha256": "75ca1107d0a42a0f03802a9a49cab48419b31851ee8935f8f1ca06be1c1c91e8",
+      "bytes": 22284,
+      "snapshot_sha256": "75ca1107d0a42a0f03802a9a49cab48419b31851ee8935f8f1ca06be1c1c91e8",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/CHANGELOG.md",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/CHANGELOG.md",
+      "source_sha256": "64ba84ac61611a36300af7a08e0c93434796f122aaa124475bb921ff89b80307",
+      "bytes": 362,
+      "snapshot_sha256": "64ba84ac61611a36300af7a08e0c93434796f122aaa124475bb921ff89b80307",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/hand.xml",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/hand.xml",
+      "source_sha256": "9db4f73920ebd39910a74c099dd074c91f53dbdb42299d8031152baef0fe99e6",
+      "bytes": 6100,
+      "snapshot_sha256": "9db4f73920ebd39910a74c099dd074c91f53dbdb42299d8031152baef0fe99e6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/LICENSE",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/LICENSE",
+      "source_sha256": "85bef011d6a7f1783593da6ca68ff29ab455610503135a2d6426015d9a9edad6",
+      "bytes": 1549,
+      "snapshot_sha256": "85bef011d6a7f1783593da6ca68ff29ab455610503135a2d6426015d9a9edad6",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/PROVENANCE.md",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/PROVENANCE.md",
+      "source_sha256": "58bdb945b2331a7e0d5a5f4a5387c9df525d72d23075c893143a4b51b99b2b18",
+      "bytes": 574,
+      "snapshot_sha256": "58bdb945b2331a7e0d5a5f4a5387c9df525d72d23075c893143a4b51b99b2b18",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/README.md",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/README.md",
+      "source_sha256": "ccccdb6935ff94f884f1bce42e664b2321cdb2ddd04e377f2bf8ab49e7bd9e7a",
+      "bytes": 1150,
+      "snapshot_sha256": "ccccdb6935ff94f884f1bce42e664b2321cdb2ddd04e377f2bf8ab49e7bd9e7a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/scene.xml",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/scene.xml",
+      "source_sha256": "aa9df2cb2c5a64f52d616d0bb37236b3662563fcabaeb92dfbea04ebb66da5d2",
+      "bytes": 913,
+      "snapshot_sha256": "aa9df2cb2c5a64f52d616d0bb37236b3662563fcabaeb92dfbea04ebb66da5d2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/xarm7.png",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/xarm7.png",
+      "source_sha256": "636e9e7a4396b54580231399dd64bb35d817814599eb160cede5886c63516228",
+      "bytes": 1692813,
+      "snapshot_sha256": "636e9e7a4396b54580231399dd64bb35d817814599eb160cede5886c63516228",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/xarm7.xml",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/xarm7.xml",
+      "source_sha256": "a1a25878ef5aa50aec270cfd13e5e4b2e400cde7560d3344c06ea24c0521c9bd",
+      "bytes": 10886,
+      "snapshot_sha256": "a1a25878ef5aa50aec270cfd13e5e4b2e400cde7560d3344c06ea24c0521c9bd",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/ufactory_xarm7/xarm7_nohand.xml",
+      "origin": "ego2robot/assets/mjcf/ufactory_xarm7/xarm7_nohand.xml",
+      "source_sha256": "0de4375f440e070786a87b8bbecef040b115430b0d05d4d07308127c5b3ca7c5",
+      "bytes": 4862,
+      "snapshot_sha256": "0de4375f440e070786a87b8bbecef040b115430b0d05d4d07308127c5b3ca7c5",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/base_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/base_0.obj",
+      "source_sha256": "31813dba1e76f589f60983fdec876baea14a222aab77684c7e264ceb1d90ef58",
+      "bytes": 571849,
+      "snapshot_sha256": "31813dba1e76f589f60983fdec876baea14a222aab77684c7e264ceb1d90ef58",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/base_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/base_1.obj",
+      "source_sha256": "4c35361fc0c0aad973c75542ccededdac559b4bbaf931e99e654fe86de22af67",
+      "bytes": 656061,
+      "snapshot_sha256": "4c35361fc0c0aad973c75542ccededdac559b4bbaf931e99e654fe86de22af67",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_0.obj",
+      "source_sha256": "088b9fc0f5564883126a854b4236c96429f2ae819307729b2d1550e4dffa530a",
+      "bytes": 1737168,
+      "snapshot_sha256": "088b9fc0f5564883126a854b4236c96429f2ae819307729b2d1550e4dffa530a",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_1.obj",
+      "source_sha256": "5248ac9e6551e3df5bb4b78b86303cd0361f3c39886a1dfb9dfc8cbd15199acb",
+      "bytes": 78361,
+      "snapshot_sha256": "5248ac9e6551e3df5bb4b78b86303cd0361f3c39886a1dfb9dfc8cbd15199acb",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_2.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_2.obj",
+      "source_sha256": "f84f2e0c905130a56923366edeece3d96df6b59ca331dd20dc9263bcca253989",
+      "bytes": 958136,
+      "snapshot_sha256": "f84f2e0c905130a56923366edeece3d96df6b59ca331dd20dc9263bcca253989",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_3.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/forearm_3.obj",
+      "source_sha256": "7c6597ecc0376c0411cc8d4c3b72a5e325a4ea0131b7b5707d82c0247b02b532",
+      "bytes": 1125736,
+      "snapshot_sha256": "7c6597ecc0376c0411cc8d4c3b72a5e325a4ea0131b7b5707d82c0247b02b532",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_0.obj",
+      "source_sha256": "cce0c714272216f5e33bc5eac5a001a1819a97bb2ff603c0e0f98ed8d71f2d9d",
+      "bytes": 3027503,
+      "snapshot_sha256": "cce0c714272216f5e33bc5eac5a001a1819a97bb2ff603c0e0f98ed8d71f2d9d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_1.obj",
+      "source_sha256": "346ecbecd286fef5aee63c4a3f144f6c9ef1660d66d9971407bbce809de30a84",
+      "bytes": 585322,
+      "snapshot_sha256": "346ecbecd286fef5aee63c4a3f144f6c9ef1660d66d9971407bbce809de30a84",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_2.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/shoulder_2.obj",
+      "source_sha256": "5112439815f9c0b2c4b58e339079308395e41ee5f1cc4d17fe8958cf0c273391",
+      "bytes": 2506217,
+      "snapshot_sha256": "5112439815f9c0b2c4b58e339079308395e41ee5f1cc4d17fe8958cf0c273391",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_0.obj",
+      "source_sha256": "6231d5268a61753f465a497cb8fcb819aa53cc7beb9eb2e12beac621aa1b62c2",
+      "bytes": 160594,
+      "snapshot_sha256": "6231d5268a61753f465a497cb8fcb819aa53cc7beb9eb2e12beac621aa1b62c2",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_1.obj",
+      "source_sha256": "114169def8024a4c86b6fa7038f6d6d950e98220aa97f1b15653d2e5de6cdb50",
+      "bytes": 1119875,
+      "snapshot_sha256": "114169def8024a4c86b6fa7038f6d6d950e98220aa97f1b15653d2e5de6cdb50",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_2.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_2.obj",
+      "source_sha256": "4bcd073af772f8a346927376f6545228d14a5acd2a0e06e90a293da616c28b1d",
+      "bytes": 3776924,
+      "snapshot_sha256": "4bcd073af772f8a346927376f6545228d14a5acd2a0e06e90a293da616c28b1d",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_3.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/upperarm_3.obj",
+      "source_sha256": "0b8112783ec5f2c761ee78cf09594a4bc0048221d9c757a58dc553bc5372d7f7",
+      "bytes": 5490747,
+      "snapshot_sha256": "0b8112783ec5f2c761ee78cf09594a4bc0048221d9c757a58dc553bc5372d7f7",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_0.obj",
+      "source_sha256": "f56c21c3efafd47133cba86e4574172a64d2b28b4c3f185c3e6392ba4f82a393",
+      "bytes": 286632,
+      "snapshot_sha256": "f56c21c3efafd47133cba86e4574172a64d2b28b4c3f185c3e6392ba4f82a393",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_1.obj",
+      "source_sha256": "ad1f59130d2d5c9880f00ec851856db9414eae61a9bd68dbfec23d63fb7bae00",
+      "bytes": 2537180,
+      "snapshot_sha256": "ad1f59130d2d5c9880f00ec851856db9414eae61a9bd68dbfec23d63fb7bae00",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_2.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist1_2.obj",
+      "source_sha256": "4e08b115d12c2b530352ca764dfb005c013fb6b9339411429d2fba23073eed4c",
+      "bytes": 1702598,
+      "snapshot_sha256": "4e08b115d12c2b530352ca764dfb005c013fb6b9339411429d2fba23073eed4c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_0.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_0.obj",
+      "source_sha256": "b376b5f1f6b9b87313bf67104d2cd4483f51530484d0471eefad2dde36f3f283",
+      "bytes": 870116,
+      "snapshot_sha256": "b376b5f1f6b9b87313bf67104d2cd4483f51530484d0471eefad2dde36f3f283",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_1.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_1.obj",
+      "source_sha256": "0bd06915468ed605e6a511526f380be4f39136babac47eb8545924fa6cb8c136",
+      "bytes": 2214786,
+      "snapshot_sha256": "0bd06915468ed605e6a511526f380be4f39136babac47eb8545924fa6cb8c136",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_2.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist2_2.obj",
+      "source_sha256": "eb55929d30f70b208e56fa350372d8755cc64a52655cba14040e56d6cc274546",
+      "bytes": 2199275,
+      "snapshot_sha256": "eb55929d30f70b208e56fa350372d8755cc64a52655cba14040e56d6cc274546",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist3.obj",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/assets/wrist3.obj",
+      "source_sha256": "8bb480fd0445eb46ef8cc0ec658f0ad9bcc6338620174e2cf58ba0ef8e7c9353",
+      "bytes": 217283,
+      "snapshot_sha256": "8bb480fd0445eb46ef8cc0ec658f0ad9bcc6338620174e2cf58ba0ef8e7c9353",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/CHANGELOG.md",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/CHANGELOG.md",
+      "source_sha256": "cf17f2271b254c27532d68e8d046742b442b761911dab0cf03bedbdcd2221efd",
+      "bytes": 160,
+      "snapshot_sha256": "cf17f2271b254c27532d68e8d046742b442b761911dab0cf03bedbdcd2221efd",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/LICENSE",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/LICENSE",
+      "source_sha256": "e1b2c82e52efbf381403b2b9ae4748157d79ba386d512af1994fcf6821991757",
+      "bytes": 1496,
+      "snapshot_sha256": "e1b2c82e52efbf381403b2b9ae4748157d79ba386d512af1994fcf6821991757",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/README.md",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/README.md",
+      "source_sha256": "0fe8e20c1cd8414e66d2616fb339356431666b75cde1d76533dd1e0c48694af0",
+      "bytes": 1730,
+      "snapshot_sha256": "0fe8e20c1cd8414e66d2616fb339356431666b75cde1d76533dd1e0c48694af0",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/scene.xml",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/scene.xml",
+      "source_sha256": "b8909cfccf357f8b586ad5a9ceea190c4aeec11ee90e0dd291845976655c8b30",
+      "bytes": 838,
+      "snapshot_sha256": "b8909cfccf357f8b586ad5a9ceea190c4aeec11ee90e0dd291845976655c8b30",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/SOURCES.md",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/SOURCES.md",
+      "source_sha256": "d1bd613505127c0f21066882ce8c65c01cd5d62d2f452685d648cc80b1810214",
+      "bytes": 1526,
+      "snapshot_sha256": "d1bd613505127c0f21066882ce8c65c01cd5d62d2f452685d648cc80b1810214",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/ur5e.png",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/ur5e.png",
+      "source_sha256": "90310086f1187fcda94252ff68f8c4f8be97f65bec8f4eea449179b0979da795",
+      "bytes": 1956670,
+      "snapshot_sha256": "90310086f1187fcda94252ff68f8c4f8be97f65bec8f4eea449179b0979da795",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/assets/mjcf/universal_robots_ur5e/ur5e.xml",
+      "origin": "ego2robot/assets/mjcf/universal_robots_ur5e/ur5e.xml",
+      "source_sha256": "b7320db33754bc9183b5b50135b493d5dfb313c96ce9e32bbaea2b94d187f585",
+      "bytes": 6788,
+      "snapshot_sha256": "b7320db33754bc9183b5b50135b493d5dfb313c96ce9e32bbaea2b94d187f585",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/tools/m5_model_worker.py",
+      "origin": "ego2robot/tools/m5_model_worker.py",
+      "source_sha256": "a84f5940df689a57b5ee27d95aa1986a5cde005020d638157172f475582b13bc",
+      "bytes": 44963,
+      "snapshot_sha256": "a84f5940df689a57b5ee27d95aa1986a5cde005020d638157172f475582b13bc",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/tools/da3_model_worker.py",
+      "origin": "ego2robot/tools/da3_model_worker.py",
+      "source_sha256": "eede491aa06bbfaee60a65f13e719f0bb1e6a961c1a24788f29c73f82608659c",
+      "bytes": 9372,
+      "snapshot_sha256": "eede491aa06bbfaee60a65f13e719f0bb1e6a961c1a24788f29c73f82608659c",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/scripts/fetch_panda.py",
+      "origin": "ego2robot/scripts/fetch_panda.py",
+      "source_sha256": "a331b05a30d45197e59ed56c8e2031c543160f6ff6a331e34c172c4e232fa43d",
+      "bytes": 2802,
+      "snapshot_sha256": "dff2d83d833fe7bfba7774e371ae0c4032dbfc152f6d571f59c82f8fba277f6d",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/scripts/fetch_viperx300.py",
+      "origin": "ego2robot/scripts/fetch_viperx300.py",
+      "source_sha256": "4542d862e747a5e48475ef8b011a87f1196f0f8cae59fd9f63f366bae13a2736",
+      "bytes": 6706,
+      "snapshot_sha256": "4542d862e747a5e48475ef8b011a87f1196f0f8cae59fd9f63f366bae13a2736",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/docs/system-design.md",
+      "origin": "ego2robot/docs/system-design.md",
+      "source_sha256": "f749b9e56edaed2583a8465bf842a44ef5ab01fa1e3547fe19e5d3fea4538d3b",
+      "bytes": 38770,
+      "snapshot_sha256": "f749b9e56edaed2583a8465bf842a44ef5ab01fa1e3547fe19e5d3fea4538d3b",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/docs/implementation-plan.md",
+      "origin": "ego2robot/docs/implementation-plan.md",
+      "source_sha256": "c26de186cba3cdbbd648846b2c6cf710ac68977f35af4b56239c0fd7b7761c70",
+      "bytes": 30286,
+      "snapshot_sha256": "c26de186cba3cdbbd648846b2c6cf710ac68977f35af4b56239c0fd7b7761c70",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/docs/m5-m8-workplan.md",
+      "origin": "ego2robot/docs/m5-m8-workplan.md",
+      "source_sha256": "628a35d077c1575960d0aaec952faa914d3fb86a08ba7d839f006232e17c607f",
+      "bytes": 10432,
+      "snapshot_sha256": "d8749fdbf9a076228cfd1e6624d9cbe37d2882aea402aacb46a44cd851a36554",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0001-transform-naming.md",
+      "origin": "ego2robot/docs/decisions/0001-transform-naming.md",
+      "source_sha256": "64c440a4a63411504d235ea4172a6b3dd05fab7a2b3036cae4dc76af7c45e868",
+      "bytes": 3234,
+      "snapshot_sha256": "38767a6628eb1c9f4f4b0ad732fe8c4b4d1c70eb0742820ac85fd5fa80681b23",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0002-camera-frame-convention.md",
+      "origin": "ego2robot/docs/decisions/0002-camera-frame-convention.md",
+      "source_sha256": "becac0f0d2f6218e0681ada48df89320846188e59aad667696f9b4163297b903",
+      "bytes": 3422,
+      "snapshot_sha256": "bb511b2cc7c6d1f26bd82d8c3b662d9f3e7dcc3955053cc2f4d970f570d87db1",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0003-arkit-to-mano21.md",
+      "origin": "ego2robot/docs/decisions/0003-arkit-to-mano21.md",
+      "source_sha256": "d4a8e17ea735711c1482063784c03823c6a06b41ceaeb7a2013bcb84f1104a9a",
+      "bytes": 4258,
+      "snapshot_sha256": "90c02019d063bf72c645856682a746673d82f061ac2d6fb6e64b602c191a7409",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0004-degeneracy-epsilon.md",
+      "origin": "ego2robot/docs/decisions/0004-degeneracy-epsilon.md",
+      "source_sha256": "08d03403ab7395bb70d6ed95d34fb58204664e89f7d238eeaf0f705689b42e9b",
+      "bytes": 3400,
+      "snapshot_sha256": "987a15480ba084ef4a38d8a2067874850fe4616875330feb3a84be9cd2bf8395",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0005-franka-tcp-offset.md",
+      "origin": "ego2robot/docs/decisions/0005-franka-tcp-offset.md",
+      "source_sha256": "33ba42c77dfaa12886a29e4a79bb2fac858341641e18864f3a1c9bf4a4a48635",
+      "bytes": 8643,
+      "snapshot_sha256": "78300dc0ee72b03e7fe0940d0868b0fa936ee89deffd876bf949af9f26dc3b6e",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0006-home-pose-semantics.md",
+      "origin": "ego2robot/docs/decisions/0006-home-pose-semantics.md",
+      "source_sha256": "2cdd80d5617236661327562717c44058c4d24aecb2ea78f327483349c5fb78c3",
+      "bytes": 3605,
+      "snapshot_sha256": "4392f51fd8c5e8e75b4aad3610dd3618207bd1ad9125cfcf51473ef6a7fbc565",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0007-ik-tolerance-semantics.md",
+      "origin": "ego2robot/docs/decisions/0007-ik-tolerance-semantics.md",
+      "source_sha256": "e02ef73d388ff5b81316be423ead184851768cec3d90fa02633880d336fc84c2",
+      "bytes": 4758,
+      "snapshot_sha256": "15d3bdd6d91498b56ae7d1c1d99e18dd741f2c1a541e02d36ec6655d6c707051",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0008-relative-depth-policy.md",
+      "origin": "ego2robot/docs/decisions/0008-relative-depth-policy.md",
+      "source_sha256": "0fbfa7ac0d91cb09c3f9593e49c88fabb11a29dfc5895c0a6cebd0021f5cfde0",
+      "bytes": 4048,
+      "snapshot_sha256": "a9e3483871a711c1a5c352a998b9d7430b83370cd6ba7d74e93caf22974b9d86",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0009-fixed-base-placement.md",
+      "origin": "ego2robot/docs/decisions/0009-fixed-base-placement.md",
+      "source_sha256": "f3b0552916a3108d65c9cf735ea6c0879ffb336e9d2f7e09f606e810df31a021",
+      "bytes": 5211,
+      "snapshot_sha256": "ad4e24daafba7d987a7538c6bd610845adbf4a518e22e657671064a71716bcde",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0010-gripper-command-scaling.md",
+      "origin": "ego2robot/docs/decisions/0010-gripper-command-scaling.md",
+      "source_sha256": "aa54f3f468c94e3d6a4b79a2367cb08258287f8adc88e020ae58391595bdfa93",
+      "bytes": 3474,
+      "snapshot_sha256": "c55f72d7edf46d86c59bdb8524887c01a54606646446f5d0ff3547ab672846b2",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0011-m5-runtime-and-mask-contract.md",
+      "origin": "ego2robot/docs/decisions/0011-m5-runtime-and-mask-contract.md",
+      "source_sha256": "b5e57d7a5d240b0f3f0a5c6c2c92a92b8ed963c9802c82a09d374535cdfc7d63",
+      "bytes": 6489,
+      "snapshot_sha256": "f0f1f701fe4477427e79504acad7ca3bce274fdf8921912aeca13f3a45571a1c",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0012-shadow-mask-experiment.md",
+      "origin": "ego2robot/docs/decisions/0012-shadow-mask-experiment.md",
+      "source_sha256": "1122fb500fe6572cb4a4f052f223aee13b728b09b98ba41056c97a77486eb218",
+      "bytes": 6213,
+      "snapshot_sha256": "ef6cd301123bdeafb37044a17bfa818cb865628eff8fe7a4bc20e36782d979b2",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0013-e2fgvi-comparison.md",
+      "origin": "ego2robot/docs/decisions/0013-e2fgvi-comparison.md",
+      "source_sha256": "058c66c56fe7ef172869f348aed0291ff4eb407ff9c67edc0f4175a605b665cd",
+      "bytes": 5483,
+      "snapshot_sha256": "f129b55c7586932dc0c5fd5d9db0e1e75448605a2de05af33a6ec75c7628018f",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0014-temporal-plate-experiment.md",
+      "origin": "ego2robot/docs/decisions/0014-temporal-plate-experiment.md",
+      "source_sha256": "cc2990267b77124c0e19f910dc8ebcd551f5639d8c8649c7b301c9704196e9b6",
+      "bytes": 4930,
+      "snapshot_sha256": "d32e85c10596b87017edc0a10118352e3bc426aa4a24307c3a558a53b0275116",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0015-hybrid-inpainting-preview.md",
+      "origin": "ego2robot/docs/decisions/0015-hybrid-inpainting-preview.md",
+      "source_sha256": "9cbe7754aa1dbfb2ce9ea9d22f8e55ad8ac60c275a324cc34d30a4a84bdd2659",
+      "bytes": 3054,
+      "snapshot_sha256": "8840a7007a7a62aaefba3850468e275742b238b3be4caf66655a3caea32641f8",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0016-diffueraser-comparison.md",
+      "origin": "ego2robot/docs/decisions/0016-diffueraser-comparison.md",
+      "source_sha256": "d258631811d3075aab1c15def6d588e1112c00a01661ac3d90a5c9b558160b0a",
+      "bytes": 4437,
+      "snapshot_sha256": "a343902186336819b76be8d180ecfb3e0220dc6cac5f3c59d6e4df4084785f42",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0017-diffueraser-1080-memory-probe.md",
+      "origin": "ego2robot/docs/decisions/0017-diffueraser-1080-memory-probe.md",
+      "source_sha256": "c8f7fb3c6cfd1ed070d6c8c00a6eec390ac07ee2b721c73375a4d24f4f0af856",
+      "bytes": 7962,
+      "snapshot_sha256": "43448b81fdbae15edcd02dd7f0554ee8fe58040d782c6da10dd455cd5f095fc0",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0018-robot-format-trial.md",
+      "origin": "ego2robot/docs/decisions/0018-robot-format-trial.md",
+      "source_sha256": "25ce848750a3796c6e42fffa244e6d53b04c217a7735e07749eea744bf62358a",
+      "bytes": 4421,
+      "snapshot_sha256": "8ef2adbe462f1d415575572b7eef7ac1dcc50013c52481571bf90bbf143b5635",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0019-multi-morphology-trial.md",
+      "origin": "ego2robot/docs/decisions/0019-multi-morphology-trial.md",
+      "source_sha256": "258513a88e177f618ead982be3427223833246a257bcdd9f5cb1cfa791216e45",
+      "bytes": 5014,
+      "snapshot_sha256": "446737218e2525fa8de0e486323f60d4e56444c042d0d0154ee4346dd632f202",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0020-scene-depth-and-depth-aware-composite.md",
+      "origin": "ego2robot/docs/decisions/0020-scene-depth-and-depth-aware-composite.md",
+      "source_sha256": "ec05757c8dd06a3857b182cd9bafe3fe5efe3f8864717c81e59027d5ba032628",
+      "bytes": 8374,
+      "snapshot_sha256": "33f33d4709b707cfe2a9e0d368254064f28cf7fb82ff043cd7803ebb858d1521",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0021-bimanual-hand-contract.md",
+      "origin": "ego2robot/docs/decisions/0021-bimanual-hand-contract.md",
+      "source_sha256": "d7b521a477b9c5c7a6739d2aa249217d764c2dc2f6641828a7a9a4ac12e3675f",
+      "bytes": 8227,
+      "snapshot_sha256": "b5306a613537cde17fba212172840d97d634e0c2fc8d7f478baaa1ade53f3a48",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0022-bimanual-rig-and-visual-quality.md",
+      "origin": "ego2robot/docs/decisions/0022-bimanual-rig-and-visual-quality.md",
+      "source_sha256": "cddacf20d8f253216cae2f8cda7c389ff66e49bbd7f263996979d50a59167814",
+      "bytes": 6464,
+      "snapshot_sha256": "6734871fc0470fdf853615049ecc1cea761febab9b0376e9b169a82fb219ab40",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0023-two-arm-rig-assembly.md",
+      "origin": "ego2robot/docs/decisions/0023-two-arm-rig-assembly.md",
+      "source_sha256": "5a483ecd974f4f03ae79b8856a9d4573b80d30583c7fb3fd5ce82ea419d88cf8",
+      "bytes": 8259,
+      "snapshot_sha256": "c81a330563511c7758ecab464e7c75f3f8e11d9c4c6ee64b25301d655cf8d1b7",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0024-pairwise-two-base-selection.md",
+      "origin": "ego2robot/docs/decisions/0024-pairwise-two-base-selection.md",
+      "source_sha256": "62f8cc2ea0a1abdb4e1f199cb8ff9c02493ced30bb9c1b08ca85bf97c4cc8bcf",
+      "bytes": 4677,
+      "snapshot_sha256": "4c8be43aa72f06c6182e8cd9666b9076ac4d86b9daaba1b2b04baad8d5fb2e88",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0025-joint-two-arm-render.md",
+      "origin": "ego2robot/docs/decisions/0025-joint-two-arm-render.md",
+      "source_sha256": "863103ee93b33111d14a77d2ce23b9890739c8ebefa145d60e0e04b457236091",
+      "bytes": 3761,
+      "snapshot_sha256": "597097dd330281a578c0a6e10c54d8d1586d9e8490b225ccca7cbab75437e8fb",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/0026-m5-visual-upstream-equivalence.md",
+      "origin": "ego2robot/docs/decisions/0026-m5-visual-upstream-equivalence.md",
+      "source_sha256": "d585a8a185e270a82688624ef9aed5fa5115d2d72b133af270677705ea67ebd6",
+      "bytes": 6877,
+      "snapshot_sha256": "9a588c526d9156ece4d0266caf0a24fc00613204cf97d87f8ed60184307463de",
+      "migration_edit": true
+    },
+    {
+      "path": "packages/ego2robot/docs/decisions/README.md",
+      "origin": "ego2robot/docs/decisions/README.md",
+      "source_sha256": "8a48d31fc4ffbe68993e640ae12b9ac44ddf44bcbd20795cecd00992e969832f",
+      "bytes": 4346,
+      "snapshot_sha256": "8a48d31fc4ffbe68993e640ae12b9ac44ddf44bcbd20795cecd00992e969832f",
+      "migration_edit": false
+    },
+    {
+      "path": "packages/ego2robot/pyproject.toml",
+      "origin": "ego2robot/pyproject.toml",
+      "source_sha256": "d4d7ce977470c6400159468ab1f40dc19ae8e4ba385e006167038f8a70df3dbc",
+      "bytes": 1371,
+      "snapshot_sha256": "65f1bfcfacd112e7190c24ee50dab73db55bcc9127e2a830078888f375ac2a8b",
+      "migration_edit": true
+    }
+  ],
+  "excluded": [
+    "datasets",
+    "model weights",
+    "training data",
+    "inference caches",
+    "review approvals",
+    "rental credentials",
+    "assets/third_party"
+  ],
+  "notes": [
+    "Source copies independent of original research workspaces.",
+    "Robotization algorithm source bytes unchanged from captured inputs.",
+    "Path/config/metadata/document edits recorded per file.",
+    "Byte-preserving Git attributes keep pinned source identities stable."
+  ]
+}

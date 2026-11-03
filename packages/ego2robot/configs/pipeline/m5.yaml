@@ -1,0 +1,64 @@
+# M5-only profile: reuse the accepted M3 episode geometry and run only the
+# approved human-mask and background-inpainting stages.
+profile: m5
+
+stages:
+  - segmentation
+  - inpainting
+
+segmentation:
+  runtime:
+    execution: wsl
+    wsl_distribution: Ubuntu-22.04
+    python_executable: /path/to/your/model-environment/bin/python
+    repo_path: assets/third_party/sam3
+    checkpoint_path: models/sam3.pt
+    device: cuda
+    seed: 0
+    revision: 2345a4ad109ac29c569da749c91d84f10dc08c40
+  model: sam3
+  text_prompt: person
+  anchor_frame: middle
+  chunk_frames: 400
+  chunk_overlap: 50
+  gap_fill_max_frames: 3
+  area_median_window: 11
+  area_median_fraction: 0.5
+  close_kernel: 5
+  approval_record: quality/reviews/m3-video.json
+  # ADR-0026: a two-hand episode has no `projection` stage, so its reviewed visual
+  # upstream is the two-arm `rig` and this is the record that gates SAM 3.
+  rig_approval_record: quality/reviews/rig-geometry.json
+  adr: docs/decisions/0011-m5-runtime-and-mask-contract.md
+
+inpainting:
+  runtime:
+    execution: wsl
+    wsl_distribution: Ubuntu-22.04
+    python_executable: /path/to/your/model-environment/bin/python
+    repo_path: assets/third_party/ProPainter
+    checkpoint_path: assets/third_party/ProPainter/weights
+    device: cuda
+    seed: 0
+    revision: e870e79321c31b733e2031af5aa2fb1fe3ac7eec
+  model: propainter
+  fp16: true
+  neighbor_length: 10
+  ref_stride: 10
+  # [ENGINEERING] ADR-0011 Amendment 2026-11-02: the whole-episode single-variable
+  # scan (historical 52-frame parameter review) found every
+  # temporal knob (ref_stride, neighbor_length, real subvideo chunking) inside the
+  # noise band (|delta| <= 0.3), so shortening subvideo to fit 11.9 GiB is safe.
+  subvideo_length: 20
+  mask_dilation: 4 # [PAPER] ProPainter default; larger dil lowers ring residue only by ~0.35 grey levels but inflates repainted area.
+  raft_iterations: 20
+  # [ENGINEERING] ADR-0011 Amendment 2026-11-02: 640x360 was the preview tier and
+  # visibly softens the erase. Resolution was the only knob with a real positive
+  # effect (core 15.00 @960x540 vs 15.42 @640x360), so the local formal tier is
+  # 960x544 (the 8-multiple nearest to the scanned 960x540). 1280x720/sub40 OOMs on
+  # the local 11.9 GiB card, and native 1920x1080 is not affordable locally. Because
+  # the inference grid is still below the 1920x1080 source, the stage keeps writing
+  # preview_only=true.
+  inference_width: 960
+  inference_height: 544
+  adr: docs/decisions/0011-m5-runtime-and-mask-contract.md

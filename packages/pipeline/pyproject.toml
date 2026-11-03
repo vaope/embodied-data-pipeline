@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embodied-data-pipeline"
+version = "0.1.0.dev0"
+description = "Embodied video annotation, retrieval, selection and traceable data bundles"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2,<3", "scipy>=1.13,<2", "h5py>=3.11,<4", "PyYAML>=6,<7", "jsonschema>=4.20,<5"]
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3,<7"]
+models = ["huggingface-hub>=0.27,<2"]
+annotation = ["opencv-python-headless>=4.9,<6", "Pillow>=10,<13", "requests>=2.31,<3"]
+io = ["opencv-python-headless>=4.9,<6", "Pillow>=10,<13", "av>=12,<19"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+edp-retrieve = "retrieval.cli:main"
+edp-demo = "retrieval.demo:main"
+edp-sequence = "retrieval.sequence.cli:main"
+edp-annotate = "pipeline.annotation.cli:main"
+edp-pipeline = "pipeline.v2.pipeline:main"
+edp-bundle = "pipeline.stage5:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["pipeline.annotation.tests*", "pipeline.v2.test_*"]
+
+[tool.setuptools.package-data]
+retrieval = ["config.yaml", "configs/*.yaml", "schemas/*.json", "visualization/*.html"]
+"retrieval.sequence" = ["*.html"]
+pipeline = ["schemas/*.json"]
+"pipeline.annotation" = ["README.md", "*.json", "*.txt", "configs/*.json", "prompts/*.txt", "schemas/*.json", "scripts/*.sh", "scripts/*.py", "vendor/**/*"]

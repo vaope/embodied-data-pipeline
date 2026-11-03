@@ -1,0 +1,402 @@
+{
+  "id": "egodex_fold_stack_unstack_unfold_cloths_002",
+  "title": "整理与折叠布料",
+  "task": "Unstack and unfold the seven cloths on a green tablecloth with a blue background.",
+  "duration_s": 65.733333,
+  "variants": {
+    "AV-A": [
+      {
+        "start_s": 0.0,
+        "end_s": 2.0,
+        "caption": "Pick up the top blue cloth from the stack"
+      },
+      {
+        "start_s": 2.0,
+        "end_s": 4.5,
+        "caption": "Unfold the light blue cloth on the table"
+      },
+      {
+        "start_s": 4.5,
+        "end_s": 7.5,
+        "caption": "Fold the blue cloth in half"
+      },
+      {
+        "start_s": 7.5,
+        "end_s": 9.5,
+        "caption": "Move the blue cloth to the left on the table"
+      },
+      {
+        "start_s": 9.5,
+        "end_s": 12.0,
+        "caption": "Pick up the yellow cloth from the stack"
+      },
+      {
+        "start_s": 12.0,
+        "end_s": 15.0,
+        "caption": "Fold the yellow cloth in half"
+      },
+      {
+        "start_s": 15.0,
+        "end_s": 19.5,
+        "caption": "Place the yellow cloth on the blue cloth"
+      },
+      {
+        "start_s": 19.5,
+        "end_s": 22.0,
+        "caption": "Unfold the pink cloth on the table"
+      },
+      {
+        "start_s": 22.0,
+        "end_s": 24.5,
+        "caption": "Fold the pink cloth in half"
+      },
+      {
+        "start_s": 24.5,
+        "end_s": 29.5,
+        "caption": "Fold the pink cloth and place it on the yellow cloth"
+      },
+      {
+        "start_s": 29.5,
+        "end_s": 36.5,
+        "caption": "Place the light blue cloth on the stack of cloths"
+      },
+      {
+        "start_s": 36.5,
+        "end_s": 39.5,
+        "caption": "Unfold the green cloth"
+      },
+      {
+        "start_s": 39.5,
+        "end_s": 43.0,
+        "caption": "Fold the green cloth in half"
+      },
+      {
+        "start_s": 43.0,
+        "end_s": 47.5,
+        "caption": "Place the green cloth on the stack of cloths"
+      },
+      {
+        "start_s": 49.5,
+        "end_s": 54.5,
+        "caption": "Fold the yellow cloth in half"
+      },
+      {
+        "start_s": 54.5,
+        "end_s": 57.0,
+        "caption": "Unfold the pink cloth"
+      },
+      {
+        "start_s": 57.0,
+        "end_s": 59.0,
+        "caption": "Unfold the pink cloth on the table"
+      },
+      {
+        "start_s": 59.0,
+        "end_s": 61.5,
+        "caption": "Fold the pink cloth in half"
+      },
+      {
+        "start_s": 61.5,
+        "end_s": 64.0,
+        "caption": "Fold the pink cloth"
+      }
+    ],
+    "AV-B": [
+      {
+        "start_s": 0.0,
+        "end_s": 2.0,
+        "caption": "pick up blue cloth from stack with both hands"
+      },
+      {
+        "start_s": 2.0,
+        "end_s": 4.5,
+        "caption": "place blue cloth on table with both hands, fold blue cloth with both hands"
+      },
+      {
+        "start_s": 4.5,
+        "end_s": 7.5,
+        "caption": "fold blue cloth with both hands, fold blue cloth with left hand"
+      },
+      {
+        "start_s": 7.5,
+        "end_s": 9.5,
+        "caption": "slide blue cloth on table with left hand"
+      },
+      {
+        "start_s": 9.5,
+        "end_s": 12.0,
+        "caption": "pick up yellow cloth with both hands, unfold yellow cloth with both hands"
+      },
+      {
+        "start_s": 12.0,
+        "end_s": 15.0,
+        "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, shift yellow cloth with both hands"
+      },
+      {
+        "start_s": 15.0,
+        "end_s": 19.5,
+        "caption": "fold yellow cloth with left hand, pick up yellow cloth and place yellow cloth on stack with left hand"
+      },
+      {
+        "start_s": 19.5,
+        "end_s": 22.0,
+        "caption": "pick up pink cloth with both hands, place pink cloth on table with both hands"
+      },
+      {
+        "start_s": 22.0,
+        "end_s": 24.5,
+        "caption": "place pink cloth on table with both hands, fold pink cloth on table with both hands"
+      },
+      {
+        "start_s": 24.5,
+        "end_s": 29.5,
+        "caption": "fold pink cloth with both hands, pick up pink cloth and place pink cloth on stack with left hand"
+      },
+      {
+        "start_s": 29.5,
+        "end_s": 36.5,
+        "caption": "pick up blue cloth with both hands, place blue cloth on table with both hands, fold blue cloth with both hands, pick up blue cloth with left hand"
+      },
+      {
+        "start_s": 36.5,
+        "end_s": 39.5,
+        "caption": "place blue cloth on stack with left hand, pick up green cloth with both hands"
+      },
+      {
+        "start_s": 39.5,
+        "end_s": 43.0,
+        "caption": "place green cloth on table with both hands, fold green cloth with both hands, lift green cloth with left hand"
+      },
+      {
+        "start_s": 43.0,
+        "end_s": 47.5,
+        "caption": "fold green cloth with left hand, pick up green cloth with both hands, place green cloth on stack with left hand"
+      },
+      {
+        "start_s": 49.5,
+        "end_s": 54.5,
+        "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, pick up yellow cloth with both hands"
+      },
+      {
+        "start_s": 54.5,
+        "end_s": 57.0,
+        "caption": "place yellow cloth on stack with left hand, pick up pink cloth with both hands"
+      },
+      {
+        "start_s": 57.0,
+        "end_s": 59.0,
+        "caption": "place pink cloth on table with both hands, fold pink cloth with both hands"
+      },
+      {
+        "start_s": 59.0,
+        "end_s": 61.5,
+        "caption": "fold pink cloth with both hands, smoothen pink cloth with both hands, align pink cloth with both hands"
+      },
+      {
+        "start_s": 61.5,
+        "end_s": 64.0,
+        "caption": "fold pink cloth with left hand, pick up pink cloth with both hands"
+      }
+    ],
+    "AV-C": [
+      {
+        "start_s": 0.0,
+        "end_s": 2.6,
+        "caption": "pick up blue cloth with both hands"
+      },
+      {
+        "start_s": 2.6,
+        "end_s": 6.05,
+        "caption": "place blue cloth on table with both hands, fold blue cloth with both hands"
+      },
+      {
+        "start_s": 6.05,
+        "end_s": 9.25,
+        "caption": "fold blue cloth with left hand, slide blue cloth on table with left hand"
+      },
+      {
+        "start_s": 9.25,
+        "end_s": 11.55,
+        "caption": "pick up yellow cloth with both hands"
+      },
+      {
+        "start_s": 11.45,
+        "end_s": 13.25,
+        "caption": "place yellow cloth on table with both hands"
+      },
+      {
+        "start_s": 11.55,
+        "end_s": 15.2,
+        "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, shift yellow cloth with both hands"
+      },
+      {
+        "start_s": 13.25,
+        "end_s": 15.25,
+        "caption": "fold yellow cloth with both hands, shift yellow cloth with right hand, fold yellow cloth with left hand"
+      },
+      {
+        "start_s": 15.25,
+        "end_s": 17.05,
+        "caption": "fold yellow cloth with left hand, align yellow cloth with right hand"
+      },
+      {
+        "start_s": 17.05,
+        "end_s": 18.85,
+        "caption": "pick up yellow cloth with left hand, place yellow cloth on stack with left hand"
+      },
+      {
+        "start_s": 18.85,
+        "end_s": 21.25,
+        "caption": "pick up pink cloth with both hands"
+      },
+      {
+        "start_s": 21.05,
+        "end_s": 24.6,
+        "caption": "place pink cloth on table with both hands, fold pink cloth with both hands"
+      },
+      {
+        "start_s": 21.25,
+        "end_s": 22.65,
+        "caption": "place pink cloth on table with both hands"
+      },
+      {
+        "start_s": 22.65,
+        "end_s": 24.65,
+        "caption": "fold pink cloth on table with both hands"
+      },
+      {
+        "start_s": 24.6,
+        "end_s": 25.6,
+        "caption": "lift the left side of the pink cloth with the left hand while straightening the blue cloth on the right side of the green tablecloth with the right hand"
+      },
+      {
+        "start_s": 25.6,
+        "end_s": 27.4,
+        "caption": "fold pink cloth with left hand, press pink cloth with both hands"
+      },
+      {
+        "start_s": 27.4,
+        "end_s": 28.4,
+        "caption": "pick up pink cloth and place pink cloth on stack with left hand"
+      },
+      {
+        "start_s": 28.4,
+        "end_s": 30.8,
+        "caption": "pick up blue cloth with both hands"
+      },
+      {
+        "start_s": 30.8,
+        "end_s": 32.6,
+        "caption": "place blue cloth on table with both hands"
+      },
+      {
+        "start_s": 32.6,
+        "end_s": 34.4,
+        "caption": "fold blue cloth with both hands, press blue cloth with both hands"
+      },
+      {
+        "start_s": 34.4,
+        "end_s": 35.8,
+        "caption": "fold blue cloth with left hand, press blue cloth with right hand"
+      },
+      {
+        "start_s": 35.25,
+        "end_s": 37.25,
+        "caption": "pick up blue cloth with left hand, place blue cloth on stack with left hand"
+      },
+      {
+        "start_s": 35.8,
+        "end_s": 37.4,
+        "caption": "pick up blue cloth and place blue cloth on stack with left hand"
+      },
+      {
+        "start_s": 37.25,
+        "end_s": 39.65,
+        "caption": "pick up green cloth with both hands"
+      },
+      {
+        "start_s": 39.65,
+        "end_s": 41.25,
+        "caption": "place green cloth on table with both hands, fold green cloth with both hands"
+      },
+      {
+        "start_s": 41.25,
+        "end_s": 43.65,
+        "caption": "fold green cloth with both hands, fold green cloth with left hand"
+      },
+      {
+        "start_s": 43.65,
+        "end_s": 45.15,
+        "caption": "pick up green cloth with both hands, pass green cloth from right hand to left hand"
+      },
+      {
+        "start_s": 45.05,
+        "end_s": 48.6,
+        "caption": "place green cloth on stack with left hand, pick up yellow cloth with both hands"
+      },
+      {
+        "start_s": 45.15,
+        "end_s": 46.35,
+        "caption": "place green cloth on stack with left hand"
+      },
+      {
+        "start_s": 46.35,
+        "end_s": 48.85,
+        "caption": "pick up yellow cloth with both hands"
+      },
+      {
+        "start_s": 48.6,
+        "end_s": 53.0,
+        "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands"
+      },
+      {
+        "start_s": 53.0,
+        "end_s": 54.2,
+        "caption": "pick up yellow cloth with left hand, align yellow cloth with both hands"
+      },
+      {
+        "start_s": 54.2,
+        "end_s": 55.4,
+        "caption": "place yellow cloth on stack with left hand"
+      },
+      {
+        "start_s": 55.4,
+        "end_s": 58.2,
+        "caption": "pick up pink cloth with both hands, spread pink cloth on table with both hands"
+      },
+      {
+        "start_s": 58.2,
+        "end_s": 62.1,
+        "caption": "fold pink cloth with both hands, smoothen pink cloth with both hands, fold pink cloth with left hand"
+      },
+      {
+        "start_s": 59.6,
+        "end_s": 61.8,
+        "caption": "smoothen pink cloth with both hands, shift pink cloth with both hands"
+      },
+      {
+        "start_s": 61.8,
+        "end_s": 63.8,
+        "caption": "fold pink cloth with left hand, pick up pink cloth with both hands"
+      },
+      {
+        "start_s": 63.8,
+        "end_s": 65.733333,
+        "caption": "pick up pink cloth with left hand, place pink cloth on stack with left hand"
+      }
+    ]
+  },
+  "annotation_source": "automatic",
+  "review_status": "selected_for_visual_review",
+  "video": "assets/showcase/egodex_fold_stack_unstack_unfold_cloths_002.mp4",
+  "poster": "assets/showcase/egodex_fold_stack_unstack_unfold_cloths_002.jpg",
+  "provenance": {
+    "run": "pilot_abc / 2026-10-30",
+    "source_video_sha256": "fd8a0cba66e818a95d28efcbd70accf79b375b09f1ce7f5272b13897885520a0",
+    "native_annotation_sha256": {
+      "AV-A": "7deb5b0a88d4357d8e44b368b921bf9fb75f039514d09011309e8db4af627f0a",
+      "AV-B": "cd49ebbd320bc2f98bbbd0bbee350fc445a040294cfb95230b30e80e545d764b",
+      "AV-C": "edf4304c1213c816102da5e72608c90264ebad2367d3338a2a4be53efd00c672"
+    }
+  }
+}

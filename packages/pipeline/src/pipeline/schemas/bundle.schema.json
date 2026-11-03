@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Learning Stage 5 local reference bundle v1",
+  "type": "object",
+  "required": ["schema_version", "episode_id", "run_id", "source_key", "profile", "storage_mode", "training_readiness", "readiness_reasons", "refs", "timebase", "admission", "annotations", "visual", "quality", "views", "artifacts", "module_status", "holds", "provenance"],
+  "properties": {
+    "schema_version": {"const": "learning.stage5.bundle.v1"},
+    "episode_id": {"type": "string", "minLength": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "source_key": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "storage_mode": {"enum": ["local_reference", "self_contained_copy"]},
+    "training_readiness": {"enum": ["training_ready", "candidate_only", "blocked"]},
+    "readiness_reasons": {"type": "array", "items": {"type": "string"}},
+    "refs": {"type": "object"},
+    "timebase": {"type": "object", "required": ["path", "sha256", "bytes", "schema_version"]},
+    "admission": {"type": "object", "required": ["status", "report_ref"]},
+    "annotations": {"type": "object", "required": ["availability", "step_map_ref", "object_associations_ref"]},
+    "visual": {"type": "object", "required": ["index_ref", "preferred_kind", "training_ready"]},
+    "quality": {"type": "object", "required": ["frames_ref", "report_ref"]},
+    "views": {"type": "object", "required": ["transitions_ref", "action_profile"]},
+    "artifacts": {"type": "object", "additionalProperties": {"type": "object", "required": ["path", "sha256", "bytes"]}},
+    "module_status": {"type": "object"},
+    "holds": {"type": "object"},
+    "provenance": {"type": "object"}
+  }
+}

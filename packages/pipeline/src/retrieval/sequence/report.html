@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>连续 Subtask 检索复查</title><style>
+body{font:16px/1.6 system-ui,sans-serif;margin:24px auto;padding:0 20px;max-width:1200px;background:#f5f7fa;color:#203047}h1{font-size:26px}button{padding:8px 12px;border:1px solid #b0bfd1;background:white;border-radius:7px;margin:4px;cursor:pointer}button.active{background:#dcebe5;border-color:#4d8067}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}video{width:100%;background:#182330;min-height:180px}.card{background:white;padding:18px;border-radius:12px;margin:16px 0}.muted{color:#596980;font-size:14px}.key{background:#e3f0e9}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #dbe1eb;padding:10px;text-align:left;vertical-align:top}.warning{color:#845a24}.tag{font-size:13px;background:#edf0f6;padding:3px 7px;border-radius:4px}@media(max-width:700px){.grid{grid-template-columns:1fr}td,th{padding:5px}}
+</style><h1>连续 Subtask 检索复查</h1><p id="summary"></p><p class="muted">“完整”表示通过当前算法的覆盖与阈值规则，仍需检查实际动作、对象和结果。视频原速播放，未做动作时间拉伸。</p><div id="warnings" class="warning"></div>
+<section class="card"><strong>查询动作链</strong><div id="query"></div><div id="choices"></div></section>
+<section class="grid"><div class="card"><strong id="qtitle">Robot 查询</strong><video id="qvideo" controls preload="metadata"></video><p id="qmedia" class="muted"></p></div><div class="card"><strong>Ego 连续候选</strong><video id="cvideo" controls preload="metadata"></video><p id="cmedia" class="muted"></p></div></section>
+<section class="card"><div id="info"></div><button id="play">两侧从片段起点播放</button><table><thead><tr><th>查询步骤</th><th>Ego 对应步骤</th><th>相似度 / 跳转</th></tr></thead><tbody id="mapping"></tbody></table><p id="gaps"></p></section>
+<details class="card"><summary>同编码器基线与运行配置</summary><pre id="baseline" style="white-space:pre-wrap"></pre></details>
+<script id="result" type="application/json">__RESULT_JSON__</script><script>
+const data=JSON.parse(document.getElementById('result').textContent),el=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+el('summary').textContent=`${data.query.query_id} · ${data.stats.corpus_steps} 个候选步骤 · ${data.stats.anchors} 个锚点 · ${data.complete.length} 个完整候选`;
+el('warnings').textContent=(data.query.warnings||[]).join('；');
+const contextOnly=!!data.query.video_reference;
+el('qtitle').textContent=contextOnly?'Robot 原视频（任务参考）':'Robot 查询';
+el('query').innerHTML=data.query.steps.map(s=>`<p class="${s.step_id===data.query.key_step_id?'key':''}">${s.step_id===data.query.key_step_id?'★ ':''}${esc(s.caption)} <span class="muted">${contextOnly?'文字步骤，Robot边界待核实':`${s.start_s.toFixed(2)}–${s.end_s.toFixed(2)}s`}</span></p>`).join('');
+el('baseline').textContent=JSON.stringify({config:data.config,baselines:data.baselines,limitations:data.limitations},null,2);
+function media(video,label,m){video.pause();video.removeAttribute('src');video.load();video.hidden=!(m&&m.url);if(m&&m.url){video.src=m.url;label.textContent=`原视频 ${m.start_s.toFixed(2)}–${m.end_s.toFixed(2)} 秒${m.context_only?' · '+m.note:''}`;}else{label.textContent=m?.unavailable_reason||(m&&m.error?'视频导出失败：'+m.error:'未导出视频；对应区间见结果JSON。');}}
+media(el('qvideo'),el('qmedia'),data.query_media);
+function select(i){const r=data.complete[i];document.querySelectorAll('#choices button').forEach((b,j)=>b.classList.toggle('active',i===j));media(el('cvideo'),el('cmedia'),r.media);el('info').textContent=`${r.source_id} · ${r.start_s.toFixed(2)}–${r.end_s.toFixed(2)}s · 得分 ${r.score.toFixed(3)} · 覆盖 ${(100*r.coverage).toFixed(0)}% · 最弱步骤 ${r.weakest_similarity.toFixed(3)}`;
+el('mapping').innerHTML=r.mappings.map((m,j)=>`<tr class="${m.is_key?'key':''}"><td>${m.is_key?'★ ':''}${m.query_captions.map(esc).join('<br>→ ')}</td><td>${m.candidate_captions.map(esc).join('<br>→ ')}</td><td>${m.similarity.toFixed(3)}<br><span class="muted">${m.semantic_check?.status==='compatible'?'基础动作/对象一致':'动作/对象未解析，待核查'}</span><br><button data-map="${j}">${contextOnly?'定位 Ego 步骤':'定位这组步骤'}</button></td></tr>`).join('');
+document.querySelectorAll('[data-map]').forEach(b=>b.onclick=()=>{const m=r.mappings[Number(b.dataset.map)];if(data.query_media?.url&&!contextOnly)el('qvideo').currentTime=Math.max(0,m.query_span_s[0]-data.query_media.start_s);if(r.media?.url)el('cvideo').currentTime=Math.max(0,m.candidate_span_s[0]-r.start_s);});
+const skipped=r.steps.filter(s=>r.skipped_candidate_ids.includes(s.step_id));el('gaps').textContent=`未匹配时长 ${r.unmatched_seconds.toFixed(2)}s；插入步骤：${skipped.map(s=>s.caption).join('；')||'无'}。插入段保留在原连续视频中。`;}
+data.complete.forEach((r,i)=>{let b=document.createElement('button');b.textContent=`候选 ${i+1} · ${r.score.toFixed(3)}`;b.onclick=()=>select(i);el('choices').append(b);});
+if(data.complete.length)select(0);else{el('info').textContent='当前规则下没有完整匹配。部分匹配已保存到结果JSON，页面不展示失败视频。';el('play').disabled=true;}
+el('play').onclick=()=>{for(const id of ['qvideo','cvideo']){const v=el(id);if(v.getAttribute('src')){v.currentTime=0;v.play().catch(()=>{});}}};
+</script></html>

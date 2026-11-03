@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/stage3/step.schema.json",
+  "title": "Learning Stage 3 VLM step annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "episode_id",
+    "method",
+    "fps",
+    "frame_count",
+    "timebase",
+    "task",
+    "objects",
+    "steps",
+    "annotation_source",
+    "auto_qa",
+    "review"
+  ],
+  "properties": {
+    "episode_id": {"type": "string", "minLength": 1},
+    "method": {"type": "string", "enum": ["A", "B", "C"]},
+    "fps": {"type": "number", "exclusiveMinimum": 0},
+    "frame_count": {"type": "integer", "minimum": 1},
+    "timebase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["interval", "timestamp_source", "duration_s"],
+      "properties": {
+        "interval": {"const": "[start_frame,end_frame_exclusive)"},
+        "timestamp_source": {"type": "string"},
+        "duration_s": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["goal", "description", "outcome"],
+      "properties": {
+        "goal": {"type": "string"},
+        "description": {"type": "string"},
+        "outcome": {
+          "type": "string",
+          "enum": ["observed_success", "observed_failure", "unknown"]
+        }
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "tracking_status"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_\\-]*$"},
+          "name": {"type": "string", "minLength": 1},
+          "tracking_status": {"const": "unverified_vlm_inventory"}
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "step_id",
+          "start_frame",
+          "end_frame_exclusive",
+          "action_type",
+          "description",
+          "acting_hand",
+          "target_object_id",
+          "task_phase",
+          "outcome",
+          "uncertainty"
+        ],
+        "properties": {
+          "step_id": {"type": "integer", "minimum": 0},
+          "start_frame": {"type": "integer", "minimum": 0},
+          "end_frame_exclusive": {"type": "integer", "minimum": 1},
+          "action_type": {
+            "type": "string",
+            "enum": ["idle", "reach", "grasp", "move", "rotate", "place", "release", "pour", "other", "unknown"]
+          },
+          "description": {"type": "string", "minLength": 1},
+          "acting_hand": {
+            "type": "string",
+            "enum": ["left", "right", "both", "none", "unknown"]
+          },
+          "target_object_id": {"type": ["string", "null"]},
+          "task_phase": {
+            "type": "string",
+            "enum": ["preparation", "execution", "completion", "unknown"]
+          },
+          "outcome": {
+            "type": "string",
+            "enum": ["observed_success", "observed_failure", "unknown"]
+          },
+          "uncertainty": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "annotation_source": {"const": "vlm"},
+    "auto_qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "schema_valid", "temporal_valid", "issues"],
+      "properties": {
+        "status": {"type": "string", "enum": ["pending", "pass", "warning", "fail"]},
+        "schema_valid": {"type": "boolean"},
+        "temporal_valid": {"type": "boolean"},
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["code", "severity", "message"],
+            "properties": {
+              "code": {"type": "string"},
+              "severity": {"type": "string", "enum": ["warning", "error"]},
+              "message": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "reviewer"],
+      "properties": {
+        "status": {"const": "not_requested"},
+        "reviewer": {"type": "null"}
+      }
+    }
+  }
+}
+

@@ -1,0 +1,220 @@
+{
+  "flora_code": {
+    "repo": "nvidia/Flora-Captioner",
+    "revision": "ad744f46335aec671f5caac09ac97d817fbdb114"
+  },
+  "egoant": {
+    "repo": "https://github.com/ShuaiZhou302/EgoANT",
+    "revision": "b27ea59f5fb85e55caeee9473afa7c221a9c67c4"
+  },
+  "files": [
+    {
+      "path": "flora/LICENSE.pdf",
+      "sha256": "4ff203c3f7997c7fed287a463d733f794934a79cfabb2936008fca0bcc8ad3d6"
+    },
+    {
+      "path": "flora/MODEL_PROVENANCE.json",
+      "sha256": "b1979e729def7828c8d7600692ba17a3913bdac6ddd152c22bfcabd3f0ad924e"
+    },
+    {
+      "path": "flora/batch_utils/CODE_MANIFEST.json",
+      "sha256": "802568893397ea470156ce67b64a9beecb3d9e06f53ca8914f8c92278221681d"
+    },
+    {
+      "path": "flora/batch_utils/README.md",
+      "sha256": "f03e4f204b906db2b11a447585e09b6e01af5129a88b9123a5066087309f3007"
+    },
+    {
+      "path": "flora/batch_utils/THIRD_PARTY_NOTICES.md",
+      "sha256": "b73d47aa224b69e8c97850912c23d8b29219126568a11fa41ee3d085a8a430a3"
+    },
+    {
+      "path": "flora/batch_utils/__init__.py",
+      "sha256": "50a358089004c69e4c83c41a55eb44c52179d3fa20be4d4c5b92fabbc8271ac4"
+    },
+    {
+      "path": "flora/batch_utils/__main__.py",
+      "sha256": "28de248c91c00642578a541827361af9b0e5e049e4c61dd6ec1f9dc78580c24e"
+    },
+    {
+      "path": "flora/batch_utils/api.py",
+      "sha256": "ec5e17b5b02c20a40e52beab7d5ebfd49e32129ef03eb918790df720b0d97177"
+    },
+    {
+      "path": "flora/batch_utils/bootstrap.py",
+      "sha256": "83e49883136af2088038c6070303d0e89071a318e98252b40ff988230e491817"
+    },
+    {
+      "path": "flora/batch_utils/cli.py",
+      "sha256": "9dc0256b45252d7512b1c69eb7eba3b681725d7c6109287dc3892ec9a9d668e1"
+    },
+    {
+      "path": "flora/batch_utils/config.py",
+      "sha256": "0967244955e8f128e03cc6a85973a41d1571f78acf4a9bc6f91e6682781f9891"
+    },
+    {
+      "path": "flora/batch_utils/media.py",
+      "sha256": "e0ee696b63f3171d5163aadb960322f422183981c3768efd76c409976f3fda5b"
+    },
+    {
+      "path": "flora/batch_utils/models.json",
+      "sha256": "210e56e9ed46f61c6e18a974b78fccfb6a6aee3a6b0cb6cda5b5f774f934f536"
+    },
+    {
+      "path": "flora/batch_utils/models.py",
+      "sha256": "92b3ab4b376f9a4dd3c7f75568746467f17a969430c63330667f2c6d2760f1fe"
+    },
+    {
+      "path": "flora/batch_utils/pipeline.py",
+      "sha256": "588d4105197706da8acf3b591ba9671239505b53030f1d30cba0088ddad5432e"
+    },
+    {
+      "path": "flora/batch_utils/preprocessing.py",
+      "sha256": "6bc9a2c7f08f92b4933f68c0fc674f938339eceeebdec186eef1514294b167ee"
+    },
+    {
+      "path": "flora/batch_utils/requirements.txt",
+      "sha256": "66d607ebfbd6525e005db045812453c4356d7df4e42e7b40b4994bd0e5e0cd51"
+    },
+    {
+      "path": "flora/batch_utils/vendor/MANIFEST.json",
+      "sha256": "91ce5d8a5f13a583d48384c5de7f46696f5cd896ad2c1f3ce0eead9a1acae6d8"
+    },
+    {
+      "path": "flora/batch_utils/vendor/flora_unified/__init__.py",
+      "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2"
+    },
+    {
+      "path": "flora/batch_utils/vendor/flora_unified/unified_input.py",
+      "sha256": "2aa2b521191b68913b03d7582b7a3bcfad49d90c014a1a1bb7571b5e4f08d7ef"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/TEMPSEG_PROMPTS.json",
+      "sha256": "66edd6fb43b7fa55cc6257beee5c42a1a4555ab9790320c31114d77bd07a05f1"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/adapter.py",
+      "sha256": "083c6788b561d726a85d9f3f8f516593a9f6f76a43f315581c821871e3f82312"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/__init__.py",
+      "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/exact_frame_serving.py",
+      "sha256": "f921e279b5d52f723b3e77e25441763683d05c6e9cd2f8ff204466a50255b346"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/schema.py",
+      "sha256": "42c523e4db1a4da3fe0d0d578f3cf6e94aed7666c06e3f18081c209159de04b9"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/__init__.py",
+      "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_contract.py",
+      "sha256": "873476e78a9e3e222ae9e47fcb7a04c8c18ef518b2847c401a2e1cfb2292fe90"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/subtask_captioning/u2_worker.py",
+      "sha256": "870641228b0be442613d520232d451047742ca2ea41fd0cd51dbf0a58ba567d2"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/__init__.py",
+      "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/contracts.py",
+      "sha256": "8591d849b0b65fda6b21511557d4ee5eabd47f8332e2b6831f40d5bb472d978c"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_subtask.py",
+      "sha256": "6fbf8337bab8491148a78a822187d74397b7f0552700252451a18cd7c78c8e04"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_temporal.py",
+      "sha256": "32f2b99c97176f5e10934450da638577268c2e5d9977c2ea138ebf1b7eda58fa"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/fine_worker.py",
+      "sha256": "8a31a77180c8d406113d4b494644153564a6f46c8a9b68ad7babb3cc1695edec"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/interface.py",
+      "sha256": "a5424b2cc3a4c879552dd49bae207a58fb9e751359f441c03af167a2e1879359"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/video_segmentation/scope_scheduler.py",
+      "sha256": "be95411b39124d83811fe74dcac2d911169ecf475a81b7460c64b19fbbc7e5db"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_adapter/core/flora_runtime/worker_transport.py",
+      "sha256": "30fb64869eb6a27ab96bf394c105f19fcb42590be4424c66b76b89e17631693a"
+    },
+    {
+      "path": "flora/batch_utils/vendor/production_gdn_fix.py",
+      "sha256": "a3f52604bfa2ec58901df63215df5e47d37e1d7974aa56d36a1e4efe8cad3fc6"
+    },
+    {
+      "path": "flora/batch_utils/vendor/pts_input_adapter.py",
+      "sha256": "d784d6b77005eb6945dee334e4c9136fbededfa2049d5945244f198517984767"
+    },
+    {
+      "path": "flora/batch_utils/vendor/robot_caption_geometry.py",
+      "sha256": "1c874d3c63359663276d31a3e9c3112a5982ad4000f44c808541b2471f5f7d2d"
+    },
+    {
+      "path": "flora/batch_utils/vendor/support/canonical_rgb.py",
+      "sha256": "1e3230c60b45d8e017060d8a5dd2b5f48e2199192f09dcff4d04c05b4349e35a"
+    },
+    {
+      "path": "flora/batch_utils/vendor/support/composers.py",
+      "sha256": "180b97a6a634979c1b0dbe720ed7a1abd818dc7ee31fdc4eeca7a8277e43d1b6"
+    },
+    {
+      "path": "flora/batch_utils/vendor/support/plans.py",
+      "sha256": "d75b918804c9ec10f8642d362a54a74c3eb875abf22e8a60228a0d6b2cbb570e"
+    },
+    {
+      "path": "flora/batch_utils/vendor/support/u2_contract.py",
+      "sha256": "50190914b719bbc9b8f2b53e52a6bd2b142a452e2fb1c5c897ea4c31123ad4dd"
+    },
+    {
+      "path": "flora/batch_utils/vendor/tempseg_fp32_loader.py",
+      "sha256": "7ee9889f5aa5909abf3ecd1c34e3ac2f81a32a2098d94ae3ba9f33831e7a07c0"
+    },
+    {
+      "path": "flora/batch_utils/vendor/verify_gdn.py",
+      "sha256": "96596ff2db4425f4dea71798aeabb581aa83e1ad8a878cfcb9efb8dbac80cda6"
+    },
+    {
+      "path": "egoant/scripts/wgo_bench/contact_sheet_segment.py",
+      "sha256": "1829c2f00c1d78b00cbd65ee0c9a4d01a3866634f4100c553eccf0f1112d5d76"
+    },
+    {
+      "path": "egoant/scripts/wgo_bench/seg_opt_ideas.py",
+      "sha256": "b09cfc37a117da616837b755ff19df67b66465fcaa5315740863b5aa235971ac"
+    },
+    {
+      "path": "egoant/scripts/wgo_bench/label_gold_segments.py",
+      "sha256": "ca18ae5153d331a66384d3b3a19c14a125705daaedad5e99df6e8dbcad448f31"
+    },
+    {
+      "path": "egoant/scripts/annotate_video.py",
+      "sha256": "89a1144045260fc2a41ef4f3aa28431d652d5454a65c25b5ec6f6be12383f978"
+    },
+    {
+      "path": "egoant/scripts/api_usage.py",
+      "sha256": "1e7e23b57aa411a87323ad82c2671364ec96d68841b1500d78275f3e66d0b6e7"
+    },
+    {
+      "path": "egoant/LICENSE",
+      "sha256": "409c7e9f90394fa144f40e10ffb1ad355ae81f62343ac5468ff22f402b21ff90"
+    },
+    {
+      "path": "egoant/THIRD_PARTY.md",
+      "sha256": "c22dba04bfb4efa01221e1a7ce38f24cbe17f94a22d74b991fef54c86edbd3af"
+    }
+  ]
+}

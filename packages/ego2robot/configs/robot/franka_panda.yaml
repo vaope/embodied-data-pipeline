@@ -1,0 +1,51 @@
+# Franka Emika Panda robot profile.
+#
+# Layer position in the configuration stack (system-design.md 14):
+#   package defaults < pipeline profile < dataset/source profile
+#                     < ROBOT PROFILE < CLI overrides
+#
+# So every key here is nested under `robot_binding` exactly as PipelineConfig
+# declares it, otherwise the strict schema rejects the file.
+#
+# Model source: mujoco_menagerie/franka_emika_panda/panda.xml (Apache-2.0),
+# vendored under assets/mjcf/franka_emika_panda/.
+#
+# The kinematic contract (joint names, T_E_TCP, reach, gripper range) is DERIVED
+# from the vendored MJCF at runtime by
+# `ego2robot.robots.franka.build_franka_config`; the fields below restate the
+# derived values so that a changed model shows up as a config diff, and pin the
+# choices a human made.
+
+robot_binding:
+  robot_id: franka_panda
+
+  # --- model location and provenance -------------------------------------
+  mjcf_uri: assets/mjcf/franka_emika_panda/panda.xml
+  mjcf_source: mujoco_menagerie/franka_emika_panda/panda.xml
+  mjcf_license: Apache-2.0
+
+  # --- derived from the model, restated for visibility --------------------
+  dof: 7
+  gripper_dof: 2
+  # upstream panda.xml has NO <site> element, so the IK frame is the `hand`
+  # BODY rather than an attachment site (ADR-0005)
+  eef_body_name: hand
+  base_body_name: link0
+  joint_names: [joint1, joint2, joint3, joint4, joint5, joint6, joint7]
+  gripper_joint_names: [finger_joint1, finger_joint2]
+  # the vendored kinematic chain measures 0.855 m of usable reach; the paper's
+  # appendix A.7 quotes 1.272 m for Panda, which is the arm-only figure. ADR-0005
+  # records which one T_B_TCP distances are normalised against.
+  max_reach_m: 0.855
+
+  # --- operator choices ---------------------------------------------------
+  # gripper opening (m) = 2 * finger_joint position; the paper publishes 0-80 mm
+  # for Panda (appendix A.7)
+  gripper_width_min_m: 0.0
+  gripper_width_max_m: 0.08
+  gripper_command_mode: width_m
+  require_base_from_episode: true
+
+  # --- QC limits ----------------------------------------------------------
+  ik:
+    max_joint_jump_rad: 1.5

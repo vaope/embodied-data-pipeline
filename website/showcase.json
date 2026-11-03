@@ -1,0 +1,1352 @@
+{
+  "version": "showcase.v0.2",
+  "updated": "2026-11-02",
+  "annotations": [
+    {
+      "id": "egodex_staple_paper_001",
+      "title": "装订纸张",
+      "task": "Pick up one piece of paper from a stack, staple it with a stapler held in hand, and place the stapled paper into a new stack.",
+      "duration_s": 65.233333,
+      "variants": {
+        "AV-A": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.5,
+            "caption": "Pick up the stapler"
+          },
+          {
+            "start_s": 2.5,
+            "end_s": 5.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 5.5,
+            "end_s": 7.0,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 7.0,
+            "end_s": 10.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 10.0,
+            "end_s": 13.0,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 13.0,
+            "end_s": 14.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 14.5,
+            "end_s": 17.5,
+            "caption": "Place the stapled paper onto the new stack"
+          },
+          {
+            "start_s": 17.5,
+            "end_s": 18.5,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 18.5,
+            "end_s": 20.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 20.5,
+            "end_s": 22.0,
+            "caption": "Place the stapled paper onto the stack"
+          },
+          {
+            "start_s": 22.0,
+            "end_s": 25.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 25.0,
+            "end_s": 28.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 28.0,
+            "end_s": 29.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 29.5,
+            "end_s": 32.5,
+            "caption": "Pick up a piece of paper"
+          },
+          {
+            "start_s": 32.5,
+            "end_s": 35.5,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 35.5,
+            "end_s": 37.0,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 37.0,
+            "end_s": 38.5,
+            "caption": "Pick up a piece of paper from the stack"
+          },
+          {
+            "start_s": 38.5,
+            "end_s": 43.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 43.0,
+            "end_s": 44.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 44.5,
+            "end_s": 47.5,
+            "caption": "Place the stapled paper onto the stack"
+          },
+          {
+            "start_s": 47.5,
+            "end_s": 50.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 50.5,
+            "end_s": 52.0,
+            "caption": "Pick up the paper from the table"
+          },
+          {
+            "start_s": 52.0,
+            "end_s": 55.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 55.0,
+            "end_s": 56.0,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 56.0,
+            "end_s": 58.0,
+            "caption": "Place the paper on the table"
+          },
+          {
+            "start_s": 58.0,
+            "end_s": 59.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 59.5,
+            "end_s": 62.5,
+            "caption": "Staple the paper"
+          },
+          {
+            "start_s": 62.5,
+            "end_s": 65.2,
+            "caption": "Place the stapler on the table"
+          }
+        ],
+        "AV-B": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.5,
+            "caption": "pick up the stapler with the right hand, and pick up the paper with the left hand"
+          },
+          {
+            "start_s": 2.5,
+            "end_s": 5.5,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand, place paper on table with left hand"
+          },
+          {
+            "start_s": 5.5,
+            "end_s": 7.0,
+            "caption": "hold stapler with right hand, shift paper on table with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 7.0,
+            "end_s": 10.0,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 10.0,
+            "end_s": 13.0,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 13.0,
+            "end_s": 14.5,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 14.5,
+            "end_s": 17.5,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 17.5,
+            "end_s": 18.5,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 18.5,
+            "end_s": 20.5,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 20.5,
+            "end_s": 22.0,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 22.0,
+            "end_s": 25.0,
+            "caption": "pick up paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 25.0,
+            "end_s": 28.0,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 28.0,
+            "end_s": 29.5,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 29.5,
+            "end_s": 32.5,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 32.5,
+            "end_s": 35.5,
+            "caption": "hold stapler with right hand, align paper with left hand"
+          },
+          {
+            "start_s": 35.5,
+            "end_s": 37.0,
+            "caption": "hold stapler with right hand, align papers with left hand"
+          },
+          {
+            "start_s": 37.0,
+            "end_s": 38.5,
+            "caption": "hold stapler with right hand, pick up paper and rotate paper with left hand"
+          },
+          {
+            "start_s": 38.5,
+            "end_s": 43.0,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 43.0,
+            "end_s": 44.5,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 44.5,
+            "end_s": 47.5,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 47.5,
+            "end_s": 50.5,
+            "caption": "staple paper with stapler in right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 50.5,
+            "end_s": 52.0,
+            "caption": "hold stapler with right hand, lift papers with left hand"
+          },
+          {
+            "start_s": 52.0,
+            "end_s": 55.0,
+            "caption": "hold stapler with right hand, pick up paper with left hand, rotate paper with left hand"
+          },
+          {
+            "start_s": 55.0,
+            "end_s": 56.0,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 56.0,
+            "end_s": 58.0,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, shift paper with left hand"
+          },
+          {
+            "start_s": 58.0,
+            "end_s": 59.5,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 59.5,
+            "end_s": 62.5,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 62.5,
+            "end_s": 65.2,
+            "caption": "place papers on table with left hand, place stapler on table with right hand"
+          }
+        ],
+        "AV-C": [
+          {
+            "start_s": 0.0,
+            "end_s": 3.05,
+            "caption": "pick up the paper with the left hand, and pick up the stapler with the right hand."
+          },
+          {
+            "start_s": 3.05,
+            "end_s": 5.25,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand, place paper on table with left hand"
+          },
+          {
+            "start_s": 5.25,
+            "end_s": 6.25,
+            "caption": "hold stapler with right hand, place paper on table with left hand"
+          },
+          {
+            "start_s": 6.25,
+            "end_s": 7.55,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 7.55,
+            "end_s": 9.65,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 9.65,
+            "end_s": 10.65,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 10.6,
+            "end_s": 12.85,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 10.65,
+            "end_s": 13.05,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 12.85,
+            "end_s": 15.35,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 15.35,
+            "end_s": 16.35,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 16.35,
+            "end_s": 18.25,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 18.25,
+            "end_s": 20.55,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 20.55,
+            "end_s": 21.55,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 21.55,
+            "end_s": 23.05,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 22.85,
+            "end_s": 24.65,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 23.05,
+            "end_s": 24.75,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 24.65,
+            "end_s": 25.65,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 25.65,
+            "end_s": 28.45,
+            "caption": "hold stapler with right hand, pick up paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 28.45,
+            "end_s": 30.05,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 30.05,
+            "end_s": 31.05,
+            "caption": "Hold the stapler with the right hand and place the paper on the right stack with the left hand"
+          },
+          {
+            "start_s": 31.05,
+            "end_s": 37.25,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 37.65,
+            "end_s": 40.35,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 40.35,
+            "end_s": 42.45,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 42.45,
+            "end_s": 44.65,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 44.65,
+            "end_s": 47.25,
+            "caption": "hold stapler with right hand, place paper on stack with left hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 47.25,
+            "end_s": 49.1,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 49.05,
+            "end_s": 50.05,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 50.05,
+            "end_s": 54.05,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 54.05,
+            "end_s": 56.05,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 56.05,
+            "end_s": 57.05,
+            "caption": "hold stapler with right hand, place paper on stack with left hand"
+          },
+          {
+            "start_s": 57.05,
+            "end_s": 59.05,
+            "caption": "hold stapler with right hand, pick up paper with left hand"
+          },
+          {
+            "start_s": 57.15,
+            "end_s": 62.6,
+            "caption": "pick up paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 59.05,
+            "end_s": 62.45,
+            "caption": "hold paper with left hand, staple paper with stapler in right hand"
+          },
+          {
+            "start_s": 62.6,
+            "end_s": 65.233333,
+            "caption": "place papers on stack with left hand, place stapler on table with right hand"
+          }
+        ]
+      },
+      "annotation_source": "automatic",
+      "review_status": "selected_for_visual_review",
+      "video": "assets/showcase/egodex_staple_paper_001.mp4",
+      "poster": "assets/showcase/egodex_staple_paper_001.jpg",
+      "provenance": {
+        "run": "pilot_abc / 2026-10-30",
+        "source_video_sha256": "b2b9154eb5e078bc4689edcf843516c8561b2c5c8ebbdcf02708db86a0fc6925",
+        "native_annotation_sha256": {
+          "AV-A": "dc4fe10154697d49fb7a6b46c08e42dbac511f594437fea3c1b5c2be8aeeb4eb",
+          "AV-B": "7dd977fdca03e4cdaecccfb63d1a930ec3aba0f5a11ec255b576f463a6550081",
+          "AV-C": "8473174dfaf6d494177452ebe2da73668914ce58067042f85781f61238a58355"
+        }
+      },
+      "download": "downloads/egodex_staple_paper_001.annotations.json"
+    },
+    {
+      "id": "egodex_fold_stack_unstack_unfold_cloths_002",
+      "title": "整理与折叠布料",
+      "task": "Unstack and unfold the seven cloths on a green tablecloth with a blue background.",
+      "duration_s": 65.733333,
+      "variants": {
+        "AV-A": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.0,
+            "caption": "Pick up the top blue cloth from the stack"
+          },
+          {
+            "start_s": 2.0,
+            "end_s": 4.5,
+            "caption": "Unfold the light blue cloth on the table"
+          },
+          {
+            "start_s": 4.5,
+            "end_s": 7.5,
+            "caption": "Fold the blue cloth in half"
+          },
+          {
+            "start_s": 7.5,
+            "end_s": 9.5,
+            "caption": "Move the blue cloth to the left on the table"
+          },
+          {
+            "start_s": 9.5,
+            "end_s": 12.0,
+            "caption": "Pick up the yellow cloth from the stack"
+          },
+          {
+            "start_s": 12.0,
+            "end_s": 15.0,
+            "caption": "Fold the yellow cloth in half"
+          },
+          {
+            "start_s": 15.0,
+            "end_s": 19.5,
+            "caption": "Place the yellow cloth on the blue cloth"
+          },
+          {
+            "start_s": 19.5,
+            "end_s": 22.0,
+            "caption": "Unfold the pink cloth on the table"
+          },
+          {
+            "start_s": 22.0,
+            "end_s": 24.5,
+            "caption": "Fold the pink cloth in half"
+          },
+          {
+            "start_s": 24.5,
+            "end_s": 29.5,
+            "caption": "Fold the pink cloth and place it on the yellow cloth"
+          },
+          {
+            "start_s": 29.5,
+            "end_s": 36.5,
+            "caption": "Place the light blue cloth on the stack of cloths"
+          },
+          {
+            "start_s": 36.5,
+            "end_s": 39.5,
+            "caption": "Unfold the green cloth"
+          },
+          {
+            "start_s": 39.5,
+            "end_s": 43.0,
+            "caption": "Fold the green cloth in half"
+          },
+          {
+            "start_s": 43.0,
+            "end_s": 47.5,
+            "caption": "Place the green cloth on the stack of cloths"
+          },
+          {
+            "start_s": 49.5,
+            "end_s": 54.5,
+            "caption": "Fold the yellow cloth in half"
+          },
+          {
+            "start_s": 54.5,
+            "end_s": 57.0,
+            "caption": "Unfold the pink cloth"
+          },
+          {
+            "start_s": 57.0,
+            "end_s": 59.0,
+            "caption": "Unfold the pink cloth on the table"
+          },
+          {
+            "start_s": 59.0,
+            "end_s": 61.5,
+            "caption": "Fold the pink cloth in half"
+          },
+          {
+            "start_s": 61.5,
+            "end_s": 64.0,
+            "caption": "Fold the pink cloth"
+          }
+        ],
+        "AV-B": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.0,
+            "caption": "pick up blue cloth from stack with both hands"
+          },
+          {
+            "start_s": 2.0,
+            "end_s": 4.5,
+            "caption": "place blue cloth on table with both hands, fold blue cloth with both hands"
+          },
+          {
+            "start_s": 4.5,
+            "end_s": 7.5,
+            "caption": "fold blue cloth with both hands, fold blue cloth with left hand"
+          },
+          {
+            "start_s": 7.5,
+            "end_s": 9.5,
+            "caption": "slide blue cloth on table with left hand"
+          },
+          {
+            "start_s": 9.5,
+            "end_s": 12.0,
+            "caption": "pick up yellow cloth with both hands, unfold yellow cloth with both hands"
+          },
+          {
+            "start_s": 12.0,
+            "end_s": 15.0,
+            "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, shift yellow cloth with both hands"
+          },
+          {
+            "start_s": 15.0,
+            "end_s": 19.5,
+            "caption": "fold yellow cloth with left hand, pick up yellow cloth and place yellow cloth on stack with left hand"
+          },
+          {
+            "start_s": 19.5,
+            "end_s": 22.0,
+            "caption": "pick up pink cloth with both hands, place pink cloth on table with both hands"
+          },
+          {
+            "start_s": 22.0,
+            "end_s": 24.5,
+            "caption": "place pink cloth on table with both hands, fold pink cloth on table with both hands"
+          },
+          {
+            "start_s": 24.5,
+            "end_s": 29.5,
+            "caption": "fold pink cloth with both hands, pick up pink cloth and place pink cloth on stack with left hand"
+          },
+          {
+            "start_s": 29.5,
+            "end_s": 36.5,
+            "caption": "pick up blue cloth with both hands, place blue cloth on table with both hands, fold blue cloth with both hands, pick up blue cloth with left hand"
+          },
+          {
+            "start_s": 36.5,
+            "end_s": 39.5,
+            "caption": "place blue cloth on stack with left hand, pick up green cloth with both hands"
+          },
+          {
+            "start_s": 39.5,
+            "end_s": 43.0,
+            "caption": "place green cloth on table with both hands, fold green cloth with both hands, lift green cloth with left hand"
+          },
+          {
+            "start_s": 43.0,
+            "end_s": 47.5,
+            "caption": "fold green cloth with left hand, pick up green cloth with both hands, place green cloth on stack with left hand"
+          },
+          {
+            "start_s": 49.5,
+            "end_s": 54.5,
+            "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, pick up yellow cloth with both hands"
+          },
+          {
+            "start_s": 54.5,
+            "end_s": 57.0,
+            "caption": "place yellow cloth on stack with left hand, pick up pink cloth with both hands"
+          },
+          {
+            "start_s": 57.0,
+            "end_s": 59.0,
+            "caption": "place pink cloth on table with both hands, fold pink cloth with both hands"
+          },
+          {
+            "start_s": 59.0,
+            "end_s": 61.5,
+            "caption": "fold pink cloth with both hands, smoothen pink cloth with both hands, align pink cloth with both hands"
+          },
+          {
+            "start_s": 61.5,
+            "end_s": 64.0,
+            "caption": "fold pink cloth with left hand, pick up pink cloth with both hands"
+          }
+        ],
+        "AV-C": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.6,
+            "caption": "pick up blue cloth with both hands"
+          },
+          {
+            "start_s": 2.6,
+            "end_s": 6.05,
+            "caption": "place blue cloth on table with both hands, fold blue cloth with both hands"
+          },
+          {
+            "start_s": 6.05,
+            "end_s": 9.25,
+            "caption": "fold blue cloth with left hand, slide blue cloth on table with left hand"
+          },
+          {
+            "start_s": 9.25,
+            "end_s": 11.55,
+            "caption": "pick up yellow cloth with both hands"
+          },
+          {
+            "start_s": 11.45,
+            "end_s": 13.25,
+            "caption": "place yellow cloth on table with both hands"
+          },
+          {
+            "start_s": 11.55,
+            "end_s": 15.2,
+            "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands, shift yellow cloth with both hands"
+          },
+          {
+            "start_s": 13.25,
+            "end_s": 15.25,
+            "caption": "fold yellow cloth with both hands, shift yellow cloth with right hand, fold yellow cloth with left hand"
+          },
+          {
+            "start_s": 15.25,
+            "end_s": 17.05,
+            "caption": "fold yellow cloth with left hand, align yellow cloth with right hand"
+          },
+          {
+            "start_s": 17.05,
+            "end_s": 18.85,
+            "caption": "pick up yellow cloth with left hand, place yellow cloth on stack with left hand"
+          },
+          {
+            "start_s": 18.85,
+            "end_s": 21.25,
+            "caption": "pick up pink cloth with both hands"
+          },
+          {
+            "start_s": 21.05,
+            "end_s": 24.6,
+            "caption": "place pink cloth on table with both hands, fold pink cloth with both hands"
+          },
+          {
+            "start_s": 21.25,
+            "end_s": 22.65,
+            "caption": "place pink cloth on table with both hands"
+          },
+          {
+            "start_s": 22.65,
+            "end_s": 24.65,
+            "caption": "fold pink cloth on table with both hands"
+          },
+          {
+            "start_s": 24.6,
+            "end_s": 25.6,
+            "caption": "lift the left side of the pink cloth with the left hand while straightening the blue cloth on the right side of the green tablecloth with the right hand"
+          },
+          {
+            "start_s": 25.6,
+            "end_s": 27.4,
+            "caption": "fold pink cloth with left hand, press pink cloth with both hands"
+          },
+          {
+            "start_s": 27.4,
+            "end_s": 28.4,
+            "caption": "pick up pink cloth and place pink cloth on stack with left hand"
+          },
+          {
+            "start_s": 28.4,
+            "end_s": 30.8,
+            "caption": "pick up blue cloth with both hands"
+          },
+          {
+            "start_s": 30.8,
+            "end_s": 32.6,
+            "caption": "place blue cloth on table with both hands"
+          },
+          {
+            "start_s": 32.6,
+            "end_s": 34.4,
+            "caption": "fold blue cloth with both hands, press blue cloth with both hands"
+          },
+          {
+            "start_s": 34.4,
+            "end_s": 35.8,
+            "caption": "fold blue cloth with left hand, press blue cloth with right hand"
+          },
+          {
+            "start_s": 35.25,
+            "end_s": 37.25,
+            "caption": "pick up blue cloth with left hand, place blue cloth on stack with left hand"
+          },
+          {
+            "start_s": 35.8,
+            "end_s": 37.4,
+            "caption": "pick up blue cloth and place blue cloth on stack with left hand"
+          },
+          {
+            "start_s": 37.25,
+            "end_s": 39.65,
+            "caption": "pick up green cloth with both hands"
+          },
+          {
+            "start_s": 39.65,
+            "end_s": 41.25,
+            "caption": "place green cloth on table with both hands, fold green cloth with both hands"
+          },
+          {
+            "start_s": 41.25,
+            "end_s": 43.65,
+            "caption": "fold green cloth with both hands, fold green cloth with left hand"
+          },
+          {
+            "start_s": 43.65,
+            "end_s": 45.15,
+            "caption": "pick up green cloth with both hands, pass green cloth from right hand to left hand"
+          },
+          {
+            "start_s": 45.05,
+            "end_s": 48.6,
+            "caption": "place green cloth on stack with left hand, pick up yellow cloth with both hands"
+          },
+          {
+            "start_s": 45.15,
+            "end_s": 46.35,
+            "caption": "place green cloth on stack with left hand"
+          },
+          {
+            "start_s": 46.35,
+            "end_s": 48.85,
+            "caption": "pick up yellow cloth with both hands"
+          },
+          {
+            "start_s": 48.6,
+            "end_s": 53.0,
+            "caption": "place yellow cloth on table with both hands, fold yellow cloth with both hands"
+          },
+          {
+            "start_s": 53.0,
+            "end_s": 54.2,
+            "caption": "pick up yellow cloth with left hand, align yellow cloth with both hands"
+          },
+          {
+            "start_s": 54.2,
+            "end_s": 55.4,
+            "caption": "place yellow cloth on stack with left hand"
+          },
+          {
+            "start_s": 55.4,
+            "end_s": 58.2,
+            "caption": "pick up pink cloth with both hands, spread pink cloth on table with both hands"
+          },
+          {
+            "start_s": 58.2,
+            "end_s": 62.1,
+            "caption": "fold pink cloth with both hands, smoothen pink cloth with both hands, fold pink cloth with left hand"
+          },
+          {
+            "start_s": 59.6,
+            "end_s": 61.8,
+            "caption": "smoothen pink cloth with both hands, shift pink cloth with both hands"
+          },
+          {
+            "start_s": 61.8,
+            "end_s": 63.8,
+            "caption": "fold pink cloth with left hand, pick up pink cloth with both hands"
+          },
+          {
+            "start_s": 63.8,
+            "end_s": 65.733333,
+            "caption": "pick up pink cloth with left hand, place pink cloth on stack with left hand"
+          }
+        ]
+      },
+      "annotation_source": "automatic",
+      "review_status": "selected_for_visual_review",
+      "video": "assets/showcase/egodex_fold_stack_unstack_unfold_cloths_002.mp4",
+      "poster": "assets/showcase/egodex_fold_stack_unstack_unfold_cloths_002.jpg",
+      "provenance": {
+        "run": "pilot_abc / 2026-10-30",
+        "source_video_sha256": "fd8a0cba66e818a95d28efcbd70accf79b375b09f1ce7f5272b13897885520a0",
+        "native_annotation_sha256": {
+          "AV-A": "7deb5b0a88d4357d8e44b368b921bf9fb75f039514d09011309e8db4af627f0a",
+          "AV-B": "cd49ebbd320bc2f98bbbd0bbee350fc445a040294cfb95230b30e80e545d764b",
+          "AV-C": "edf4304c1213c816102da5e72608c90264ebad2367d3338a2a4be53efd00c672"
+        }
+      },
+      "download": "downloads/egodex_fold_stack_unstack_unfold_cloths_002.annotations.json"
+    },
+    {
+      "id": "egodex_screw_unscrew_allen_fixture_010",
+      "title": "旋出螺钉",
+      "task": "Unscrew the screw from the fixture using an allen key while sitting at a table with a pink tablecloth and lavender background.",
+      "duration_s": 65.333333,
+      "variants": {
+        "AV-A": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.0,
+            "caption": "Pick up the allen key from the table"
+          },
+          {
+            "start_s": 2.0,
+            "end_s": 14.0,
+            "caption": "Unscrew the screw from the fixture using the allen key"
+          },
+          {
+            "start_s": 14.0,
+            "end_s": 16.0,
+            "caption": "Unscrew the screw from the fixture with the allen key"
+          },
+          {
+            "start_s": 16.0,
+            "end_s": 17.0,
+            "caption": "Place the screw on the table"
+          },
+          {
+            "start_s": 17.0,
+            "end_s": 61.0,
+            "caption": "Insert the allen key into the screw on the fixture"
+          },
+          {
+            "start_s": 61.0,
+            "end_s": 62.5,
+            "caption": "Place the removed screw on the table"
+          },
+          {
+            "start_s": 62.5,
+            "end_s": 65.33,
+            "caption": "Remove the black bracket from the base plate"
+          }
+        ],
+        "AV-B": [
+          {
+            "start_s": 0.0,
+            "end_s": 2.0,
+            "caption": "pick up allen key with right hand"
+          },
+          {
+            "start_s": 2.0,
+            "end_s": 14.0,
+            "caption": "unscrew screw from fixture with allen key in right hand"
+          },
+          {
+            "start_s": 14.0,
+            "end_s": 16.0,
+            "caption": "hold allen key with right hand, pick up screw with right hand"
+          },
+          {
+            "start_s": 16.0,
+            "end_s": 17.0,
+            "caption": "hold allen key with right hand, place screw on table with right hand"
+          },
+          {
+            "start_s": 17.0,
+            "end_s": 61.0,
+            "caption": "loosen screw on fixture with allen key in right hand"
+          },
+          {
+            "start_s": 61.0,
+            "end_s": 62.5,
+            "caption": "hold allen key with right hand, pick up screw and place screw on table with right hand"
+          },
+          {
+            "start_s": 62.5,
+            "end_s": 65.33,
+            "caption": "place allen key on table with right hand, reposition fixture on table with right hand"
+          }
+        ],
+        "AV-C": [
+          {
+            "start_s": 0.0,
+            "end_s": 1.95,
+            "caption": "pick up allen key with right hand"
+          },
+          {
+            "start_s": 1.95,
+            "end_s": 14.05,
+            "caption": "unscrew screw from fixture with allen key in right hand"
+          },
+          {
+            "start_s": 14.05,
+            "end_s": 16.85,
+            "caption": "hold allen key with right hand, pick up screw and place screw on table with right hand"
+          },
+          {
+            "start_s": 16.85,
+            "end_s": 59.45,
+            "caption": "loosen screw on fixture with allen key in right hand"
+          },
+          {
+            "start_s": 46.65,
+            "end_s": 59.45,
+            "caption": "unscrew screw from fixture with allen key in right hand"
+          },
+          {
+            "start_s": 46.65,
+            "end_s": 61.4,
+            "caption": "unscrew screw from fixture with allen key in right hand"
+          },
+          {
+            "start_s": 59.45,
+            "end_s": 61.55,
+            "caption": "hold allen key with right hand, pick up screw with right hand"
+          },
+          {
+            "start_s": 61.4,
+            "end_s": 63.6,
+            "caption": "place screw on table with right hand, place allen key on table with right hand"
+          },
+          {
+            "start_s": 63.6,
+            "end_s": 65.333333,
+            "caption": "pick up fixture and place fixture on table with right hand"
+          }
+        ]
+      },
+      "annotation_source": "automatic",
+      "review_status": "selected_for_visual_review",
+      "video": "assets/showcase/egodex_screw_unscrew_allen_fixture_010.mp4",
+      "poster": "assets/showcase/egodex_screw_unscrew_allen_fixture_010.jpg",
+      "provenance": {
+        "run": "pilot_abc / 2026-10-30",
+        "source_video_sha256": "f39c923438aee0d410c4d461a34e56cb80136466269dcdf0d173e95f595f2b84",
+        "native_annotation_sha256": {
+          "AV-A": "974f42b052ca7b19f250260b8016d03e616f3ba355e6e6895d950e0ee38d5ab4",
+          "AV-B": "59497a18e1304257a3bcb3fd6dd70967d5440c93b68791f67e64817d7293db45",
+          "AV-C": "5bbeaf29150cf8586cacd9f7bc19d6fe94f914cfaf8b592971f7718f26312dc1"
+        }
+      },
+      "download": "downloads/egodex_screw_unscrew_allen_fixture_010.annotations.json"
+    }
+  ],
+  "queries": [
+    {
+      "id": "ego-staple",
+      "type": "ego",
+      "title": "装订纸张 · 固定窗口",
+      "caption": "Handle and reposition sheets of paper near a small black rectangular object",
+      "source_id": "egodex_staple_paper_002",
+      "granularity": "固定窗口 / 任务级文本",
+      "method": "pose_language_active",
+      "method_label": "手型与语言召回 → 活动权重运动重排",
+      "recipe": "pose-language-active-v1",
+      "index_signature": "31a3e0929d80470d25c87eb1af1cc88688c733b150cb371ee1db4974d809696a",
+      "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae",
+      "coverage_note": "这些是 1 秒检索窗口，附带前后各 2 秒播放上下文。文本来自官方整集任务描述，不是窗口级动作标注；不据此判定完整任务覆盖。",
+      "query_note": "Ego→Ego 原方案；保留该查询原始 Top 3 顺序。",
+      "steps": [
+        {
+          "start_s": 42.0,
+          "end_s": 43.0,
+          "caption": "固定检索窗口（无独立步骤标签）"
+        }
+      ],
+      "video": "assets/showcase/ego-staple-query.mp4",
+      "poster": "assets/showcase/ego-staple-query.jpg",
+      "start_s": 42.0,
+      "end_s": 43.0,
+      "display_start_s": 40.0,
+      "display_end_s": 45.0,
+      "local_start_s": 2.0,
+      "local_end_s": 3.0,
+      "candidates": [
+        {
+          "id": "egodex_part4_staple_paper_000285_f001650_001680",
+          "rank": 1,
+          "source_id": "egodex_part4_staple_paper_000285",
+          "caption": "Pick up one piece of paper from a stack, staple it with a stapler, and place the stapled paper into a new stack on a pink tablecloth.",
+          "caption_scope": "官方整集任务描述",
+          "motion": {
+            "translation": 0.05553994391109363,
+            "rotation": 0.6156826077031918,
+            "fingertip": 0.011008717539509933,
+            "wrist": 0.0330188496020559
+          },
+          "motion_ranks": {
+            "translation": 66,
+            "rotation": 300,
+            "fingertip": 13,
+            "wrist": 173
+          },
+          "semantic_similarity": 0.6144741773605347,
+          "valid_hands": {
+            "left": false,
+            "right": true
+          },
+          "steps": [
+            {
+              "start_s": 55.0,
+              "end_s": 56.0,
+              "caption": "固定检索窗口（无独立步骤标签）"
+            }
+          ],
+          "video": "assets/showcase/ego-staple-result-1.mp4",
+          "poster": "assets/showcase/ego-staple-result-1.jpg",
+          "start_s": 55.0,
+          "end_s": 56.0,
+          "display_start_s": 53.0,
+          "display_end_s": 58.0,
+          "local_start_s": 2.0,
+          "local_end_s": 3.0,
+          "download": "downloads/ego-staple-rank1.json",
+          "csv": "downloads/ego-staple-rank1.csv"
+        },
+        {
+          "id": "egodex_part4_staple_paper_000081_f002490_002520",
+          "rank": 2,
+          "source_id": "egodex_part4_staple_paper_000081",
+          "caption": "Pick up one piece of paper from a stack, staple it with a stapler, and place the stapled paper into a new stack on a pink tablecloth.",
+          "caption_scope": "官方整集任务描述",
+          "motion": {
+            "translation": 0.056693148948004715,
+            "rotation": 0.6403678412822255,
+            "fingertip": 0.01611750473242515,
+            "wrist": 0.019377449743209783
+          },
+          "motion_ranks": {
+            "translation": 70,
+            "rotation": 422,
+            "fingertip": 169,
+            "wrist": 19
+          },
+          "semantic_similarity": 0.6144741773605347,
+          "valid_hands": {
+            "left": false,
+            "right": true
+          },
+          "steps": [
+            {
+              "start_s": 83.0,
+              "end_s": 84.0,
+              "caption": "固定检索窗口（无独立步骤标签）"
+            }
+          ],
+          "video": "assets/showcase/ego-staple-result-2.mp4",
+          "poster": "assets/showcase/ego-staple-result-2.jpg",
+          "start_s": 83.0,
+          "end_s": 84.0,
+          "display_start_s": 81.0,
+          "display_end_s": 86.0,
+          "local_start_s": 2.0,
+          "local_end_s": 3.0,
+          "download": "downloads/ego-staple-rank2.json",
+          "csv": "downloads/ego-staple-rank2.csv"
+        },
+        {
+          "id": "egodex_part4_staple_paper_000443_f000540_000570",
+          "rank": 3,
+          "source_id": "egodex_part4_staple_paper_000443",
+          "caption": "Pick up one piece of paper from a stack, staple it with a stapler, and place the stapled paper into a new stack on a pink tablecloth.",
+          "caption_scope": "官方整集任务描述",
+          "motion": {
+            "translation": 0.042345705765245656,
+            "rotation": 0.6037925015243004,
+            "fingertip": 0.014986481476503902,
+            "wrist": 0.037975375010603274
+          },
+          "motion_ranks": {
+            "translation": 18,
+            "rotation": 250,
+            "fingertip": 119,
+            "wrist": 352
+          },
+          "semantic_similarity": 0.6144741773605347,
+          "valid_hands": {
+            "left": false,
+            "right": true
+          },
+          "steps": [
+            {
+              "start_s": 18.0,
+              "end_s": 19.0,
+              "caption": "固定检索窗口（无独立步骤标签）"
+            }
+          ],
+          "video": "assets/showcase/ego-staple-result-3.mp4",
+          "poster": "assets/showcase/ego-staple-result-3.jpg",
+          "start_s": 18.0,
+          "end_s": 19.0,
+          "display_start_s": 16.0,
+          "display_end_s": 21.0,
+          "local_start_s": 2.0,
+          "local_end_s": 3.0,
+          "download": "downloads/ego-staple-rank3.json",
+          "csv": "downloads/ego-staple-rank3.csv"
+        }
+      ]
+    },
+    {
+      "id": "robot-pen",
+      "type": "robot",
+      "title": "把笔放在桌面",
+      "source_id": "droid_006",
+      "caption": "Place the pen on the table",
+      "granularity": "单步 / 原自动标注",
+      "method": "event_v1_fusion",
+      "method_label": "事件语义召回 + 末端行为重排",
+      "recipe": "event_v1_20261026",
+      "source_result_sha256": "f43f54985ea9e34583e65897b7e1f6dded3c06c3f96fce9550e84b179990cbbb",
+      "coverage_note": "仅查询“放笔”步骤。保留旧运行片段口径：Robot 标注到 12.07 秒、运动评分到 12.00 秒；候选播放终点为旧结果中最后一帧时间，比标注半开终点早一帧。",
+      "scoring_query_span_s": [
+        8.0,
+        12.0
+      ],
+      "query_note": "精选原融合排名第 1、2 项；仅展示选中候选，保留原排名。",
+      "steps": [
+        {
+          "start_s": 8.0,
+          "end_s": 12.066666666666666,
+          "caption": "Place the pen on the table"
+        }
+      ],
+      "video": "assets/showcase/robot-pen-query.mp4",
+      "poster": "assets/showcase/robot-pen-query.jpg",
+      "start_s": 8.0,
+      "end_s": 12.066666666666666,
+      "display_start_s": 8.0,
+      "display_end_s": 12.066666666666666,
+      "local_start_s": 0.0,
+      "local_end_s": 4.066666666666666,
+      "candidates": [
+        {
+          "id": "egodex_part5_tie_untie_rubberband_003012_event2890_f000495_000540",
+          "rank": 1,
+          "source_id": "egodex_part5_tie_untie_rubberband_003012",
+          "caption": "Place the pens on the table",
+          "caption_scope": "自动步骤标注",
+          "fusion_score": 0.9087144246786234,
+          "steps": [
+            {
+              "start_s": 16.5,
+              "end_s": 17.966666666666665,
+              "caption": "Place the pens on the table"
+            }
+          ],
+          "video": "assets/showcase/robot-pen-result-1.mp4",
+          "poster": "assets/showcase/robot-pen-result-1.jpg",
+          "start_s": 16.5,
+          "end_s": 17.966666666666665,
+          "display_start_s": 16.5,
+          "display_end_s": 17.966666666666665,
+          "local_start_s": 0.0,
+          "local_end_s": 1.466666666666665,
+          "behavior_parts": {
+            "speed": 1.2212077292252277,
+            "rotation": 0.8544192837209125,
+            "stop_fraction": 0.045454545454545456,
+            "log_path_ratio": 1.1896541998174417
+          },
+          "annotation_span_s": [
+            16.5,
+            18.0
+          ],
+          "motion_status": "original_behavior_distances_available",
+          "download": "downloads/robot-pen-rank1.json",
+          "csv": "downloads/robot-pen-rank1.csv"
+        },
+        {
+          "id": "egodex_part5_tie_untie_rubberband_002078_event2887_f000615_000649",
+          "rank": 2,
+          "source_id": "egodex_part5_tie_untie_rubberband_002078",
+          "caption": "Place the pens on the table",
+          "caption_scope": "自动步骤标注",
+          "fusion_score": 0.9078695860944958,
+          "steps": [
+            {
+              "start_s": 20.5,
+              "end_s": 21.6,
+              "caption": "Place the pens on the table"
+            }
+          ],
+          "video": "assets/showcase/robot-pen-result-2.mp4",
+          "poster": "assets/showcase/robot-pen-result-2.jpg",
+          "start_s": 20.5,
+          "end_s": 21.6,
+          "display_start_s": 20.5,
+          "display_end_s": 21.6,
+          "local_start_s": 0.0,
+          "local_end_s": 1.1000000000000014,
+          "behavior_parts": {
+            "speed": 0.9423656200828715,
+            "rotation": 1.336398112090405,
+            "stop_fraction": 0.125,
+            "log_path_ratio": 1.7265812801968377
+          },
+          "annotation_span_s": [
+            20.5,
+            21.63
+          ],
+          "motion_status": "original_behavior_distances_available",
+          "download": "downloads/robot-pen-rank2.json",
+          "csv": "downloads/robot-pen-rank2.csv"
+        }
+      ]
+    },
+    {
+      "id": "robot-lid",
+      "type": "robot",
+      "title": "盖上锅盖 · 已分离拿盖步骤",
+      "caption": "Place the lid on the pot",
+      "source_id": "droid_012",
+      "granularity": "单步 / 代理视觉复核边界",
+      "method": "single_key_motion",
+      "method_label": "关键步骤语义 Top 50 → 末端运动重排",
+      "recipe": "motion_3k_20261030 / ego3000",
+      "source_result_sha256": "34be82fbc4f86c88d56dde3bbef5882dbf82ef61080e4f26f287b6150ea48516",
+      "coverage_note": "只展示 7.80–14.27 秒“放盖”查询。0–7.80 秒“拿盖”未纳入本次单步匹配；边界为代理复核约定，约 ±0.3 秒歧义。不是完整“拿起再盖上”任务成功案例。",
+      "query_note": "来自开发查询的 single_key_motion 第 1 项；人工用户尚未验收，不能作为独立测试集效果。",
+      "steps": [
+        {
+          "start_s": 7.8,
+          "end_s": 14.266666666666667,
+          "caption": "Place the lid on the pot"
+        }
+      ],
+      "video": "assets/showcase/robot-lid-query.mp4",
+      "poster": "assets/showcase/robot-lid-query.jpg",
+      "start_s": 7.8,
+      "end_s": 14.266666666666667,
+      "display_start_s": 7.8,
+      "display_end_s": 14.266666666666667,
+      "local_start_s": 0.0,
+      "local_end_s": 6.466666666666668,
+      "candidates": [
+        {
+          "id": "egodex_part1_boil_serve_egg_000255_new3k_event0003_f000255_000300",
+          "source_id": "egodex_part1_boil_serve_egg_000255",
+          "rank": 1,
+          "caption": "Place the lid on the pot",
+          "caption_scope": "自动步骤标注",
+          "steps": [
+            {
+              "start_s": 8.5,
+              "end_s": 10.0,
+              "caption": "Place the lid on the pot"
+            }
+          ],
+          "motion_status": "included_in_frozen_single_key_motion_reranking",
+          "video": "assets/showcase/robot-lid-result-1.mp4",
+          "poster": "assets/showcase/robot-lid-result-1.jpg",
+          "start_s": 8.5,
+          "end_s": 10.0,
+          "display_start_s": 8.5,
+          "display_end_s": 10.0,
+          "local_start_s": 0.0,
+          "local_end_s": 1.5,
+          "download": "downloads/robot-lid-rank1.json",
+          "csv": "downloads/robot-lid-rank1.csv"
+        }
+      ]
+    }
+  ],
+  "status": "local_review",
+  "rights": "Public redistribution review pending."
+}

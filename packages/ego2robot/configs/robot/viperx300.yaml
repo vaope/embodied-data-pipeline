@@ -1,0 +1,36 @@
+# Trossen ViperX-300 6DOF profile backed by the pinned MuJoCo Menagerie model.
+# Engineering choices and simulated jaw-gap policy: ADR-0019.
+# The model location, license, joint names/limits, home pose, pinch TCP frame,
+# and collision-pad opening range are verified by
+# ego2robot.robots.viperx300.build_viperx_config at runtime.
+#
+# Menagerie source: google-deepmind/mujoco_menagerie/trossen_vx300s/vx300s.xml
+# Commit: c96a32d28fb5da84da38c1da4d749e7a13212855 (BSD-3-Clause).
+
+robot_binding:
+  robot_id: viperx300
+
+  # --- model provenance -------------------------------------------------
+  mjcf_uri: assets/mjcf/trossen_vx300s/vx300s.xml
+  mjcf_source: google-deepmind/mujoco_menagerie@c96a32d28fb5da84da38c1da4d749e7a13212855:trossen_vx300s/vx300s.xml
+  mjcf_license: BSD-3-Clause
+
+  # --- model-checked kinematic contract ---------------------------------
+  dof: 6
+  gripper_dof: 2
+  eef_body_name: gripper_link
+  base_body_name: base_link
+  joint_names: [waist, shoulder, elbow, forearm_roll, wrist_angle, wrist_rotate]
+  gripper_joint_names: [left_finger, right_finger]
+  # Manufacturer's ViperX-300 6DOF specification, Trossen Interbotix docs.
+  max_reach_m: 0.75
+  # Derived from the inner surfaces of paired collision pad boxes at the
+  # Menagerie slide-joint limits. This simulation gap differs from the
+  # manufacturer's 42–116 mm gripper specification measurement.
+  gripper_width_min_m: 0.015
+  gripper_width_max_m: 0.087
+  gripper_command_mode: width_m
+  require_base_from_episode: true
+
+  ik:
+    max_joint_jump_rad: 1.5

@@ -1,0 +1,46 @@
+{
+  "schema_version": "annotation_av.config.v1",
+  "profile": "chutes_qwen38_avA",
+  "note": "Default profile since 2026-10-26: Chutes-hosted Qwen3.8-27B, single route AV-A, AUX bare-array tolerance, per-episode failure isolation, request-level cache. The historical local-vLLM profile is configs/local_rental_qwen36.json.",
+  "variants": ["AV-A"],
+  "pilot_limit": 10,
+  "batch_limit": 300,
+  "qwen": {
+    "provider": "chutes",
+    "repo": null,
+    "revision": null,
+    "base_url": "https://llm.chutes.ai/v1",
+    "served_model": "Qwen/Qwen3.8-27B-TEE",
+    "api_key_env": "CHUTES_API_KEY",
+    "timeout_s": 900,
+    "attempts": 3,
+    "transport_retries": 6,
+    "request_cache": true,
+    "price_usd_per_million": {"input": 0.039, "output": 1.25},
+    "budget_usd": 5.0,
+    "context_tokens_reserve": 262144
+  },
+  "egoant": {
+    "sample_sec": 0.5,
+    "tiles_per_sheet": 20,
+    "tile_px": 224,
+    "cols": 5,
+    "max_tokens": 8192,
+    "min_seg_sec": 0.25,
+    "min_refine_sec": 3,
+    "pad_sec": 0,
+    "coarse_prompt": "gepa_duration_prior_v1",
+    "refine_prompt": "refine_full_cover_v1",
+    "json_wrapper_tolerance": "aux_bare_array"
+  },
+  "execution": {
+    "scheduler": "dag",
+    "api_concurrency": 48,
+    "request_workers": 96,
+    "decode_workers": 4,
+    "segment_workers": 64,
+    "caption_episode_workers": 16,
+    "episode_workers": 48,
+    "continue_on_error": true
+  }
+}

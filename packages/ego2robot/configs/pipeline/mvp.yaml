@@ -1,0 +1,117 @@
+# MVP pipeline profile (system-design.md 14).
+#
+# Path A (annotated hand pose), single hand, fixed base, Franka Panda,
+# robot-only render.  Vision modules (SAM 3 / ProPainter / Depth Anything) are
+# deliberately absent: implementation-plan.md section 16 stops the first
+# development round at M3.
+#
+# Values tagged [PAPER] are taken verbatim from arXiv:2608.02580 (main text or
+# appendix).  Values tagged [ENGINEERING] are project decisions and each points
+# at an ADR in docs/decisions/.
+
+profile: mvp
+
+stages:
+  - ingest
+  - hand
+  - retarget
+  - robot
+  - render
+  - projection
+  - quality
+
+ingest:
+  timebase_source: pts
+  require_monotonic_timestamps: true
+
+hand:
+  path: A
+  hand_count: 1
+  keypoint_convention: mano21
+  provider: auto
+  min_detection_confidence: 0.3
+  source_length_unit: m
+
+retarget:
+  virtual_fingertip_index_weight: 0.7        # [PAPER] eq. 1
+  virtual_fingertip_middle_weight: 0.3       # [PAPER] eq. 1
+  handedness_right_sign: 1                   # [PAPER] appendix A.3
+  handedness_left_sign: -1                   # [PAPER] appendix A.3
+  repair_so3: true                           # [ENGINEERING] system-design.md 7
+  max_so3_correction_rad: 0.001
+  degeneracy:
+    min_gripper_width_m: 0.01                # [PAPER] appendix A.3
+    parallel_dot_threshold: 0.999            # [ENGINEERING] ADR-0004
+
+outliers:
+  enabled: true
+  position_median_multiplier: 5.0            # [PAPER] eq. 7
+  position_floor_per_fps_m: 0.9              # [PAPER] eq. 7
+  rotation_floor_per_fps_rad: 10.0           # [PAPER] appendix A.3
+  rounds: 2                                  # [PAPER] appendix A.3
+
+gaps:
+  small_gap_max_frames: 10                   # [PAPER] appendix A.1
+  blend_min_frames: 5                        # [PAPER] appendix A.1
+  blend_max_frames: 90                       # [PAPER] appendix A.1
+  blend_position_speed_m_per_frame: 0.00325  # [PAPER] appendix A.1 (3.25 mm)
+  blend_rotation_speed_rad_per_frame: 0.01885  # [PAPER] appendix A.1 (1.08 deg)
+  blend_position_weight: 0.6                 # [PAPER] appendix A.1
+  blend_rotation_weight: 0.4                 # [PAPER] appendix A.1
+  home_gripper_width_m: 0.06                 # [ENGINEERING] ADR-0006
+  home_source: config
+
+smoothing:
+  position_window: 21                        # [PAPER] appendix A.3 min(21, n)
+  position_polyorder: 3                      # [PAPER] appendix A.3
+  width_window: 21                           # [PAPER] appendix A.3
+  width_polyorder: 3                         # [PAPER] appendix A.3
+  orientation_sigma_frames: 10.0             # [PAPER] appendix A.3
+  orientation_kernel_size: 21                # [PAPER] appendix A.3
+
+robot_binding:
+  robot_id: franka_panda
+  base_placement:
+    mode: fixed                              # [ENGINEERING] system-design.md 8.2 MVP path
+    min_camera_distance_m: 0.20              # [PAPER] appendix A.4
+    min_base_distance_m: 0.08                # [PAPER] appendix A.4
+    max_reach_fraction: 0.9                  # [PAPER] appendix A.4
+    max_keyframes: 20                        # [PAPER] appendix A.4
+    reach_ratio_target: 0.65                 # [PAPER] appendix A.4 eq. 8
+    reach_penalty_weight: 5.0                # [PAPER] appendix A.4 eq. 8
+    ik_iterations: 100                       # [PAPER] appendix A.4
+    ik_tolerance: 0.00001                    # [PAPER] appendix A.4
+  ik:
+    solver: mink
+    qp_backend: quadprog                     # [PAPER] appendix A.4
+    iterations: 100                          # [PAPER] appendix A.4
+    tolerance: 0.00001                       # [PAPER] appendix A.4
+    position_cost: 1.0
+    orientation_cost: 1.0
+    warm_start: true                         # [ENGINEERING] system-design.md 8.1
+    seed_attempts: 16                        # [ENGINEERING] branch recovery, ADR-0007
+    max_joint_jump_rad: 1.5                  # [ENGINEERING] QC threshold
+  gripper_width_min_m: 0.0
+  gripper_width_max_m: 0.08                  # [PAPER] appendix A.7 (Panda 0-80 mm)
+
+render:
+  enabled: true
+  shadow: true
+  save_arrays_npz: true
+
+projection:
+  sample_frames: 8
+  draw_axes_m: 0.05
+
+quality:
+  profile: mvp_v1
+  l1_ik_tracking_error_m: 0.05               # [PAPER] appendix A.5
+  l1_robot_visible_pixels: 1                 # [PAPER] appendix A.5
+  l1_robot_mask_area_ratio_max: 0.70         # [PAPER] appendix A.5
+  l1_cross_arm_contacts_max: 1               # [PAPER] appendix A.5
+  l1_stability_erosion_fps_fraction: 0.3     # [PAPER] appendix A.5
+  mvp_p95_position_error_m: 0.01             # [ENGINEERING] implementation-plan.md M3
+  mvp_p95_rotation_error_rad: 0.10           # [ENGINEERING] implementation-plan.md M3
+  mvp_min_ik_success_ratio: 0.95             # [ENGINEERING] implementation-plan.md M3
+  l2_enabled: false
+  l3_backend: manual_review

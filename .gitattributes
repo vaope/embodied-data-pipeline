@@ -1,0 +1,3 @@
+# Source identities and pinned vendor manifests are byte-bound.
+# Preserve file bytes across platforms instead of implicit CRLF conversion.
+* -text

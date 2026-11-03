@@ -1,0 +1,17 @@
+config_version: retrieval-stable-v1
+feature_version: wrist-local-v1
+fps: 30
+horizon: 30
+stride: 15
+rotation_tolerance: 0.001
+confidence_threshold: 0.2
+semantic_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+semantic_revision: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+semantic_chunk_tokens: 110
+batch_size: 32
+device: cpu
+recall_top_n: 10000
+retrieval_method: pose_language_active
+packed_motion_path: null
+artifact_root: ./artifacts
+schema_path: null
