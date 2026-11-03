@@ -9,7 +9,7 @@ This private preparation snapshot has no selected license for the original proje
 | Annotation vendor identity | File paths and SHA256 checks | `packages/pipeline/src/pipeline/annotation/vendor/SOURCES.json` |
 | Franka Panda, ViperX, xArm7 and UR5e geometry | Selected MJCF/mesh assets, no learned weights | Each model retains LICENSE and available README/PROVENANCE/SOURCES beside its files under `packages/ego2robot/assets/mjcf/` |
 | SAM3 / ProPainter / depth workers | Adapter/wrapper code and explicit configuration | External upstream repositories and weights are not bundled; users prepare them separately under their own terms |
-| EgoDex / DROID / showcase clips | Source identifiers, selected descriptions and result metadata | Raw datasets and demonstration videos are excluded from Git. Media redistribution is not yet cleared for public release |
+| EgoDex / DROID / showcase clips | Source identifiers, selected descriptions, result metadata, and derived figures/GIF for the private preview | Raw datasets and full demonstration videos are excluded from Git. Public redistribution of selected visuals is still under review |
 
 `SOURCE_SNAPSHOT.json` records the source-byte hashes of this migration snapshot, with portable origin labels. Changed path/configuration wrappers are described in MIGRATION.md; vendored annotation bytes are checked against their retained upstream manifest.
 

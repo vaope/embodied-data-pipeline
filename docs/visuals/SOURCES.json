@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-11-03",
+  "source_manifest_sha256": "b4a69b52cf4d48ef88149571a6c8ce9a4fad4bcefa8bd161113b2d5c1a79cd80",
+  "kind": "real-source-frame-and-data-figures; not browser screenshots",
+  "model_calls": 0,
+  "rankings_changed": false,
+  "public_media_clearance": "pending; current repository private",
+  "sources": [
+    {
+      "id": "egodex_staple_paper_001",
+      "video": "assets/showcase/egodex_staple_paper_001.mp4",
+      "video_sha256": "da23b811d9c22c0439705cc18a4fcfc19b6b345ae7759ce15f3d72dd39d54b05",
+      "source_span_s": [
+        null,
+        null
+      ],
+      "source_result_sha256": null,
+      "annotation_provenance": {
+        "run": "pilot_abc / 2026-10-30",
+        "source_video_sha256": "b2b9154eb5e078bc4689edcf843516c8561b2c5c8ebbdcf02708db86a0fc6925",
+        "native_annotation_sha256": {
+          "AV-A": "dc4fe10154697d49fb7a6b46c08e42dbac511f594437fea3c1b5c2be8aeeb4eb",
+          "AV-B": "7dd977fdca03e4cdaecccfb63d1a930ec3aba0f5a11ec255b576f463a6550081",
+          "AV-C": "8473174dfaf6d494177452ebe2da73668914ce58067042f85781f61238a58355"
+        }
+      }
+    },
+    {
+      "id": "ego-staple",
+      "video": "assets/showcase/ego-staple-query.mp4",
+      "video_sha256": "205d1848c324a6a52f7cd7fda5c5f3e1b439c9746c21b270ffe548701a56679a",
+      "source_span_s": [
+        42.0,
+        43.0
+      ],
+      "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae",
+      "annotation_provenance": null
+    },
+    {
+      "id": "egodex_part4_staple_paper_000285_f001650_001680",
+      "video": "assets/showcase/ego-staple-result-1.mp4",
+      "video_sha256": "29abb2cfc0fd5476b987eec0ec6b0591a3144ceb387505708bd0303d7d0e2d92",
+      "source_span_s": [
+        55.0,
+        56.0
+      ],
+      "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae",
+      "annotation_provenance": null
+    },
+    {
+      "id": "egodex_part4_staple_paper_000081_f002490_002520",
+      "video": "assets/showcase/ego-staple-result-2.mp4",
+      "video_sha256": "c50b8109e70e12f682e69d0e3d68599f77840195ec0e499d683a28d64b56f912",
+      "source_span_s": [
+        83.0,
+        84.0
+      ],
+      "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae",
+      "annotation_provenance": null
+    },
+    {
+      "id": "egodex_part4_staple_paper_000443_f000540_000570",
+      "video": "assets/showcase/ego-staple-result-3.mp4",
+      "video_sha256": "be7922e8906e4951b14d1c7ce89937b4478de155681147cab7f055d8eaca7810",
+      "source_span_s": [
+        18.0,
+        19.0
+      ],
+      "source_result_sha256": "009f72c34d39ab29ecb4fadbd77c6615ded848aad66beacd432e8c153ede04ae",
+      "annotation_provenance": null
+    },
+    {
+      "id": "robot-pen",
+      "video": "assets/showcase/robot-pen-query.mp4",
+      "video_sha256": "e6f8f223b99426fd9d60f3cca44ea13dc35a860722b09afaf5b0cda480e205d8",
+      "source_span_s": [
+        8.0,
+        12.066666666666666
+      ],
+      "source_result_sha256": "f43f54985ea9e34583e65897b7e1f6dded3c06c3f96fce9550e84b179990cbbb",
+      "annotation_provenance": null
+    },
+    {
+      "id": "egodex_part5_tie_untie_rubberband_003012_event2890_f000495_000540",
+      "video": "assets/showcase/robot-pen-result-1.mp4",
+      "video_sha256": "dd7adc0e0e68c54a5e1b548018ddcb5f621655b577f82b9bf5cd75f7480a64ca",
+      "source_span_s": [
+        16.5,
+        17.966666666666665
+      ],
+      "source_result_sha256": "f43f54985ea9e34583e65897b7e1f6dded3c06c3f96fce9550e84b179990cbbb",
+      "annotation_provenance": null
+    },
+    {
+      "id": "egodex_part5_tie_untie_rubberband_002078_event2887_f000615_000649",
+      "video": "assets/showcase/robot-pen-result-2.mp4",
+      "video_sha256": "da465a2ed669445107cb1f728368d4cced27b3028f25019c4d9e8a4739614cd3",
+      "source_span_s": [
+        20.5,
+        21.6
+      ],
+      "source_result_sha256": "f43f54985ea9e34583e65897b7e1f6dded3c06c3f96fce9550e84b179990cbbb",
+      "annotation_provenance": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "annotation-timeline.png",
+      "sha256": "a0fd70f6b9c92ebfb350cf4a9b947ffb7d9d6280e94f7acac71c088227dce21c",
+      "bytes": 536521
+    },
+    {
+      "path": "ego-retrieval.png",
+      "sha256": "4abde0881afe32c22900b52e9fdc113b31cd28387cae2999a522c27a8e9d0a3a",
+      "bytes": 497718
+    },
+    {
+      "path": "retrieval-routes.png",
+      "sha256": "73787a722bc6e70ee5dbf1b23f1799b86e16549f3abac1655921c6c51d94aef3",
+      "bytes": 94069
+    },
+    {
+      "path": "robot-retrieval.png",
+      "sha256": "74a4fd07863b90a113f189708e7dc3edf52c0c61b997a56dda93d553ff320fc3",
+      "bytes": 583772
+    },
+    {
+      "path": "robot-to-ego.gif",
+      "sha256": "1168b30e605385feb1d6dcccc587c5aae3afacef2307f5835985bd3d9df9424b",
+      "bytes": 1309155
+    }
+  ]
+}
