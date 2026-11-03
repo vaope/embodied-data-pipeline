@@ -2,6 +2,11 @@
   "created_at": "2026-11-03",
   "source_manifest_sha256": "b4a69b52cf4d48ef88149571a6c8ce9a4fad4bcefa8bd161113b2d5c1a79cd80",
   "kind": "real-source-frame-and-data-figures; not browser screenshots",
+  "languages": [
+    "en",
+    "zh-CN"
+  ],
+  "translation_scope": "display text only; source captions, time intervals and rankings unchanged",
   "model_calls": 0,
   "rankings_changed": false,
   "public_media_clearance": "pending; current repository private",
@@ -110,9 +115,19 @@
       "bytes": 536521
     },
     {
+      "path": "annotation-timeline.zh-CN.png",
+      "sha256": "98eddda1f6af86d231c1fc397ec506783474e92ed4dbb4c667de79931125fdbe",
+      "bytes": 555276
+    },
+    {
       "path": "ego-retrieval.png",
       "sha256": "4abde0881afe32c22900b52e9fdc113b31cd28387cae2999a522c27a8e9d0a3a",
       "bytes": 497718
+    },
+    {
+      "path": "ego-retrieval.zh-CN.png",
+      "sha256": "a468722a5298b3a008e3baa4d3a13a3167c31d8f4012019c8a0cffa838737d39",
+      "bytes": 519438
     },
     {
       "path": "retrieval-routes.png",
@@ -120,9 +135,19 @@
       "bytes": 94069
     },
     {
+      "path": "retrieval-routes.zh-CN.png",
+      "sha256": "770afa2a4cfa89c04a294dc1ec9025341b8702aaa3ee409515b43fcd6d4ad3ca",
+      "bytes": 124429
+    },
+    {
       "path": "robot-retrieval.png",
       "sha256": "74a4fd07863b90a113f189708e7dc3edf52c0c61b997a56dda93d553ff320fc3",
       "bytes": 583772
+    },
+    {
+      "path": "robot-retrieval.zh-CN.png",
+      "sha256": "0b96476e40c20a09ffb538dd9977e11d3fc1286e54646f5849872e80970767ff",
+      "bytes": 617801
     },
     {
       "path": "robot-to-ego.gif",

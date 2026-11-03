@@ -1,5 +1,7 @@
 ﻿# Embodied Data Pipeline
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 **Understand manipulation videos. Retrieve related demonstrations. Keep time-localized, traceable samples.**
 
 [Real examples](#real-examples) · [Retrieval framework](#retrieval-framework) · [Visual HTML](docs/showcase.html?raw=1) · [Code and reproduction](#code-and-reproduction)
@@ -24,7 +26,7 @@ The same video can be explored through three annotation routes. Frames, descript
 | AV-B | The same cached boundaries as A | Flora Captioner |
 | AV-C | Flora native temporal segmentation | Flora Captioner |
 
-These are automatic outputs for review, not manually corrected ground truth.
+These are automatic outputs for review, not manually corrected ground truth. The Chinese edition uses display translations; the frozen source annotations remain in English.
 
 ### 2. Query with a robot demonstration
 
@@ -120,7 +122,8 @@ packages/pipeline/    annotation, retrieval, selection, quality, readers and exp
 packages/ego2robot/   robotization source, profiles, geometry and isolated workers
 website/             full review interface, frozen manifest and figure exporter
 docs/visuals/        real-source figures and provenance
-docs/showcase.html   self-contained visual gallery
+docs/showcase.html   self-contained English visual gallery
+docs/showcase.zh-CN.html  self-contained Chinese visual gallery
 scripts/             release preparation checks
 ```
 

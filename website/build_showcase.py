@@ -43,8 +43,9 @@ def main():
     (output/'index.html').write_text((HERE/'page.html').read_text(encoding='utf-8').replace('<!-- ROBOTIZATION_UNCHANGED -->',robot),encoding='utf-8')
     (output/'showcase-data.js').write_text('window.SHOWCASE = '+json.dumps(data,ensure_ascii=False)+';\n',encoding='utf-8')
     (output/'downloads/showcase-manifest.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    gallery=HERE.parent/'docs/showcase.html'
-    if gallery.is_file():shutil.copy2(gallery,output/'showcase.html')
+    for name in ['showcase.html','showcase.zh-CN.html']:
+        gallery=HERE.parent/'docs'/name
+        if gallery.is_file():shutil.copy2(gallery,output/name)
     print(json.dumps({'output':str(output),'annotation_cases':len(data['annotations']),'queries':len(data['queries']),
                       'media_included':data['media_available'],'model_calls':0},ensure_ascii=False))
 

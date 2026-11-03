@@ -19,15 +19,16 @@ That directory must contain the exact assets/showcase paths listed in showcase.j
 
 ## Figures and offline visual HTML
 
-The root README leads with real-source frames, timelines, retrieval candidates and a short animation. `docs/showcase.html` embeds that visual gallery as a single file that can be downloaded and opened without a server. It is a lightweight visual export; the full review interface retains the video/timeline controls described above.
+The [English README](../README.md) and [Chinese README](../README.zh-CN.md) lead with real-source frames, timelines, retrieval candidates and a short animation. `docs/showcase.html` (English) and `docs/showcase.zh-CN.html` (Chinese) each embed the visual gallery as a single file that can be downloaded and opened without a server. Each edition works independently; switching language requires the other file alongside it. These are lightweight visual exports; the full review interface retains the video/timeline controls described above and its existing Chinese UI.
 
 To regenerate figures from your external media root, install matplotlib and Pillow in a separate visualization environment, then run:
 
 ```sh
 python website/export_readme_figures.py --media-root /path/to/selected-media
+python website/export_readme_figures.py --media-root /path/to/selected-media --language zh-CN --font /path/to/cjk-font.ttf
 ```
 
-The exporter reads the same showcase.json, retains original timestamps/ranks, and records source/output hashes in docs/visuals/SOURCES.json. These are data figures, not browser screenshots. No model is invoked.
+Render English first, then Chinese. On Windows, `--font` can be omitted to use the installed Microsoft YaHei font; no font file is redistributed. Chinese figure captions are display translations only; frozen English annotations remain unchanged. The exporter reads the same showcase.json, retains original timestamps/ranks, and records source/output hashes in docs/visuals/SOURCES.json. These are data figures, not browser screenshots. No model is invoked.
 
 Robotization stays as a process placeholder; source code is in packages/ego2robot, but no new visual acceptance is implied by this page.
 
